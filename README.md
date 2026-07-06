@@ -1,4 +1,4 @@
-# draftingfolio.com — COD Multi-Geo Static Site
+# seogigstore.com — COD Multi-Geo Static Site
 
 Static HTML/CSS/JS multi-geo e-commerce site for Cash On Delivery campaigns (Meta Ads / Google Ads).
 
@@ -6,9 +6,9 @@ Static HTML/CSS/JS multi-geo e-commerce site for Cash On Delivery campaigns (Met
 
 ## Quick facts
 
-- **Domain**: draftingfolio.com
-- **Company**: CORA SRL — Viale del Lavoro, 3 — 38068 Rovereto (TN), Italia
-- **Contact email**: info@draftingfolio.com (auto-derived from domain)
+- **Domain**: seogigstore.com
+- **Company**: TERRA-STITCH INTERNATIONAL S.L. — Calle Aragón 150 — 08011 Barcelona, Spain
+- **Contact email**: info@seogigstore.com (auto-derived from domain)
 - **First product**: HyperTrimmer™ 3000 (slug: `hypertrimmer`) — battery-powered grass trimmer
 - **Geos active**: 18 (it, es, fr, de, pt, gr, bg, ro, cz, pl, ee, lv, lt, hr, hu, si, sk, en)
 - **Italian (`/it/`)**: fully translated with real copy
@@ -110,7 +110,7 @@ The 5 policy files are template-grade. Have a lawyer review them — especially 
 
 ## Deployment
 
-This site is **100% static**. Deploy by uploading the entire `/draftingfolio.com/` folder to any static host:
+This site is **100% static**. Deploy by uploading the entire `/seogigstore.com/` folder to any static host:
 
 - **Cloudflare Pages**: connect a Git repo or drag-drop the folder. Done.
 - **Netlify**: drag-drop into the Netlify dashboard, or `netlify deploy`.
@@ -143,6 +143,6 @@ Then add the product card to each `[geo]/index.html` and the URLs to `sitemap.xm
 
 ## License & ownership
 
-© 2026 CORA SRL — All rights reserved.
+© 2026 TERRA-STITCH INTERNATIONAL S.L. — All rights reserved.
 
 Generated with the Landing Factory multi-geo static template.

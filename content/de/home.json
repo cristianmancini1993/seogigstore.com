@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Draftingfolio — Prodotti utili per casa e giardino, consegna 24/48h",
-    "description": "Draftingfolio: prodotti selezionati per la vita quotidiana, spediti in 24/48h con pagamento alla consegna. Garanzia 30 giorni soddisfatti o rimborsati."
+    "title": "Seogigstore — Prodotti utili per casa e giardino, consegna 24/48h",
+    "description": "Seogigstore: prodotti selezionati per la vita quotidiana, spediti in 24/48h con pagamento alla consegna. Garanzia 30 giorni soddisfatti o rimborsati."
   },
   "hero": {
     "title": "Prodotti utili per casa e giardino — consegna in 24/48 ore",
@@ -29,12 +29,12 @@
     }
   ],
   "why_us": {
-    "title": "Perché scegliere Draftingfolio",
+    "title": "Perché scegliere Seogigstore",
     "items": [
       {
         "icon": "🎯",
         "title": "Prodotti che funzionano davvero",
-        "text": "Selezioniamo solo prodotti che testiamo personalmente. Non vendiamo gadget inutili: ogni articolo che trovi su Draftingfolio risolve un problema concreto della vita di tutti i giorni."
+        "text": "Selezioniamo solo prodotti che testiamo personalmente. Non vendiamo gadget inutili: ogni articolo che trovi su Seogigstore risolve un problema concreto della vita di tutti i giorni."
       },
       {
         "icon": "💵",
@@ -57,8 +57,8 @@
   "footer": {
     "tagline": "Prodotti utili per la vita quotidiana, consegna in 24-48 ore con pagamento alla consegna.",
     "company_info": [
-      "<strong>CORA SRL</strong>",
-      "Viale del Lavoro, 3",
-      "38068 Rovereto (TN), Italia"    ]
+      "<strong>TERRA-STITCH INTERNATIONAL S.L.</strong>",
+      "Calle Aragón 150",
+      "08011 Barcelona, Spanien"    ]
   }
 }

@@ -3,4 +3,4 @@ Allow: /
 Disallow: /assets/img/products/*/_README.txt
 Disallow: /*/hypertrimmer/thank-you.html
 
-Sitemap: https://draftingfolio.com/sitemap.xml
+Sitemap: https://seogigstore.com/sitemap.xml
