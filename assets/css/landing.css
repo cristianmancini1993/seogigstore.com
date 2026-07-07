@@ -501,6 +501,12 @@
   font-size: var(--fs-base);
   line-height: 1.55;
 }
+.package-content__list--inline-icons li::before {
+  content: none;
+}
+.package-content__list--inline-icons li {
+  padding-left: 0;
+}
 .package-content__list li.is-bonus::before { content: "🎁"; }
 .package-content__price {
   margin-top: var(--space-6);
