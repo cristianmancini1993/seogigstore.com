@@ -1,0 +1,272 @@
+{
+  "meta": {
+    "title": "4-in-1 Wandklimagerät ohne Außeneinheit und Installation — heizt, kühlt und entfeuchtet Räume bis 120 m² in wenigen Minuten",
+    "description": "Fresh Air Pro: 4-in-1 Wandklimagerät ohne Außeneinheit. Kühlt, heizt, entfeuchtet und reinigt die Luft bis 120 m². -50% nur heute, Zahlung bei Lieferung, kostenloser Versand in 24/48h.",
+    "og_image": "/assets/img/products/fresh-air-pro/og-image.jpg",
+    "currency": "EUR",
+    "price": "89.00"
+  },
+  "banner_urgency": {
+    "main": "🔥 ANGEBOT -50%: Nur heute 89€ statt 178€",
+    "sub": "KOSTENLOSER Versand in 24/48h • Zahlung bei Lieferung • Nur noch wenige Stück verfügbar"
+  },
+  "headline": {
+    "rating_label": "★★★★★ 4,8/5 — Über 3.842 zufriedene Kunden",
+    "title": "VERGESSEN SIE HOHE STROMRECHNUNGEN: Fresh Air Pro 4-in-1 heizt, kühlt, reinigt die Luft und senkt die Energiekosten um über 80%.",
+    "subtitle": "Das Split-Klimagerät für Innenräume reduziert die Hitze in wenigen Minuten spürbar. Einfach an die Steckdose anschließen, EIN drücken und sofort frische, saubere Luft genießen. Keine Installation, keine Wartezeit, Lieferung nach Hause in 24 Stunden.",
+    "image_alt": "Fresh Air Pro — 4-in-1 Wandklimagerät mit Fernbedienung, Wi-Fi-App und HEPA-Filter"
+  },
+  "bullets": [
+    {
+      "text": "Kühlt bis 16 °C oder heizt bis 42 °C in Räumen bis 120 m²"
+    },
+    {
+      "text": "4-in-1: Kühlt, heizt, entfeuchtet und filtert die Luft"
+    },
+    {
+      "text": "Senkt die Kosten um 80%: Niedriger Energieverbrauch A+++"
+    },
+    {
+      "text": "Plug-and-Play-Installation: an die Steckdose, EIN drücken — in wenigen Minuten ist es angenehm kühl"
+    }
+  ],
+  "price": {
+    "label": "SONDERANGEBOT -50%",
+    "anchor": "178,00",
+    "final": "89,00",
+    "currency": "€",
+    "discount": "-50%"
+  },
+  "scarcity_text": "⚠️ Nur noch 14 Stück zum reduzierten Preis verfügbar. Jetzt bestätigen, um das Angebot nicht zu verpassen.",
+  "form": {
+    "title": "BESTELLUNG IN 30 SEKUNDEN ABSCHLIESSEN",
+    "subtitle": "Füllen Sie das Formular unten aus. Wir kontaktieren Sie innerhalb von 1 Stunde zur Bestätigung von Lieferung und Adresse.",
+    "fields": {
+      "name_label": "Vor- und Nachname *",
+      "name_placeholder": "z. B. Max Mustermann",
+      "name_error": "Bitte Vor- und Nachname eingeben (mindestens 3 Zeichen)",
+      "phone_label": "Telefonnummer *",
+      "phone_placeholder": "z. B. 0171 2345678",
+      "phone_error": "Bitte eine gültige Telefonnummer eingeben",
+      "address_label": "Lieferadresse *",
+      "address_placeholder": "Straße, Hausnummer, Stadt, PLZ",
+      "address_error": "Bitte eine vollständige Adresse eingeben (mindestens 10 Zeichen)"
+    },
+    "cta_button": "✓ BESTELLUNG BESTÄTIGEN — 89,00€",
+    "submitting_label": "Wird gesendet...",
+    "trust_below": "★★★★★ Bewertet mit 4,8/5 von über 3.842 zufriedenen Kunden",
+    "secure_note": "🔒 Ihre Daten sind geschützt. Kein Spam, kein Telemarketing — nur Bestellbestätigung."
+  },
+  "guarantees": [
+    {
+      "icon": "🚚",
+      "title": "Lieferung 24/48h",
+      "sub": "Kostenloser Versand in ganz Deutschland"
+    },
+    {
+      "icon": "💵",
+      "title": "Zahlung bei Lieferung",
+      "sub": "Erst zahlen, wenn Sie das Produkt erhalten"
+    },
+    {
+      "icon": "↩️",
+      "title": "30 Tage Rückgabe",
+      "sub": "Zufrieden oder Geld zurück"
+    },
+    {
+      "icon": "🛡️",
+      "title": "24 Monate Garantie",
+      "sub": "Bei Herstellungsfehlern"
+    }
+  ],
+  "macro_review": {
+    "photo_alt": "Sabine M. — verifizierte Kundin mit Fresh Air Pro im Schlafzimmer",
+    "quote": "«Ich brauchte eine praktische Lösung, weil ich keinen herkömmlichen Klimagerät installieren konnte. Fresh Air Pro war eine angenehme Überraschung: In wenigen Minuten ist der Raum deutlich kühler und die Luft fühlt sich weniger feucht an. Einfach zu bedienen, leise und die Steuerung per App ist wirklich praktisch. Für den Preis war es einer der besten Käufe dieses Jahres.»",
+    "author": "Sabine M.",
+    "credentials": "Verifizierte Kundin, München",
+    "stars": "★★★★★"
+  },
+  "competitor_destruction": {
+    "title": "Fresh Air Pro vs. herkömmliches Klimagerät",
+    "subtitle": "Warum immer mehr Haushalte Plug-and-Play-Komfort wählen",
+    "headers": [
+      "Herkömmliches Klimagerät",
+      "Fresh Air Pro"
+    ],
+    "rows": [
+      {
+        "bad": "❌ Teure Installation mit Techniker und Umbauarbeiten",
+        "good": "✅ Keine Installation: in wenigen Minuten einsatzbereit"
+      },
+      {
+        "bad": "❌ Benötigt Außeneinheit, oft in Gebäuden verboten",
+        "good": "✅ Ohne Außeneinheit, ideal für jede Wohnung"
+      },
+      {
+        "bad": "❌ Nur Kühlung (oder teure Wärmepumpe nötig)",
+        "good": "✅ 4-in-1: kühlt, heizt, entfeuchtet und reinigt die Luft"
+      },
+      {
+        "bad": "❌ Hoher Verbrauch und hohe Stromrechnungen das ganze Jahr",
+        "good": "✅ Energieklasse A+++ mit bis zu 80% weniger Verbrauch*"
+      },
+      {
+        "bad": "❌ Fest installiert: nicht einfach zu verschieben",
+        "good": "✅ Kompakt und dort einsetzbar, wo Sie es brauchen"
+      },
+      {
+        "bad": "❌ Steuerung nur per Fernbedienung oder am Gerät",
+        "good": "✅ Smart-Steuerung per Wi-Fi-App + Fernbedienung"
+      },
+      {
+        "bad": "❌ Lange Installations- und Inbetriebnahmezeiten",
+        "good": "✅ Einschalten und in wenigen Minuten Komfort genießen"
+      },
+      {
+        "bad": "❌ Maurerarbeiten und Wartung der Anlage nötig",
+        "good": "✅ Keine Bauarbeiten und minimale Wartung"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "name": "Markus R.",
+      "location": "Berlin, Deutschland",
+      "stars": "★★★★★",
+      "title": "Perfekte Lösung ohne Umbauarbeiten",
+      "text": "Ich war wirklich überrascht. Ich suchte eine Lösung ohne Umbauarbeiten und Fresh Air Pro war perfekt. Kühlt das Wohnzimmer sehr schnell und die Bedienung per App ist wirklich einfach. Hervorragendes Preis-Leistungs-Verhältnis.",
+      "photo_alt": "Markus R. — Berlin",
+      "verified": true
+    },
+    {
+      "name": "Julia T.",
+      "location": "Hamburg, Deutschland",
+      "stars": "★★★★★",
+      "title": "Endlich schlafe ich ohne Hitze",
+      "text": "Endlich kann ich schlafen, ohne unter der Hitze zu leiden. Es ist leise und die Entfeuchtungsfunktion macht an schwülen Tagen wirklich den Unterschied. Empfehlenswert für alle, die kein herkömmliches Klimagerät installieren können.",
+      "photo_alt": "Julia T. — Hamburg",
+      "verified": true
+    },
+    {
+      "name": "Andreas M.",
+      "location": "München, Deutschland",
+      "stars": "★★★★★",
+      "title": "Heizt und kühlt sehr gut",
+      "text": "Ich habe es hauptsächlich für die Heizung im Winter und Kühlung im Sommer gekauft. Beides funktioniert sehr gut und die Fernbedienung ist sehr praktisch. In zwei Tagen angekommen und sofort einsatzbereit.",
+      "photo_alt": "Andreas M. — München",
+      "verified": true
+    },
+    {
+      "name": "Sarah L.",
+      "location": "Köln, Deutschland",
+      "stars": "★★★★★",
+      "title": "Sehr einfach zu bedienen",
+      "text": "Sehr einfach zu bedienen. Mir gefällt, dass es neben dem Kühlen auch die Luft filtert. Ich habe es ins Homeoffice gestellt und der Raum ist viel angenehmer geworden. Zufrieden mit dem Kauf.",
+      "photo_alt": "Sarah L. — Köln",
+      "verified": true
+    },
+    {
+      "name": "Lukas P.",
+      "location": "Frankfurt, Deutschland",
+      "stars": "★★★★★",
+      "title": "Überzeugt vom ersten Einsatz",
+      "text": "Ich war skeptisch, aber es hat mich vom ersten Einsatz an überzeugt. Keine Installation, geringer Verbrauch und schnelle Kühlung. Die App funktioniert auch gut und lässt sich vor der Heimkehr einschalten.",
+      "photo_alt": "Lukas P. — Frankfurt",
+      "verified": true
+    },
+    {
+      "name": "Elena C.",
+      "location": "Stuttgart, Deutschland",
+      "stars": "★★★★★",
+      "title": "Tolles Produkt das ganze Jahr",
+      "text": "Tolles Produkt. Im Sommer kühlt es das Schlafzimmer schnell und im Winter nutze ich es zum Heizen, ohne sofort die Heizkörper anzustellen. Praktisch, leise und der Kundenservice war sehr hilfsbereit.",
+      "photo_alt": "Elena C. — Stuttgart",
+      "verified": true
+    }
+  ],
+  "package_content": {
+    "title": "Das finden Sie im Fresh Air Pro Paket",
+    "subtitle": "Alles inklusive — Plug & Play, keine Installation",
+    "image_alt": "Inhalt der Fresh Air Pro Verpackung",
+    "items": [
+      {
+        "text": "<strong>1× Fresh Air Pro</strong> für Kühlung, Heizung, Entfeuchtung und Belüftung"
+      },
+      {
+        "text": "📡 1 kabellose Fernbedienung mit Batterie"
+      },
+      {
+        "text": "📱 Intelligente Steuerung per App mit Wi-Fi-Verbindung"
+      },
+      {
+        "text": "🔁 Automatische 115°-Drehung für gleichmäßigere Verteilung"
+      },
+      {
+        "text": "💨 HEPA-Filter + Ionisator für sauberere, angenehmere Luft"
+      },
+      {
+        "text": "🔇 Leiser Betrieb: nur 53,1 dB"
+      },
+      {
+        "text": "🚫 Keine Installation, kein Schlauch, keine Außeneinheit"
+      },
+      {
+        "text": "🚚 Schnelle Lieferung in 24–48 Stunden + Zahlung bei Lieferung"
+      },
+      {
+        "text": "🔒 2 Jahre Garantie inklusive"
+      },
+      {
+        "text": "CE-zertifiziert · ⚙️ Qualitätskontrolle · 💬 Kundenservice"
+      }
+    ]
+  },
+  "incentive_2": {
+    "title": "⏰ LETZTE CHANCE — Das Angebot endet heute",
+    "text": "Der Einführungspreis von 89,00€ gilt nur bis zum Ausverkauf. Danach steigt der Preis wieder auf 178,00€. Verpassen Sie es nicht — bestätigen Sie jetzt Ihre Bestellung und erhalten Sie es in 24/48h."
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "items": [
+      {
+        "q": "Kann ich wirklich bei Lieferung bezahlen, ohne Karte?",
+        "a": "Ja, Nachnahme ist unsere Standardzahlungsmethode. Wenn der Kurier ankommt, bezahlen Sie den Bestellbetrag bar. Keine Vorauszahlung, keine Karte erforderlich. So ist es sicherer: Sie sehen das Produkt, bevor Sie bezahlen."
+      },
+      {
+        "q": "Brauche ich wirklich keine Installation?",
+        "a": "Ja. Fresh Air Pro ist Plug-and-Play: einfach an die Steckdose anschließen, EIN drücken und in wenigen Minuten genießen Sie kühle oder warme Luft. Kein Techniker, keine Bohrarbeiten, keine Außeneinheit."
+      },
+      {
+        "q": "Kühlt und heizt es wirklich Räume bis 120 m²?",
+        "a": "Ja. Fresh Air Pro kühlt bis auf 16 °C oder heizt bis auf 42 °C und deckt Räume bis zu 120 m² ab. Die 4-in-1-Funktion kombiniert Kühlung, Heizung, Entfeuchtung und Luftreinigung in einem Gerät."
+      },
+      {
+        "q": "Kann ich es zurückgeben, wenn ich nicht zufrieden bin?",
+        "a": "Natürlich. Sie haben 30 Tage ab Lieferung Zeit, es zurückzugeben, wenn es Ihnen nicht gefällt. Kostenlose Rücksendung, volle Erstattung. Keine Fragen, keine Strafe. Offizielle 24-Monats-Garantie bei Herstellungsfehlern."
+      },
+      {
+        "q": "Sind meine persönlichen Daten sicher?",
+        "a": "Absolut. Wir verwenden Ihre Daten nur zur Lieferabwicklung und zur Bestätigung Ihrer Bestellung. Kein Spam, kein Telemarketing, keine Weitergabe an Dritte. DSGVO-konform. Unsere Datenschutzerklärung finden Sie im Footer."
+      },
+      {
+        "q": "Wie lange dauert die Lieferung?",
+        "a": "24–48 Werktage nach telefonischer Bestätigung. Der Versand ist überall in Deutschland kostenlos. Sie erhalten eine SMS mit der Sendungsnummer, sobald der Kurier unterwegs ist."
+      },
+      {
+        "q": "Wie bestätige ich meine Bestellung jetzt?",
+        "a": "Ganz einfach. Füllen Sie das Formular oben mit Name, Telefon und Adresse aus. Ein Mitarbeiter ruft Sie innerhalb von 1 Stunde zur Bestätigung an. Sie erhalten Fresh Air Pro in 24/48h und zahlen nur bei Lieferung. ✓ JETZT BESTÄTIGEN"
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Nützliche Produkte für den Alltag, Lieferung in 24–48 Stunden mit Zahlung bei Lieferung.",
+    "company_heading": "Unternehmen",
+    "policies_heading": "Rechtliche Informationen",
+    "contact_heading": "Kontakt",
+    "company_info": [
+      "<strong>TERRA-STITCH INTERNATIONAL S.L.</strong>",
+      "Calle Aragón 150",
+      "08011 Barcelona, Spanien"
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "title": "Pasūtījums saņemts — Gaidiet apstiprinājuma zvanu | Fresh Air Pro",
+    "description": "Jūsu Fresh Air Pro pasūtījums ir reģistrēts. Atlicis pēdējais solis: atbildiet uz apstiprinājuma zvanu.",
+    "currency": "EUR",
+    "price": "99.00"
+  },
+  "headline_warning": {
+    "loader_percent": "90%",
+    "title": "Jūsu pasūtījums ir veiksmīgi reģistrēts!",
+    "text": "Lieliski — pasūtījums tiek apstrādāts. Atlicis tikai pēdējais solis, lai to pabeigtu un sāktu piegādi."
+  },
+  "next_steps": {
+    "title": "📋 Kas notiks tālāk",
+    "subtitle": "PABEIGIET PASŪTĪJUMU 30 SEKUNDĒS",
+    "steps": [
+      {
+        "title": "Atbildiet uz zvanu un <strong>apstipriniet savus datus</strong>",
+        "text": ""
+      },
+      {
+        "title": "Pasūtījums tiks nosūtīts <strong>24–48 stundu</strong> laikā",
+        "text": ""
+      },
+      {
+        "title": "Piegāde uz mājām un <strong>apmaksa piegādes brīdī</strong>",
+        "text": ""
+      }
+    ]
+  },
+  "stock_warning": {
+    "icon": "🚨",
+    "title": "📞 Atbildiet uz apstiprinājuma zvanu",
+    "text": "Ja neatbildēsiet uz zvanu, pasūtījums tiks automātiski atcelts."
+  },
+  "call_hours": {
+    "icon": "🕒",
+    "title": "🕒 Kontakta laiks",
+    "hours": [
+      "Pirmdiena – Sestdiena · 9:00 – 18:00"
+    ],
+    "promise_title": "🔒 Apmaksa piegādes brīdī",
+    "promise_text": "🔒 Jūsu dati ir aizsargāti. Nav surogātpasta, nav telemārketinga — tikai pasūtījuma apstiprinājums."
+  },
+  "product_recall": {
+    "image_alt": "Fresh Air Pro",
+    "title": "AIZMIRSTIET PAR AUGSTIEM RĒĶINIEM: Fresh Air Pro 4 vienā silda, dzesē, attīra gaisu un samazina enerģijas izmaksas vairāk nekā par 80 %.",
+    "text": "Šis iekštelpu gaisa kondicionieris dažu minūšu laikā ievērojami samazina karstumu. Vienkārši pievienojiet kontaktligzdai, nospiediet ON un uzreiz baudiet svaigu, tīru gaisu. Bez montāžas, bez gaidīšanas — piegāde uz mājām 24 stundu laikā.",
+    "whatsapp_button": "",
+    "whatsapp_link": ""
+  }
+}

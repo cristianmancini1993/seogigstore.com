@@ -1,0 +1,347 @@
+{
+  "lang": "si",
+  "html_lang": "si",
+  "country_name": "Slovenija",
+  "delivery_country": "v Sloveniji",
+  "offer_name_suffix": "SI",
+  "offer_id": 765,
+  "cookie": {
+    "text": "Uporabljamo tehnične in analitične piškotke tretjih oseb za izboljšanje vaše izkušnje in analitiko.",
+    "accept": "Sprejmi",
+    "learn": "Več o tem"
+  },
+  "footer": {
+    "info_heading": "Informacije",
+    "contact_heading": "Kontakt",
+    "about": "O nas",
+    "contact": "Kontaktirajte nas",
+    "privacy": "Politika zasebnosti",
+    "terms": "Pogoji poslovanja",
+    "cookies": "Politika piškotkov",
+    "shipping": "Politika pošiljanja",
+    "refund": "Politika vračil",
+    "rights": "Vse pravice pridržane"
+  },
+  "popup_purchases": [
+    {
+      "initial": "J",
+      "name": "Janez P.",
+      "message": " je pravkar naročil Fresh Air Pro",
+      "time": "pred 2 minutama, Ljubljana"
+    },
+    {
+      "initial": "M",
+      "name": "Maja K.",
+      "message": " je pravkar potrdila naročilo",
+      "time": "pred 5 minutami, Maribor"
+    },
+    {
+      "initial": "B",
+      "name": "Boštjan H.",
+      "message": " je pravkar kupil Fresh Air Pro",
+      "time": "pred 8 minutami, Celje"
+    },
+    {
+      "initial": "N",
+      "name": "Nina S.",
+      "message": " je zaključila naročilo",
+      "time": "pred 12 minutami, Koper"
+    },
+    {
+      "initial": "G",
+      "name": "Gregor M.",
+      "message": " je pravkar naročil (dostava jutri)",
+      "time": "pred 15 minutami, Kranj"
+    },
+    {
+      "initial": "T",
+      "name": "Tanja R.",
+      "message": " je potrdila svoje naročilo",
+      "time": "pred 21 minutami, Novo mesto"
+    },
+    {
+      "initial": "L",
+      "name": "Luka Z.",
+      "message": " je pravkar kupil Fresh Air Pro",
+      "time": "pred 27 minutami, Velenje"
+    },
+    {
+      "initial": "P",
+      "name": "Petra F.",
+      "message": " je zaključila naročilo v 30 sekundah",
+      "time": "pred 33 minutami, Murska Sobota"
+    }
+  ],
+  "landing": {
+    "meta": {
+      "title": "Stenska klimatska naprava 4 v 1 brez zunanje enote in montaže — ogreva, hladi in razvlažuje prostore do 120 m² v nekaj minutah",
+      "description": "Fresh Air Pro: stenska klimatska naprava 4 v 1 brez zunanje enote. Ogreva, hladi, razvlažuje in čisti zrak v prostorih do 120 m². -50 % samo danes, plačilo ob prevzemu, brezplačna dostava v 24/48 urah.",
+      "og_image": "/assets/img/products/fresh-air-pro/og-image.jpg",
+      "currency": "EUR",
+      "price": "79"
+    },
+    "banner_urgency": {
+      "main": "🔥 AKCIJA -50 %: Samo danes 79 € namesto 158 €",
+      "sub": "BREZPLAČNA DOSTAVA v 24/48 urah • Plačilo ob prevzemu • Zadnji kosi na zalogi"
+    },
+    "headline": {
+      "rating_label": "★★★★★ 4,8/5 — Več kot 3.842 zadovoljnih strank",
+      "title": "POZABITE NA VISOKE RAČUNE ZA ENERGIJO: Fresh Air Pro 4 v 1 ogreva, hladi, čisti zrak in zmanjša stroške energije za več kot 80 %.",
+      "subtitle": "Stenska klimatska naprava za notranjost v nekaj minutah občutno zniža temperaturo. Samo priključite v vtičnico, pritisnite ON in takoj uživajte v svežem, čistem zraku. Brez montaže, brez čakanja, dostava na dom v 24 urah.",
+      "image_alt": "Fresh Air Pro — stenska klimatska naprava 4 v 1 z daljinskim upravljalnikom, Wi-Fi aplikacijo in HEPA filtrom"
+    },
+    "bullets": [
+      {
+        "text": "Hladi do 16 °C ali ogreva do 42 °C prostor do 120 m²"
+      },
+      {
+        "text": "4 v 1: Hladi, ogreva, razvlažuje in filtrira zrak"
+      },
+      {
+        "text": "Zmanjša stroške za 80 %: Nizka poraba energije A+++"
+      },
+      {
+        "text": "Montaža plug & play: priključite v vtičnico, pritisnite ON in v nekaj minutah je prostor prijetno hladen"
+      }
+    ],
+    "price": {
+      "label": "POSEBNA PONUDBA -50 %",
+      "anchor": "158",
+      "final": "79",
+      "currency": "€",
+      "discount": "-50 %"
+    },
+    "scarcity_text": "⚠️ Na zalogi je le še 14 kosov po znižani ceni. Potrdite zdaj, da ne zamudite ponudbe.",
+    "form": {
+      "title": "ZAKLJUČITE NAROČILO V 30 SEKUNDAH",
+      "subtitle": "Izpolnite spodnji obrazec. V eni uri vas bomo kontaktirali za potrditev dostave in naslova.",
+      "fields": {
+        "name_label": "Ime in priimek *",
+        "name_placeholder": "Npr. Janez Novak",
+        "name_error": "Vnesite ime in priimek (najmanj 3 znake)",
+        "phone_label": "Telefonska številka *",
+        "phone_placeholder": "Npr. 040 123 456",
+        "phone_error": "Vnesite veljavno telefonsko številko",
+        "address_label": "Naslov za dostavo *",
+        "address_placeholder": "Ulica, hišna št., mesto, poštna št.",
+        "address_error": "Vnesite celoten naslov (najmanj 10 znakov)"
+      },
+      "cta_button": "✓ POTRDI NAROČILO — 79 €",
+      "submitting_label": "Pošiljanje...",
+      "trust_below": "★★★★★ Ocena 4,8/5 od več kot 3.842 zadovoljnih strank",
+      "secure_note": "🔒 Vaši podatki so zaščiteni. Brez neželene pošte, brez telemarketinga, samo potrditev naročila."
+    },
+    "guarantees": [
+      {
+        "icon": "🚚",
+        "title": "Dostava v 24/48 urah",
+        "sub": "Brezplačna dostava po vsej Sloveniji"
+      },
+      {
+        "icon": "💵",
+        "title": "Plačilo ob prevzemu",
+        "sub": "Šele ko prejmete izdelek"
+      },
+      {
+        "icon": "↩️",
+        "title": "Vračilo v 30 dneh",
+        "sub": "Zadovoljni ali vrnemo denar"
+      },
+      {
+        "icon": "🛡️",
+        "title": "Garancija 24 mesecev",
+        "sub": "Za tovarniške napake"
+      }
+    ],
+    "macro_review": {
+      "photo_alt": "Maja M. — preverjena stranka s Fresh Air Pro v spalnici",
+      "quote": "«Potrebovala sem praktično rešitev, ker nisem mogla namestiti klasične klimatske naprave. Fresh Air Pro je bil prijetno presenečenje: v nekaj minutah je soba veliko bolj hladna in zrak se zdi manj vlažen. Enostaven za uporabo, tih in upravljanje prek aplikacije je res priročno. Za to ceno je bil eden najboljših nakupov letos.»",
+      "author": "Maja M.",
+      "credentials": "Preverjena stranka, Ljubljana",
+      "stars": "★★★★★"
+    },
+    "competitor_destruction": {
+      "title": "Fresh Air Pro vs klasična klimatska naprava",
+      "subtitle": "Zakaj vedno več družin izbira plug & play udobje",
+      "headers": [
+        "Klasična klimatska naprava",
+        "Fresh Air Pro"
+      ],
+      "rows": [
+        {
+          "bad": "❌ Draga montaža s tehnikom in gradbenimi deli",
+          "good": "✅ Brez montaže: pripravljen za uporabo v nekaj minutah"
+        },
+        {
+          "bad": "❌ Zahteva zunanjo enoto, ki je v mnogih stavbah prepovedana",
+          "good": "✅ Brez zunanje enote, idealen za vsako stanovanje"
+        },
+        {
+          "bad": "❌ Samo hlajenje (ali draga toplotna črpalka)",
+          "good": "✅ 4 v 1: hladi, ogreva, razvlažuje in čisti zrak"
+        },
+        {
+          "bad": "❌ Visoka poraba in visoki računi skozi vse leto",
+          "good": "✅ Energijski razred A+++ z do 80 % nižjo porabo*"
+        },
+        {
+          "bad": "❌ Fiksna montaža: ni ga mogoče enostavno premakniti",
+          "good": "✅ Kompakten in uporaben tam, kjer ga potrebujete"
+        },
+        {
+          "bad": "❌ Omejeno upravljanje samo z daljincem ali gumbi na napravi",
+          "good": "✅ Pametno upravljanje prek Wi-Fi aplikacije + daljinec"
+        },
+        {
+          "bad": "❌ Dolgi roki montaže in zagona",
+          "good": "✅ Vklopite in uživajte v udobju v nekaj minutah"
+        },
+        {
+          "bad": "❌ Zahteva zidarska dela in vzdrževanje sistema",
+          "good": "✅ Brez gradbenih del in minimalno vzdrževanje"
+        }
+      ]
+    },
+    "reviews": [
+      {
+        "name": "Janez R.",
+        "location": "Ljubljana, Slovenija",
+        "stars": "★★★★★",
+        "title": "Popolna rešitev brez gradbenih del",
+        "text": "Res me je presenetil. Iskal sem rešitev brez zidarskih del in Fresh Air Pro je bil popoln. Dnevno sobo zelo hitro ohladi in upravljanje prek aplikacije je res preprosto. Odlično razmerje med ceno in kakovostjo.",
+        "photo_alt": "Janez R. — Ljubljana",
+        "verified": true
+      },
+      {
+        "name": "Maja T.",
+        "location": "Maribor, Slovenija",
+        "stars": "★★★★★",
+        "title": "Končno lahko spim brez vročine",
+        "text": "Končno lahko spim brez trpljenja v vročini. Tih je in funkcija razvlaževalnika res pomaga v soparnih dneh. Priporočam vsem, ki živijo v stanovanju in ne morejo namestiti klasične klimatske naprave.",
+        "photo_alt": "Maja T. — Maribor",
+        "verified": true
+      },
+      {
+        "name": "Andrej M.",
+        "location": "Celje, Slovenija",
+        "stars": "★★★★★",
+        "title": "Odlično ogreva in hladi",
+        "text": "Kupil sem ga predvsem za ogrevanje pozimi in hlajenje poleti. Obe funkciji opravlja zelo dobro in daljinec je zelo priročen. Prispel je v dveh dneh in bil takoj pripravljen za uporabo.",
+        "photo_alt": "Andrej M. — Celje",
+        "verified": true
+      },
+      {
+        "name": "Sara L.",
+        "location": "Koper, Slovenija",
+        "stars": "★★★★★",
+        "title": "Zelo enostaven za uporabo",
+        "text": "Zelo enostaven za uporabo. Všeč mi je, da poleg hlajenja tudi filtrira zrak. Postavila sem ga v domačo pisarno in okolje je postalo veliko bolj prijetno. Z nakupom sem zadovoljna.",
+        "photo_alt": "Sara L. — Koper",
+        "verified": true
+      },
+      {
+        "name": "Luka P.",
+        "location": "Kranj, Slovenija",
+        "stars": "★★★★★",
+        "title": "Prepričal me je že ob prvi uporabi",
+        "text": "Bil sem skeptičen, a me je prepričal že ob prvi uporabi. Brez montaže, nizka poraba in hitro hlajenje. Aplikacija tudi dobro deluje in omogoča vklop še pred prihodom domov.",
+        "photo_alt": "Luka P. — Kranj",
+        "verified": true
+      },
+      {
+        "name": "Elena C.",
+        "location": "Novo mesto, Slovenija",
+        "stars": "★★★★★",
+        "title": "Odličen izdelek skozi vse leto",
+        "text": "Odličen izdelek. Poleti hitro ohladi spalnico, pozimi pa ga uporabljam za ogrevanje brez takojšnjega vklopa radiatorjev. Praktičen, tih in podpora strankam je bila zelo ustrežljiva.",
+        "photo_alt": "Elena C. — Novo mesto",
+        "verified": true
+      }
+    ],
+    "package_content": {
+      "title": "Kaj najdete v paketu Fresh Air Pro",
+      "subtitle": "Vse vključeno — plug & play, brez montaže",
+      "image_alt": "Vsebina paketa Fresh Air Pro",
+      "items": [
+        {
+          "text": "<strong>1× Fresh Air Pro</strong> za hlajenje, ogrevanje, razvlaževanje in prezračevanje"
+        },
+        {
+          "text": "📡 1 brezžični daljinski upravljalnik z baterijo v paketu"
+        },
+        {
+          "text": "📱 Pametno upravljanje prek aplikacije z Wi-Fi povezavo"
+        },
+        {
+          "text": "🔁 Samodejno obračanje 115° za enakomernejšo porazdelitev zraka"
+        },
+        {
+          "text": "💨 HEPA filter + ionizator za čistejši in prijetnejši zrak"
+        },
+        {
+          "text": "🔇 Tiho delovanje: le 53,1 dB"
+        },
+        {
+          "text": "🚫 Brez montaže, brez fleksibilne cevi, brez zunanje enote"
+        },
+        {
+          "text": "🚚 Hitra dostava v 24–48 urah + plačilo ob prevzemu"
+        },
+        {
+          "text": "🔒 2-letna garancija vključena v naročilo"
+        },
+        {
+          "text": "Izdelek s certifikatom CE · ⚙️ Nadzor kakovosti · 💬 Podpora strankam"
+        }
+      ]
+    },
+    "incentive_2": {
+      "title": "⏰ ZADNJA PRILOŽNOST — Ponudba poteče danes",
+      "text": "Uvodna cena 79 € velja le do razprodaje zalog. Nato se cena vrne na 158 €. Ne zamudite priložnosti — potrdite naročilo zdaj in prejmite ga v 24/48 urah."
+    },
+    "faq": {
+      "title": "Pogosta vprašanja",
+      "items": [
+        {
+          "q": "Ali res lahko plačam ob prevzemu, brez kartice?",
+          "a": "Da, plačilo ob prevzemu je naš standardni način. Ko pride kurir, plačate v gotovini znesek naročila. Brez akontacije, brez kartice. Tako je varneje: izdelek vidite pred plačilom."
+        },
+        {
+          "q": "Ali je res potrebna kakršna koli montaža?",
+          "a": "Ne. Fresh Air Pro ne potrebuje montaže, zunanje enote ali gradbenih del. Samo priključite v vtičnico, pritisnite ON in v nekaj minutah je prostor prijetno hladen ali topel. Idealen za stanovanja, kjer ni mogoče namestiti klasične klimatske naprave."
+        },
+        {
+          "q": "Ali deluje tudi za ogrevanje in hlajenje?",
+          "a": "Da. Fresh Air Pro je pravi 4 v 1 sistem: ohladi prostor do 16 °C, ogreje do 42 °C, razvlažuje in filtrira zrak prek HEPA filtra. Pokriva prostore do 120 m² in z energijskim razredom A+++ porabi do 80 % manj energije."
+        },
+        {
+          "q": "Če nisem zadovoljen, ali ga lahko vrnem?",
+          "a": "Seveda. Imate 30 dni od dostave za vračilo, če vas ne zadovolji. Brezplačno vračilo, polno povračilo. Brez vprašanj, brez kazni. Uradna 24-mesečna garancija za tovarniške napake."
+        },
+        {
+          "q": "Ali so moji osebni podatki varni?",
+          "a": "Absolutno. Vaše podatke uporabljamo le za dostavo in kontakt za potrditev. Brez neželene pošte, brez telemarketinga, brez posredovanja tretjim osebam. Skladno z GDPR. Našo Politiko zasebnosti najdete v nogi strani."
+        },
+        {
+          "q": "Koliko časa traja dostava?",
+          "a": "24–48 delovnih ur po telefonski potrditvi. Pošiljanje je brezplačno po vsej Sloveniji. Ko kurir odide, prejmete SMS s številko za sledenje pošiljki."
+        },
+        {
+          "q": "Kako zdaj potrdim naročilo?",
+          "a": "Zelo preprosto. Izpolnite zgornji obrazec z imenom, telefonom in naslovom. Naš operater vas bo poklical v eni uri za potrditev. Fresh Air Pro prejmete v 24/48 urah in plačate le ob prevzemu. ✓ POTRDI ZDAJ"
+        }
+      ]
+    },
+    "footer": {
+      "tagline": "Koristni izdelki za vsakdanje življenje, dostava v 24–48 urah s plačilom ob prevzemu.",
+      "company_heading": "Podjetje",
+      "policies_heading": "Pravne informacije",
+      "contact_heading": "Kontakt",
+      "company_info": [
+        "<strong>TERRA-STITCH INTERNATIONAL S.L.</strong>",
+        "Calle Aragón 150",
+        "08011 Barcelona, Španija"
+      ]
+    }
+  }
+}

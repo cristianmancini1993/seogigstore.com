@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "title": "Bestellung erhalten — Warten Sie auf den Bestätigungsanruf | Fresh Air Pro",
+    "description": "Ihre Fresh Air Pro Bestellung wurde registriert. Ein letzter Schritt: Nehmen Sie den Bestätigungsanruf entgegen.",
+    "currency": "EUR",
+    "price": "89.00"
+  },
+  "headline_warning": {
+    "loader_percent": "90%",
+    "title": "Ihre Bestellung wurde erfolgreich registriert!",
+    "text": "Perfekt — Ihre Bestellung wird bearbeitet. Es fehlt nur noch ein letzter Schritt, um sie abzuschließen und den Versand zu starten."
+  },
+  "next_steps": {
+    "title": "📋 Was als Nächstes passiert",
+    "subtitle": "BESTELLUNG IN 30 SEKUNDEN ABSCHLIESSEN",
+    "steps": [
+      {
+        "title": "Nehmen Sie den Anruf an und <strong>bestätigen Sie Ihre Daten</strong>",
+        "text": ""
+      },
+      {
+        "title": "Ihre Bestellung wird innerhalb von <strong>24–48 Stunden</strong> versendet",
+        "text": ""
+      },
+      {
+        "title": "Lieferung nach Hause und <strong>Zahlung bei Lieferung</strong>",
+        "text": ""
+      }
+    ]
+  },
+  "stock_warning": {
+    "icon": "🚨",
+    "title": "📞 Nehmen Sie den Bestätigungsanruf entgegen",
+    "text": "Wenn Sie den Anruf nicht annehmen, wird die Bestellung automatisch storniert."
+  },
+  "call_hours": {
+    "icon": "🕒",
+    "title": "🕒 Kontaktzeiten",
+    "hours": [
+      "Montag – Samstag · 9:00 – 18:00"
+    ],
+    "promise_title": "🔒 Zahlung bei Lieferung",
+    "promise_text": "🔒 Ihre Daten sind geschützt. Kein Spam, kein Telemarketing — nur Bestellbestätigung."
+  },
+  "product_recall": {
+    "image_alt": "Fresh Air Pro",
+    "title": "VERGESSEN SIE HOHE STROMRECHNUNGEN: Fresh Air Pro 4-in-1 heizt, kühlt, reinigt die Luft und senkt die Energiekosten um über 80%.",
+    "text": "Das Split-Klimagerät für Innenräume reduziert die Hitze in wenigen Minuten spürbar. Einfach an die Steckdose anschließen, EIN drücken und sofort frische, saubere Luft genießen. Keine Installation, keine Wartezeit, Lieferung nach Hause in 24 Stunden.",
+    "whatsapp_button": "",
+    "whatsapp_link": ""
+  }
+}

@@ -1,0 +1,322 @@
+{
+  "meta": {
+    "title": "4 viename sieninis oro kondicionierius be išorinio bloko ir montavimo — šildo, vėsina ir sausina patalpas iki 120 m² per kelias minutes",
+    "description": "Fresh Air Pro: 4 viename sieninis oro kondicionierius be išorinio bloko. Šildo, vėsina ir sausina iki 120 m² per kelias minutes. -50 % tik šiandien, mokėjimas pristatymo metu, nemokamas pristatymas per 24/48 val.",
+    "og_image": "/assets/img/products/fresh-air-pro/og-image.jpg",
+    "currency": "EUR",
+    "price": "69.00"
+  },
+  "banner_urgency": {
+    "main": "🔥 AKCIJA -50 %: Tik šiandien 69 € vietoj 138 €",
+    "sub": "NEMOKAMAS pristatymas per 24/48 val. • Mokėjimas pristatymo metu • Liko paskutiniai vienetai"
+  },
+  "headline": {
+    "rating_label": "★★★★★ 4,8/5 — Daugiau nei 3 842 patenkinti klientai",
+    "title": "PAMIRŠKITE DIDELĖS SĄSKAITAS: Fresh Air Pro 4 viename šildo, vėsina, valo orą ir sumažina energijos sąnaudas daugiau nei 80 %.",
+    "subtitle": "Šis vidaus oro kondicionierius per kelias minutes akivaizdžiai sumažina karštį. Tiesiog prijunkite prie lizdo, paspauskite ON ir iš karto mėgaukitės švariu, gaiviu oru. Jokio montavimo, jokio laukimo — pristatymas į namus per 24 valandas.",
+    "image_alt": "Fresh Air Pro — 4 viename sieninis oro kondicionierius su nuotoliniu valdymu, Wi-Fi programėle ir HEPA filtru"
+  },
+  "bullets": [
+    {
+      "text": "Vėsina iki 16 °C arba šildo iki 42 °C iki 120 m² patalpoje"
+    },
+    {
+      "text": "4 viename: vėsina, šildo, sausina ir filtruoja orą"
+    },
+    {
+      "text": "Sumažina sąnaudas 80 %: A+++ energijos klasė"
+    },
+    {
+      "text": "Plug & play montavimas: prijunkite prie lizdo, paspauskite ON — per kelias minutes patalpa atvėsta"
+    }
+  ],
+  "form": {
+    "title": "UŽBAIKITE UŽSAKYMĄ PER 30 SEKUNDŽIŲ",
+    "subtitle": "Užpildykite žemiau esančią formą. Per 1 valandą su jumis susisieksime, kad patvirtintume pristatymą ir adresą.",
+    "fields": {
+      "name_label": "Vardas ir pavardė *",
+      "name_placeholder": "Pvz. Jonas Petraitis",
+      "name_error": "Įveskite vardą ir pavardę (bent 3 simboliai)",
+      "phone_label": "Telefono numeris *",
+      "phone_placeholder": "Pvz. 8 612 34567",
+      "phone_error": "Įveskite galiojantį telefono numerį",
+      "address_label": "Pristatymo adresas *",
+      "address_placeholder": "Gatvė, namo nr., miestas, pašto kodas",
+      "address_error": "Įveskite pilną adresą (bent 10 simbolių)"
+    },
+    "cta_button": "✓ PATVIRTINTI UŽSAKYMĄ — 69,00 €",
+    "submitting_label": "Siunčiama...",
+    "trust_below": "★★★★★ Įvertinta 4,8/5 — daugiau nei 3 842 patenkinti klientai",
+    "secure_note": "🔒 Jūsų duomenys saugūs. Jokio šlamšto, jokio telemarketingo — tik užsakymo patvirtinimas."
+  },
+  "guarantees": [
+    {
+      "icon": "🚚",
+      "title": "Pristatymas per 24/48 val.",
+      "sub": "Nemokamas pristatymas visoje Lietuvoje"
+    },
+    {
+      "icon": "💵",
+      "title": "Mokate pristatymo metu",
+      "sub": "Tik kai gaunate prekę"
+    },
+    {
+      "icon": "↩️",
+      "title": "30 dienų grąžinimas",
+      "sub": "Patenkinti arba grąžiname pinigus"
+    },
+    {
+      "icon": "🛡️",
+      "title": "24 mėnesių garantija",
+      "sub": "Gamyklinių defektų atveju"
+    }
+  ],
+  "macro_review": {
+    "photo_alt": "Giedrė M. — patvirtinta klientė su Fresh Air Pro miegamajame",
+    "quote": "«Man reikėjo praktiško sprendimo, nes negalėjau montuoti tradicinio kondicionieriaus. Fresh Air Pro buvo maloni staigmena: per kelias minutes kambarys tampa daug vėsesnis, o oras jaučiasi mažiau drėgnas. Paprasta naudoti, tylus, o valdymas per programėlę tikrai patogus. Už tokią kainą — vienas geriausių pirkinių šiais metais.»",
+    "author": "Giedrė M.",
+    "credentials": "Patvirtinta klientė, Vilnius",
+    "stars": "★★★★★"
+  },
+  "competitor_destruction": {
+    "title": "Fresh Air Pro vs tradicinis oro kondicionierius",
+    "subtitle": "Kodėl vis daugiau šeimų renkasi plug & play komfortą",
+    "headers": [
+      "Tradicinis kondicionierius",
+      "Fresh Air Pro"
+    ],
+    "rows": [
+      {
+        "bad": "❌ Brangus montavimas su specialistu ir darbais namuose",
+        "good": "✅ Jokio montavimo: paruoštas naudoti per kelias minutes"
+      },
+      {
+        "bad": "❌ Reikia išorinio bloko, dažnai draudžiamo kai kuriuose pastatuose",
+        "good": "✅ Be išorinio bloko — idealus bet kuriam būstui"
+      },
+      {
+        "bad": "❌ Tik vėsinimas (arba brangi šilumos siurblys)",
+        "good": "✅ 4 viename: vėsina, šildo, sausina ir valo orą"
+      },
+      {
+        "bad": "❌ Didelės sąnaudos ir sunkios sąskaitos visus metus",
+        "good": "✅ A+++ energijos klasė — sąnaudos sumažėja iki 80 %*"
+      },
+      {
+        "bad": "❌ Fiksuotas montavimas — sunku perkelti",
+        "good": "✅ Kompaktiškas — naudokite ten, kur reikia"
+      },
+      {
+        "bad": "❌ Valdymas tik pulteliu arba ant įrenginio",
+        "good": "✅ Išmanus valdymas per Wi-Fi programėlę + pultelis"
+      },
+      {
+        "bad": "❌ Ilgas montavimas ir paleidimas",
+        "good": "✅ Įjunkite ir mėgaukitės komfortu per kelias minutes"
+      },
+      {
+        "bad": "❌ Reikia statybinių darbų ir sistemos priežiūros",
+        "good": "✅ Jokių darbų namuose ir minimali priežiūra"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "name": "Mantas R.",
+      "location": "Vilnius, Lietuva",
+      "stars": "★★★★★",
+      "title": "Puikus sprendimas be darbų namuose",
+      "text": "Buvau tikrai nustebęs. Ieškojau sprendimo be statybinių darbų, ir Fresh Air Pro puikiai tiko. Labai greitai atvėsina svetainę, o naudoti per programėlę tikrai paprasta. Puikus kainos ir kokybės santykis.",
+      "photo_alt": "Mantas R. — Vilnius",
+      "verified": true
+    },
+    {
+      "name": "Giedrė T.",
+      "location": "Kaunas, Lietuva",
+      "stars": "★★★★★",
+      "title": "Pagaliau galiu miegoti be karščio",
+      "text": "Pagaliau galiu miegoti be karščio. Tylus, o drėgmės šalinimo funkcija tikrai padeda drėgnomis dienomis. Rekomenduoju tiems, kurie gyvena bute ir negali montuoti tradicinio kondicionieriaus.",
+      "photo_alt": "Giedrė T. — Kaunas",
+      "verified": true
+    },
+    {
+      "name": "Andrius M.",
+      "location": "Klaipėda, Lietuva",
+      "stars": "★★★★★",
+      "title": "Puikiai šildo ir vėsina",
+      "text": "Pirkau daugiausia šildymui žiemą ir vėsinimui vasarą. Abu veikia labai gerai, o pultelis labai patogus. Atėjo per dvi dienas ir buvo paruoštas naudoti.",
+      "photo_alt": "Andrius M. — Klaipėda",
+      "verified": true
+    },
+    {
+      "name": "Sandra L.",
+      "location": "Šiauliai, Lietuva",
+      "stars": "★★★★★",
+      "title": "Labai paprasta naudoti",
+      "text": "Labai paprasta naudoti. Patinka, kad be vėsinimo dar ir filtruoja orą. Pastatytas darbo kambaryje — darbo aplinka tapo daug komfortiškesnė. Esu patenkinta pirkiniu.",
+      "photo_alt": "Sandra L. — Šiauliai",
+      "verified": true
+    },
+    {
+      "name": "Lukas P.",
+      "location": "Panevėžys, Lietuva",
+      "stars": "★★★★★",
+      "title": "Įtikino nuo pirmo naudojimo",
+      "text": "Buvau skeptiškas, bet įtikino nuo pirmo karto. Jokio montavimo, mažos sąnaudos ir greitas vėsinimas. Programėlė taip pat veikia gerai — galiu įjungti prieš grįždamas namo.",
+      "photo_alt": "Lukas P. — Panevėžys",
+      "verified": true
+    },
+    {
+      "name": "Elena Č.",
+      "location": "Alytus, Lietuva",
+      "stars": "★★★★★",
+      "title": "Puikus produktas visus metus",
+      "text": "Puikus produktas. Vasarą greitai atvėsina miegamąjį, o žiemą naudoju šildymui, neįjungdamas radiatorių. Praktiškas, tylus, o klientų aptarnavimas buvo labai paslaugus.",
+      "photo_alt": "Elena Č. — Alytus",
+      "verified": true
+    }
+  ],
+  "package_content": {
+    "title": "Ką rasite Fresh Air Pro pakuotėje",
+    "subtitle": "Viskas įskaičiuota — plug & play, jokio montavimo",
+    "image_alt": "Fresh Air Pro pakuotės turinys",
+    "items": [
+      {
+        "text": "<strong>1× Fresh Air Pro</strong> vėsinimui, šildymui, drėgmės šalinimui ir ventiliacijai"
+      },
+      {
+        "text": "📡 1 belaidis pultelis su baterija"
+      },
+      {
+        "text": "📱 Išmanus valdymas per programėlę su Wi-Fi ryšiu"
+      },
+      {
+        "text": "🔁 Automatinis 115° sukimasis tolygesniam oro paskirstymui"
+      },
+      {
+        "text": "💨 HEPA filtras + jonizatorius švaresniam orui"
+      },
+      {
+        "text": "🔇 Tylus veikimas: tik 53,1 dB"
+      },
+      {
+        "text": "🚫 Jokio montavimo, lanksčių vamzdžių ar išorinio bloko"
+      },
+      {
+        "text": "🚚 Greitas pristatymas per 24–48 val. + mokėjimas pristatymo metu"
+      },
+      {
+        "text": "🔒 2 metų garantija įskaičiuota į užsakymą"
+      },
+      {
+        "text": "CE sertifikuotas produktas · ⚙️ Kokybės kontrolė · 💬 Klientų aptarnavimas"
+      }
+    ]
+  },
+  "incentive_2": {
+    "title": "⏰ PASKUTINĖ GALIMYBĖ — pasiūlymas baigiasi šiandien",
+    "text": "Paleidimo kaina 69,00 € galioja tik kol yra atsargų. Vėliau kaina grįžta į 138,00 €. Nepraleiskite progos — patvirtinkite užsakymą dabar ir gaukite per 24/48 val."
+  },
+  "faq": {
+    "title": "Dažniausiai užduodami klausimai",
+    "items": [
+      {
+        "q": "Ar tikrai galiu mokėti pristatymo metu, be kortelės?",
+        "a": "Taip, mokėjimas pristatymo metu yra mūsų standartinis būdas. Kai atvyksta kurjeris, sumokate grynaisiais už užsakymą. Jokio avanso, jokios kortelės. Saugu: pirmiausia pamatote prekę, tada mokate."
+      },
+      {
+        "q": "Ar tikrai nereikia jokio montavimo?",
+        "a": "Taip. Fresh Air Pro yra plug & play: prijunkite prie lizdo, paspauskite ON ir per kelias minutes mėgaukitės vėsiu ar šiltu oru. Jokio specialisto, jokio išorinio bloko, jokios skylės sienoje."
+      },
+      {
+        "q": "Ar tikrai šildo ir vėsina iki 120 m²?",
+        "a": "Taip. Fresh Air Pro vėsina iki 16 °C arba šildo iki 42 °C patalpose iki 120 m². Tai 4 viename kondicionierius: vėsina, šildo, sausina ir valo orą su HEPA filtru."
+      },
+      {
+        "q": "Jei netenkina, ar galiu grąžinti?",
+        "a": "Žinoma. Turite 30 dienų nuo pristatymo grąžinti, jei netenkina. Nemokamas grąžinimas, pilnas pinigų grąžinimas. Jokių klausimų, jokių baudų. Oficiali 24 mėnesių garantija gamykliniams defektams."
+      },
+      {
+        "q": "Ar mano asmens duomenys saugūs?",
+        "a": "Absoliučiai taip. Jūsų duomenis naudojame tik pristatymui ir užsakymo patvirtinimui. Jokio šlamšto, jokio telemarketingo, jokio perdavimo trečiosioms šalims. Atitinka BDAR. Privatumo politiką rasite puslapio apačioje."
+      },
+      {
+        "q": "Kiek trunka pristatymas?",
+        "a": "24–48 darbo valandos po telefoninio patvirtinimo. Pristatymas nemokamas visoje Lietuvoje. Gausite SMS su sekimo numeriu, kai kurjeris išvyksta."
+      },
+      {
+        "q": "Kaip patvirtinti užsakymą dabar?",
+        "a": "Labai paprasta. Užpildykite formą viršuje su vardu, telefonu ir adresu. Mūsų operatorius paskambins per 1 valandą patvirtinti. Gaukite Fresh Air Pro per 24/48 val. ir mokėkite tik pristatymo metu. ✓ PATVIRTINTI DABAR"
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Naudingi produktai kasdieniam gyvenimui — pristatymas per 24–48 val. su mokėjimu pristatymo metu.",
+    "company_heading": "Įmonė",
+    "policies_heading": "Teisinė informacija",
+    "contact_heading": "Kontaktai",
+    "company_info": [
+      "<strong>TERRA-STITCH INTERNATIONAL S.L.</strong>",
+      "Calle Aragón 150",
+      "08011 Barcelona, Ispanija"
+    ]
+  },
+  "scarcity_text": "⚠️ Liko tik 14 vienetai su nuolaida. Patvirtinkite dabar, kad nepraleistumėte pasiūlymo.",
+  "price": {
+    "label": "SPECIALI PASIŪLYMAS -50%",
+    "anchor": "138,00",
+    "final": "69,00",
+    "currency": "€",
+    "discount": "-50%"
+  },
+  "popup_purchases": [
+    {
+      "initial": "M",
+      "name": "Mindaugas K.",
+      "message": " ką tik užsakė Fresh Air Pro",
+      "time": "prieš 2 minutes, Vilnius"
+    },
+    {
+      "initial": "G",
+      "name": "Greta S.",
+      "message": " ką tik patvirtino užsakymą",
+      "time": "prieš 5 minutes, Kaunas"
+    },
+    {
+      "initial": "T",
+      "name": "Tomas V.",
+      "message": " ką tik įsigijo Fresh Air Pro",
+      "time": "prieš 8 minutes, Klaipėda"
+    },
+    {
+      "initial": "R",
+      "name": "Rūta M.",
+      "message": " užbaigė užsakymą",
+      "time": "prieš 12 minučių, Šiauliai"
+    },
+    {
+      "initial": "A",
+      "name": "Andrius P.",
+      "message": " ką tik užsakė (pristatymas rytoj)",
+      "time": "prieš 15 minučių, Panevėžys"
+    },
+    {
+      "initial": "E",
+      "name": "Eglė D.",
+      "message": " patvirtino savo užsakymą",
+      "time": "prieš 21 minutę, Alytus"
+    },
+    {
+      "initial": "D",
+      "name": "Darius L.",
+      "message": " ką tik įsigijo Fresh Air Pro",
+      "time": "prieš 27 minutes, Marijampolė"
+    },
+    {
+      "initial": "J",
+      "name": "Jolanta B.",
+      "message": " užbaigė užsakymą per 30 sekundžių",
+      "time": "prieš 33 minutes, Utena"
+    }
+  ]
+}

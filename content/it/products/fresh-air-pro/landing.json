@@ -1,65 +1,15 @@
 {
   "meta": {
     "title": "Condizionatore d'aria a parete 4 in 1, senza unità esterna e installazione, riscalda, raffredda e deumidifica ambienti fino a 120 m² in pochi minuti",
-    "description": "Fresh Air Pro: tagliaerba e decespugliatore a batteria 48V. Taglia erba alta, arbusti e bordi senza cavi e senza benzina. -50% solo oggi, pagamento alla consegna, spedizione gratuita 24/48h.",
+    "description": "Fresh Air Pro: condizionatore d'aria a parete 4 in 1 senza unità esterna. Riscalda, raffredda e deumidifica fino a 120 m² in pochi minuti. -50% solo oggi, pagamento alla consegna, spedizione gratuita 24/48h.",
     "og_image": "/assets/img/products/fresh-air-pro/og-image.jpg",
     "currency": "EUR",
-    "price": "79.90"
+    "price": "69.00"
   },
   "banner_urgency": {
-    "main": "🔥 OFFERTA -50%: Solo oggi 79€ invece di 159€",
+    "main": "🔥 OFFERTA -50%: Solo oggi 69€ invece di 138€",
     "sub": "Spedizione GRATUITA in 24/48h • Pagamento alla consegna • Ultimi pezzi disponibili"
   },
-  "popup_purchases": [
-    {
-      "initial": "M",
-      "name": "Marco R.",
-      "message": " ha appena ordinato Fresh Air Pro",
-      "time": "2 minuti fa, Roma"
-    },
-    {
-      "initial": "L",
-      "name": "Laura B.",
-      "message": " ha appena confermato l'ordine",
-      "time": "5 minuti fa, Milano"
-    },
-    {
-      "initial": "G",
-      "name": "Giorgio T.",
-      "message": " ha appena acquistato Fresh Air Pro",
-      "time": "8 minuti fa, Torino"
-    },
-    {
-      "initial": "S",
-      "name": "Silvia M.",
-      "message": " ha completato l'ordine",
-      "time": "12 minuti fa, Napoli"
-    },
-    {
-      "initial": "A",
-      "name": "Andrea P.",
-      "message": " ha appena ordinato (consegna domani)",
-      "time": "15 minuti fa, Bologna"
-    },
-    {
-      "initial": "F",
-      "name": "Francesca D.",
-      "message": " ha confermato il suo ordine",
-      "time": "21 minuti fa, Firenze"
-    },
-    {
-      "initial": "R",
-      "name": "Roberto L.",
-      "message": " ha appena acquistato Fresh Air Pro",
-      "time": "27 minuti fa, Bari"
-    },
-    {
-      "initial": "C",
-      "name": "Claudia V.",
-      "message": " ha completato l'ordine in 30 secondi",
-      "time": "33 minuti fa, Genova"
-    }
-  ],
   "headline": {
     "rating_label": "★★★★★ 4,8/5 — Oltre 3.842 clienti soddisfatti",
     "title": "DIMENTICATE LE BOLLETTE ELEVATE: Fresh Air Pro 4 in 1 riscalda, raffredda, purifica l'aria e riduce i costi energetici di oltre l'80%.",
@@ -82,8 +32,8 @@
   ],
   "price": {
     "label": "OFFERTA SPECIALE -50%",
-    "anchor": "159,80",
-    "final": "79,90",
+    "anchor": "138,00",
+    "final": "69,00",
     "currency": "€",
     "discount": "-50%"
   },
@@ -102,7 +52,7 @@
       "address_placeholder": "Via, civico, città, CAP",
       "address_error": "Inserisci un indirizzo completo (almeno 10 caratteri)"
     },
-    "cta_button": "✓ CONFERMA L'ORDINE — 79,90€",
+    "cta_button": "✓ CONFERMA L'ORDINE — 69,00€",
     "submitting_label": "Invio in corso...",
     "trust_below": "★★★★★ Valutato 4,8/5 da oltre 3.842 clienti soddisfatti",
     "secure_note": "🔒 I tuoi dati sono protetti. Non spam, non telemarketing, solo conferma ordine."
@@ -273,7 +223,7 @@
   },
   "incentive_2": {
     "title": "⏰ ULTIMA POSSIBILITÀ — L'offerta scade oggi",
-    "text": "Il prezzo di lancio a 79,90€ è valido solo fino a esaurimento scorte. Dopodiché il prezzo torna a 159,80€. Non perdere l'occasione — conferma il tuo ordine adesso e ricevilo in 24/48h."
+    "text": "Il prezzo di lancio a 69,00€ è valido solo fino a esaurimento scorte. Dopodiché il prezzo torna a 138,00€. Non perdere l'occasione — conferma il tuo ordine adesso e ricevilo in 24/48h."
   },
   "faq": {
     "title": "Domande frequenti",
@@ -283,12 +233,12 @@
         "a": "Sì, il pagamento alla consegna è il nostro metodo standard. Quando arriva il corriere, paghi in contanti l'importo dell'ordine. Nessun anticipo, nessuna carta richiesta. Più sicuro così: vedi il prodotto prima di pagarlo."
       },
       {
-        "q": "Quanto dura davvero la batteria?",
-        "a": "Le 2 batterie incluse offrono fino a 6 ore di autonomia totale. Su un uso intenso (erba alta, arbusti) durano circa 4 ore. Il caricabatterie rapido riempie una batteria in circa 60 minuti, quindi puoi sempre alternarle."
+        "q": "Serve davvero nessuna installazione?",
+        "a": "Sì. Fresh Air Pro è plug & play: basta collegarlo alla presa, premere ON e in pochi minuti goditi aria fresca o calda. Nessun tecnico, nessuna unità esterna, nessun foro nel muro."
       },
       {
-        "q": "Funziona anche su sterpaglie e arbusti grossi?",
-        "a": "Sì. Cambiando testa di taglio (lama a 3 punte o disco metallico) tagli anche rami fino a 2 cm di diametro, sterpaglie, ortica e rovi. Il motore brushless 48V mantiene la potenza costante anche sotto sforzo."
+        "q": "Riscalda e raffredda davvero fino a 120 m²?",
+        "a": "Sì. Fresh Air Pro raffredda fino a 16 °C o riscalda fino a 42 °C in ambienti fino a 120 m². È un condizionatore 4 in 1: raffredda, riscalda, deumidifica e purifica l'aria con filtro HEPA."
       },
       {
         "q": "Se non sono soddisfatto posso restituirlo?",
@@ -318,5 +268,55 @@
       "Calle Aragón 150",
       "08011 Barcelona, Spagna"
     ]
-  }
+  },
+  "popup_purchases": [
+    {
+      "initial": "M",
+      "name": "Marco R.",
+      "message": " ha appena ordinato Fresh Air Pro",
+      "time": "2 minuti fa, Roma"
+    },
+    {
+      "initial": "L",
+      "name": "Laura B.",
+      "message": " ha appena confermato l'ordine",
+      "time": "5 minuti fa, Milano"
+    },
+    {
+      "initial": "G",
+      "name": "Giorgio T.",
+      "message": " ha appena acquistato Fresh Air Pro",
+      "time": "8 minuti fa, Torino"
+    },
+    {
+      "initial": "S",
+      "name": "Silvia M.",
+      "message": " ha completato l'ordine",
+      "time": "12 minuti fa, Napoli"
+    },
+    {
+      "initial": "A",
+      "name": "Andrea P.",
+      "message": " ha appena ordinato (consegna domani)",
+      "time": "15 minuti fa, Bologna"
+    },
+    {
+      "initial": "F",
+      "name": "Francesca D.",
+      "message": " ha confermato il suo ordine",
+      "time": "21 minuti fa, Firenze"
+    },
+    {
+      "initial": "R",
+      "name": "Roberto L.",
+      "message": " ha appena acquistato Fresh Air Pro",
+      "time": "27 minuti fa, Bari"
+    },
+    {
+      "initial": "C",
+      "name": "Claudia V.",
+      "message": " ha completato l'ordine in 30 secondi",
+      "time": "33 minuti fa, Genova"
+    }
+  ]
 }

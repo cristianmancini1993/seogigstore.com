@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "title": "Objednávka přijata — Vyčkejte na potvrzovací hovor | Fresh Air Pro",
+    "description": "Vaše objednávka Fresh Air Pro byla zaregistrována. Chybí poslední krok: zvedněte potvrzovací hovor.",
+    "currency": "CZK",
+    "price": "1999"
+  },
+  "headline_warning": {
+    "loader_percent": "90%",
+    "title": "Vaše objednávka byla úspěšně zaregistrována!",
+    "text": "Skvělé — objednávka se zpracovává. Zbývá už jen poslední krok k dokončení a odeslání."
+  },
+  "next_steps": {
+    "title": "📋 Co bude následovat",
+    "subtitle": "DOKONČETE OBJEDNÁVKU ZA 30 SEKUND",
+    "steps": [
+      {
+        "title": "Zvedněte hovor a <strong>potvrďte své údaje</strong>",
+        "text": ""
+      },
+      {
+        "title": "Objednávka bude odeslána do <strong>24–48 hodin</strong>",
+        "text": ""
+      },
+      {
+        "title": "Doručení domů a <strong>platba na dobírku</strong>",
+        "text": ""
+      }
+    ]
+  },
+  "stock_warning": {
+    "icon": "🚨",
+    "title": "📞 Zvedněte potvrzovací hovor",
+    "text": "Pokud hovor nezvednete, objednávka bude automaticky zrušena."
+  },
+  "call_hours": {
+    "icon": "🕒",
+    "title": "🕒 Kontaktní hodiny",
+    "hours": [
+      "Pondělí – Sobota · 9:00 – 18:00"
+    ],
+    "promise_title": "🔒 Platba na dobírku",
+    "promise_text": "🔒 Vaše údaje jsou chráněny. Žádný spam, žádný telemarketing, pouze potvrzení objednávky."
+  },
+  "product_recall": {
+    "image_alt": "Fresh Air Pro",
+    "title": "ZAPOMEŇTE NA VYSOKÉ ÚČTY ZA ENERGII: Fresh Air Pro 4 v 1 vyhřívá, chladí, čistí vzduch a snižuje náklady na energii o více než 80 %.",
+    "text": "Nástěnná klimatizace pro interiér během několika minut výrazně sníží teplotu. Stačí ji zapojit do zásuvky, stisknout ON a okamžitě si užít čerstvý, čistý vzduch. Žádná instalace, žádné čekání, doručení domů do 24 hodin.",
+    "whatsapp_button": "",
+    "whatsapp_link": ""
+  }
+}

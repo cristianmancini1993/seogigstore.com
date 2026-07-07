@@ -1,0 +1,397 @@
+{
+  "lang": "it",
+  "html_lang": "it",
+  "country_name": "Italia",
+  "delivery_country": "in Italia",
+  "offer_name_suffix": "IT",
+  "offer_id": 3990,
+  "cookie": {
+    "text": "Usiamo cookie tecnici e di terze parti per migliorare la tua esperienza e per analisi.",
+    "accept": "Accetta",
+    "learn": "Scopri di più"
+  },
+  "footer": {
+    "info_heading": "Informazioni",
+    "contact_heading": "Contatti",
+    "about": "Chi siamo",
+    "contact": "Contattaci",
+    "privacy": "Privacy Policy",
+    "terms": "Termini e Condizioni",
+    "cookies": "Cookie Policy",
+    "shipping": "Politica di Spedizione",
+    "refund": "Politica di Rimborso",
+    "rights": "Tutti i diritti riservati"
+  },
+  "popup_purchases": [
+    {
+      "initial": "M",
+      "name": "Marco R.",
+      "message": " ha appena ordinato Fresh Air Pro",
+      "time": "2 minuti fa, Roma"
+    },
+    {
+      "initial": "L",
+      "name": "Laura B.",
+      "message": " ha appena confermato l'ordine",
+      "time": "5 minuti fa, Milano"
+    },
+    {
+      "initial": "G",
+      "name": "Giorgio T.",
+      "message": " ha appena acquistato Fresh Air Pro",
+      "time": "8 minuti fa, Torino"
+    },
+    {
+      "initial": "S",
+      "name": "Silvia M.",
+      "message": " ha completato l'ordine",
+      "time": "12 minuti fa, Napoli"
+    },
+    {
+      "initial": "A",
+      "name": "Andrea P.",
+      "message": " ha appena ordinato (consegna domani)",
+      "time": "15 minuti fa, Bologna"
+    },
+    {
+      "initial": "F",
+      "name": "Francesca D.",
+      "message": " ha confermato il suo ordine",
+      "time": "21 minuti fa, Firenze"
+    },
+    {
+      "initial": "R",
+      "name": "Roberto L.",
+      "message": " ha appena acquistato Fresh Air Pro",
+      "time": "27 minuti fa, Bari"
+    },
+    {
+      "initial": "C",
+      "name": "Claudia V.",
+      "message": " ha completato l'ordine in 30 secondi",
+      "time": "33 minuti fa, Genova"
+    }
+  ],
+  "landing": {
+    "meta": {
+      "title": "Condizionatore d'aria a parete 4 in 1, senza unità esterna e installazione, riscalda, raffredda e deumidifica ambienti fino a 120 m² in pochi minuti",
+      "description": "Fresh Air Pro: condizionatore d'aria a parete 4 in 1 senza unità esterna. Riscalda, raffredda e deumidifica fino a 120 m² in pochi minuti. -50% solo oggi, pagamento alla consegna, spedizione gratuita 24/48h.",
+      "og_image": "/assets/img/products/fresh-air-pro/og-image.jpg",
+      "currency": "EUR",
+      "price": "69.00"
+    },
+    "banner_urgency": {
+      "main": "🔥 OFFERTA -50%: Solo oggi 69€ invece di 138€",
+      "sub": "Spedizione GRATUITA in 24/48h • Pagamento alla consegna • Ultimi pezzi disponibili"
+    },
+    "headline": {
+      "rating_label": "★★★★★ 4,8/5 — Oltre 3.842 clienti soddisfatti",
+      "title": "DIMENTICATE LE BOLLETTE ELEVATE: Fresh Air Pro 4 in 1 riscalda, raffredda, purifica l'aria e riduce i costi energetici di oltre l'80%.",
+      "subtitle": "Il condizionatore d'aria split per interni riduce sensibilmente il calore in pochi minuti. Basta collegarlo alla presa, premere ON e godersi immediatamente aria fresca, pulita e pulita. Nessun lavoro di installazione, nessun tempo di attesa, consegna a domicilio in 24 ore.",
+      "image_alt": "Fresh Air Pro — condizionatore d'aria a parete 4 in 1 con telecomando, app Wi-Fi e filtro HEPA"
+    },
+    "bullets": [
+      {
+        "text": "Raffredda fino a 16 °C o riscalda fino a 42 °C un ambiente di 120 m²"
+      },
+      {
+        "text": "4 in 1: Raffredda, riscalda, deumidifica e filtra l'aria"
+      },
+      {
+        "text": "Riduce i costi dell'80%: Basso consumo energetico A+++"
+      },
+      {
+        "text": "Installazione plug & play: collega alla presa, premi ON e in pochi minuti l'ambiente è fresco"
+      }
+    ],
+    "price": {
+      "label": "OFFERTA SPECIALE -50%",
+      "anchor": "138,00",
+      "final": "69,00",
+      "currency": "€",
+      "discount": "-50%"
+    },
+    "scarcity_text": "⚠️ Restano solo 14 pezzi al prezzo scontato. Conferma ora per non perdere l'offerta.",
+    "form": {
+      "title": "COMPLETA L'ORDINE IN 30 SECONDI",
+      "subtitle": "Compila il modulo qui sotto. Verrai contattato entro 1 ora per confermare consegna e indirizzo.",
+      "fields": {
+        "name_label": "Nome e cognome *",
+        "name_placeholder": "Es. Mario Rossi",
+        "name_error": "Inserisci nome e cognome (almeno 3 caratteri)",
+        "phone_label": "Numero di telefono *",
+        "phone_placeholder": "Es. 333 1234567",
+        "phone_error": "Inserisci un numero di telefono valido",
+        "address_label": "Indirizzo di consegna *",
+        "address_placeholder": "Via, civico, città, CAP",
+        "address_error": "Inserisci un indirizzo completo (almeno 10 caratteri)"
+      },
+      "cta_button": "✓ CONFERMA L'ORDINE — 69,00€",
+      "submitting_label": "Invio in corso...",
+      "trust_below": "★★★★★ Valutato 4,8/5 da oltre 3.842 clienti soddisfatti",
+      "secure_note": "🔒 I tuoi dati sono protetti. Non spam, non telemarketing, solo conferma ordine."
+    },
+    "guarantees": [
+      {
+        "icon": "🚚",
+        "title": "Consegna 24/48h",
+        "sub": "Spedizione gratuita ovunque in Italia"
+      },
+      {
+        "icon": "💵",
+        "title": "Paghi alla consegna",
+        "sub": "Solo quando ricevi il prodotto"
+      },
+      {
+        "icon": "↩️",
+        "title": "Reso 30 giorni",
+        "sub": "Soddisfatti o rimborsati"
+      },
+      {
+        "icon": "🛡️",
+        "title": "Garanzia 24 mesi",
+        "sub": "Su difetti di fabbrica"
+      }
+    ],
+    "macro_review": {
+      "photo_alt": "Giulia M. — cliente verificata con Fresh Air Pro in camera da letto",
+      "quote": "«Avevo bisogno di una soluzione pratica perché non potevo installare un climatizzatore tradizionale. Fresh Air Pro è stato una piacevole scoperta: in pochi minuti la stanza è molto più fresca e l'aria si sente meno umida. È semplice da usare, silenzioso e il controllo tramite app è davvero comodo. Per quello che costa, è stato uno dei migliori acquisti fatti quest'anno.»",
+      "author": "Giulia M.",
+      "credentials": "Cliente verificata, Milano",
+      "stars": "★★★★★"
+    },
+    "competitor_destruction": {
+      "title": "Fresh Air Pro vs condizionatore tradizionale",
+      "subtitle": "Perché sempre più famiglie scelgono il comfort plug & play",
+      "headers": [
+        "Condizionatore Tradizionale",
+        "Fresh Air Pro"
+      ],
+      "rows": [
+        {
+          "bad": "❌ Installazione costosa con tecnico e lavori in casa",
+          "good": "✅ Nessuna installazione: pronto all'uso in pochi minuti"
+        },
+        {
+          "bad": "❌ Richiede un'unità esterna, spesso vietata in alcuni edifici",
+          "good": "✅ Senza unità esterna, ideale per qualsiasi abitazione"
+        },
+        {
+          "bad": "❌ Solo raffreddamento (o richiede una pompa di calore costosa)",
+          "good": "✅ 4 in 1: raffredda, riscalda, deumidifica e purifica l'aria"
+        },
+        {
+          "bad": "❌ Consumi elevati e bollette pesanti durante tutto l'anno",
+          "good": "✅ Classe energetica A+++ con consumi ridotti fino all'80%*"
+        },
+        {
+          "bad": "❌ Installazione fissa: non puoi spostarlo facilmente",
+          "good": "✅ Compatto e utilizzabile dove serve"
+        },
+        {
+          "bad": "❌ Controllo limitato al telecomando o ai comandi sul dispositivo",
+          "good": "✅ Controllo smart tramite App Wi-Fi + telecomando"
+        },
+        {
+          "bad": "❌ Tempi lunghi per installazione e messa in funzione",
+          "good": "✅ Accendi e goditi il comfort in pochi minuti"
+        },
+        {
+          "bad": "❌ Richiede opere murarie e manutenzione dell'impianto",
+          "good": "✅ Nessun lavoro in casa e manutenzione minima"
+        }
+      ]
+    },
+    "reviews": [
+      {
+        "name": "Marco R.",
+        "location": "Milano, Italia",
+        "stars": "★★★★★",
+        "title": "Soluzione perfetta senza lavori in casa",
+        "text": "Sono rimasto davvero sorpreso. Cercavo una soluzione che non richiedesse lavori in casa e Fresh Air Pro è stato perfetto. Raffredda il soggiorno molto velocemente ed è davvero semplice da usare tramite app. Ottimo rapporto qualità-prezzo.",
+        "photo_alt": "Marco R. — Milano",
+        "verified": true
+      },
+      {
+        "name": "Giulia T.",
+        "location": "Bologna, Italia",
+        "stars": "★★★★★",
+        "title": "Finalmente posso dormire senza soffrire il caldo",
+        "text": "Finalmente posso dormire senza soffrire il caldo. È silenzioso e la funzione deumidificatore fa davvero la differenza nelle giornate più afose. Lo consiglio a chi vive in appartamento e non può installare un climatizzatore tradizionale.",
+        "photo_alt": "Giulia T. — Bologna",
+        "verified": true
+      },
+      {
+        "name": "Andrea M.",
+        "location": "Torino, Italia",
+        "stars": "★★★★★",
+        "title": "Riscalda e raffredda molto bene",
+        "text": "L'ho acquistato principalmente per il riscaldamento in inverno e il raffrescamento in estate. Fa entrambe le cose molto bene e il telecomando è comodissimo. Arrivato in due giorni e pronto all'uso.",
+        "photo_alt": "Andrea M. — Torino",
+        "verified": true
+      },
+      {
+        "name": "Sara L.",
+        "location": "Verona, Italia",
+        "stars": "★★★★★",
+        "title": "Facilissimo da utilizzare",
+        "text": "Facilissimo da utilizzare. Mi piace il fatto che oltre a raffreddare filtri anche l'aria. L'ho messo nello studio dove lavoro da casa e l'ambiente è diventato molto più confortevole. Soddisfatta dell'acquisto.",
+        "photo_alt": "Sara L. — Verona",
+        "verified": true
+      },
+      {
+        "name": "Luca P.",
+        "location": "Firenze, Italia",
+        "stars": "★★★★★",
+        "title": "Convinto fin dal primo utilizzo",
+        "text": "Ero scettico, invece mi ha convinto fin dal primo utilizzo. Nessuna installazione, consumi contenuti e raffrescamento rapido. Anche l'app funziona bene e permette di accenderlo prima di rientrare a casa.",
+        "photo_alt": "Luca P. — Firenze",
+        "verified": true
+      },
+      {
+        "name": "Elena C.",
+        "location": "Napoli, Italia",
+        "stars": "★★★★★",
+        "title": "Ottimo prodotto tutto l'anno",
+        "text": "Ottimo prodotto. In estate raffredda velocemente la camera e in inverno lo uso per riscaldare senza accendere subito i termosifoni. È pratico, silenzioso e il servizio clienti è stato molto disponibile.",
+        "photo_alt": "Elena C. — Napoli",
+        "verified": true
+      }
+    ],
+    "package_content": {
+      "title": "Cosa trovi nel pacco Fresh Air Pro",
+      "subtitle": "Tutto incluso — plug & play, nessuna installazione",
+      "image_alt": "Contenuto della confezione Fresh Air Pro",
+      "items": [
+        {
+          "text": "<strong>1× Fresh Air Pro</strong> per raffreddamento, riscaldamento, deumidificazione e ventilazione"
+        },
+        {
+          "text": "📡 1 telecomando wireless con batteria inclusa"
+        },
+        {
+          "text": "📱 Controllo intelligente tramite app con connessione Wi-Fi"
+        },
+        {
+          "text": "🔁 Rotazione automatica di 115° per una distribuzione più uniforme"
+        },
+        {
+          "text": "💨 Filtro HEPA + ionizzatore per un'aria più pulita e piacevole"
+        },
+        {
+          "text": "🔇 Funzionamento silenzioso: solo 53,1 dB"
+        },
+        {
+          "text": "🚫 Nessuna installazione, nessun tubo flessibile, nessuna unità esterna"
+        },
+        {
+          "text": "🚚 Consegna rapida in 24-48 ore + pagamento alla consegna"
+        },
+        {
+          "text": "🔒 Garanzia di 2 anni inclusa nell'ordine"
+        },
+        {
+          "text": "Prodotto certificato CE · ⚙️ Controllo qualità · 💬 Assistenza clienti"
+        }
+      ]
+    },
+    "incentive_2": {
+      "title": "⏰ ULTIMA POSSIBILITÀ — L'offerta scade oggi",
+      "text": "Il prezzo di lancio a 69,00€ è valido solo fino a esaurimento scorte. Dopodiché il prezzo torna a 138,00€. Non perdere l'occasione — conferma il tuo ordine adesso e ricevilo in 24/48h."
+    },
+    "faq": {
+      "title": "Domande frequenti",
+      "items": [
+        {
+          "q": "Posso davvero pagare alla consegna, senza carta?",
+          "a": "Sì, il pagamento alla consegna è il nostro metodo standard. Quando arriva il corriere, paghi in contanti l'importo dell'ordine. Nessun anticipo, nessuna carta richiesta. Più sicuro così: vedi il prodotto prima di pagarlo."
+        },
+        {
+          "q": "Serve davvero nessuna installazione?",
+          "a": "Sì. Fresh Air Pro è plug & play: basta collegarlo alla presa, premere ON e in pochi minuti goditi aria fresca o calda. Nessun tecnico, nessuna unità esterna, nessun foro nel muro."
+        },
+        {
+          "q": "Riscalda e raffredda davvero fino a 120 m²?",
+          "a": "Sì. Fresh Air Pro raffredda fino a 16 °C o riscalda fino a 42 °C in ambienti fino a 120 m². È un condizionatore 4 in 1: raffredda, riscalda, deumidifica e purifica l'aria con filtro HEPA."
+        },
+        {
+          "q": "Se non sono soddisfatto posso restituirlo?",
+          "a": "Certo. Hai 30 giorni dalla consegna per restituirlo se non ti soddisfa. Reso gratuito, rimborso completo. Nessuna domanda, nessuna penale. Garanzia ufficiale di 24 mesi su difetti di fabbrica."
+        },
+        {
+          "q": "I miei dati personali sono al sicuro?",
+          "a": "Assolutamente sì. Usiamo i tuoi dati solo per gestire la consegna e contattarti per la conferma. Niente spam, niente telemarketing, niente cessione a terzi. Conformi al GDPR. Puoi vedere la nostra Privacy Policy nel footer."
+        },
+        {
+          "q": "Quanto tempo ci mette la consegna?",
+          "a": "24-48 ore lavorative dopo la conferma telefonica. La spedizione è gratuita ovunque in Italia. Riceverai un SMS con il numero di tracking quando il corriere parte."
+        },
+        {
+          "q": "Come faccio a confermare l'ordine adesso?",
+          "a": "È semplicissimo. Compila il modulo qui sopra con nome, telefono e indirizzo. Un nostro operatore ti chiamerà entro 1 ora per confermare. Ricevi Fresh Air Pro in 24/48h e paghi solo alla consegna. ✓ CONFERMA ORA"
+        }
+      ]
+    },
+    "footer": {
+      "tagline": "Prodotti utili per la vita quotidiana, consegna in 24-48 ore con pagamento alla consegna.",
+      "company_heading": "Azienda",
+      "policies_heading": "Informazioni legali",
+      "contact_heading": "Contatti",
+      "company_info": [
+        "<strong>TERRA-STITCH INTERNATIONAL S.L.</strong>",
+        "Calle Aragón 150",
+        "08011 Barcelona, Spagna"
+      ]
+    },
+    "popup_purchases": [
+      {
+        "initial": "M",
+        "name": "Marco R.",
+        "message": " ha appena ordinato Fresh Air Pro",
+        "time": "2 minuti fa, Roma"
+      },
+      {
+        "initial": "L",
+        "name": "Laura B.",
+        "message": " ha appena confermato l'ordine",
+        "time": "5 minuti fa, Milano"
+      },
+      {
+        "initial": "G",
+        "name": "Giorgio T.",
+        "message": " ha appena acquistato Fresh Air Pro",
+        "time": "8 minuti fa, Torino"
+      },
+      {
+        "initial": "S",
+        "name": "Silvia M.",
+        "message": " ha completato l'ordine",
+        "time": "12 minuti fa, Napoli"
+      },
+      {
+        "initial": "A",
+        "name": "Andrea P.",
+        "message": " ha appena ordinato (consegna domani)",
+        "time": "15 minuti fa, Bologna"
+      },
+      {
+        "initial": "F",
+        "name": "Francesca D.",
+        "message": " ha confermato il suo ordine",
+        "time": "21 minuti fa, Firenze"
+      },
+      {
+        "initial": "R",
+        "name": "Roberto L.",
+        "message": " ha appena acquistato Fresh Air Pro",
+        "time": "27 minuti fa, Bari"
+      },
+      {
+        "initial": "C",
+        "name": "Claudia V.",
+        "message": " ha completato l'ordine in 30 secondi",
+        "time": "33 minuti fa, Genova"
+      }
+    ]
+  }
+}

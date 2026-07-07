@@ -1,0 +1,322 @@
+{
+  "meta": {
+    "title": "4 vienā sienas gaisa kondicionieris bez ārējā bloka un montāžas — silda, dzesē un mitrumu noņem telpās līdz 120 m² dažu minūšu laikā",
+    "description": "Fresh Air Pro: 4 vienā sienas gaisa kondicionieris bez ārējā bloka. Silda, dzesē un mitrumu noņem līdz 120 m² dažu minūšu laikā. -50 % tikai šodien, apmaksa piegādes brīdī, bezmaksas piegāde 24/48 stundās.",
+    "og_image": "/assets/img/products/fresh-air-pro/og-image.jpg",
+    "currency": "EUR",
+    "price": "99.00"
+  },
+  "banner_urgency": {
+    "main": "🔥 AKCIJA -50 %: Tikai šodien 99 € vietoj 198 €",
+    "sub": "BEZMAKSAS piegāde 24/48 stundās • Apmaksa piegādes brīdī • Atlikušas pēdējās vienības"
+  },
+  "headline": {
+    "rating_label": "★★★★★ 4,8/5 — Vairāk nekā 3 842 apmierināti klienti",
+    "title": "AIZMIRSTIET PAR AUGSTIEM RĒĶINIEM: Fresh Air Pro 4 vienā silda, dzesē, attīra gaisu un samazina enerģijas izmaksas vairāk nekā par 80 %.",
+    "subtitle": "Šis iekštelpu gaisa kondicionieris dažu minūšu laikā ievērojami samazina karstumu. Vienkārši pievienojiet kontaktligzdai, nospiediet ON un uzreiz baudiet svaigu, tīru gaisu. Bez montāžas, bez gaidīšanas — piegāde uz mājām 24 stundu laikā.",
+    "image_alt": "Fresh Air Pro — 4 vienā sienas gaisa kondicionieris ar tālvadības pulti, Wi-Fi lietotni un HEPA filtru"
+  },
+  "bullets": [
+    {
+      "text": "Dzesē līdz 16 °C vai silda līdz 42 °C telpā līdz 120 m²"
+    },
+    {
+      "text": "4 vienā: dzesē, silda, mitrumu noņem un filtrē gaisu"
+    },
+    {
+      "text": "Samazina izmaksas par 80 %: A+++ energoefektivitātes klase"
+    },
+    {
+      "text": "Plug & play uzstādīšana: pievienojiet kontaktligzdai, nospiediet ON — dažu minūšu laikā telpa atdziest"
+    }
+  ],
+  "form": {
+    "title": "PABEIGIET PASŪTĪJUMU 30 SEKUNDĒS",
+    "subtitle": "Aizpildiet zemāk esošo formu. Mēs sazināsimies ar jums 1 stundas laikā, lai apstiprinātu piegādi un adresi.",
+    "fields": {
+      "name_label": "Vārds un uzvārds *",
+      "name_placeholder": "Piem. Jānis Bērziņš",
+      "name_error": "Ievadiet vārdu un uzvārdu (vismaz 3 simboli)",
+      "phone_label": "Tālruņa numurs *",
+      "phone_placeholder": "Piem. 2 1234567",
+      "phone_error": "Ievadiet derīgu tālruņa numuru",
+      "address_label": "Piegādes adrese *",
+      "address_placeholder": "Iela, mājas nr., pilsēta, pasta indekss",
+      "address_error": "Ievadiet pilnu adresi (vismaz 10 simboli)"
+    },
+    "cta_button": "✓ APSTIPRINĀT PASŪTĪJUMU — 99,00 €",
+    "submitting_label": "Nosūta...",
+    "trust_below": "★★★★★ Vērtējums 4,8/5 — vairāk nekā 3 842 apmierināti klienti",
+    "secure_note": "🔒 Jūsu dati ir aizsargāti. Nav surogātpasta, nav telemārketinga — tikai pasūtījuma apstiprinājums."
+  },
+  "guarantees": [
+    {
+      "icon": "🚚",
+      "title": "Piegāde 24/48 stundās",
+      "sub": "Bezmaksas piegāde visā Latvijā"
+    },
+    {
+      "icon": "💵",
+      "title": "Maksājat piegādes brīdī",
+      "sub": "Tikai kad saņemat preci"
+    },
+    {
+      "icon": "↩️",
+      "title": "30 dienu atgriešana",
+      "sub": "Apmierināti vai atmaksājam naudu"
+    },
+    {
+      "icon": "🛡️",
+      "title": "24 mēnešu garantija",
+      "sub": "Ražošanas defektu gadījumā"
+    }
+  ],
+  "macro_review": {
+    "photo_alt": "Līga M. — apstiprināta kliente ar Fresh Air Pro guļamistabā",
+    "quote": "«Man vajadzēja praktisku risinājumu, jo nevarēju uzstādīt tradicionālo kondicionieri. Fresh Air Pro bija patīkams pārsteigums: dažu minūšu laikā istaba kļūst daudz vēsāka, un gaiss jūtas mazāk mitrs. Vienkārši lietojams, kluss, un vadība caur lietotni ļoti ērta. Par šo cenu — viens no labākajiem pirkumiem šogad.»",
+    "author": "Līga M.",
+    "credentials": "Apstiprināta kliente, Rīga",
+    "stars": "★★★★★"
+  },
+  "competitor_destruction": {
+    "title": "Fresh Air Pro vs tradicionālais gaisa kondicionieris",
+    "subtitle": "Kāpēc arvien vairāk ģimeņu izvēlas plug & play komfortu",
+    "headers": [
+      "Tradicionālais kondicionieris",
+      "Fresh Air Pro"
+    ],
+    "rows": [
+      {
+        "bad": "❌ Dārga montāža ar speciālistu un darbiem mājās",
+        "good": "✅ Bez montāžas: gatavs lietošanai dažu minūšu laikā"
+      },
+      {
+        "bad": "❌ Nepieciešams ārējais bloks, bieži aizliegts dažos ēkās",
+        "good": "✅ Bez ārējā bloka — ideāls jebkurai dzīvoklim"
+      },
+      {
+        "bad": "❌ Tikai dzesēšana (vai dārgs siltumsūknis)",
+        "good": "✅ 4 vienā: dzesē, silda, mitrumu noņem un attīra gaisu"
+      },
+      {
+        "bad": "❌ Augstas izmaksas un lieli rēķini visu gadu",
+        "good": "✅ A+++ klase — izmaksas samazinātas līdz 80 %*"
+      },
+      {
+        "bad": "❌ Fiksēta uzstādīšana — grūti pārvietot",
+        "good": "✅ Kompakts — lietojiet tur, kur vajag"
+      },
+      {
+        "bad": "❌ Vadība tikai ar pulti vai uz ierīces",
+        "good": "✅ Viedā vadība caur Wi-Fi lietotni + pults"
+      },
+      {
+        "bad": "❌ Ilga montāža un iedarbināšana",
+        "good": "✅ Ieslēdziet un baudiet komfortu dažu minūšu laikā"
+      },
+      {
+        "bad": "❌ Nepieciešami būvdarbi un sistēmas apkope",
+        "good": "✅ Bez darbiem mājās un minimāla apkope"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "name": "Mārtiņš R.",
+      "location": "Rīga, Latvija",
+      "stars": "★★★★★",
+      "title": "Perfekts risinājums bez darbiem mājās",
+      "text": "Biju patiesi pārsteigts. Meklēju risinājumu bez būvdarbiem, un Fresh Air Pro bija ideāls. Ļoti ātri atdzesē viesistabu, un lietot lietotni ir ļoti vienkārši. Lieliska cenas un kvalitātes attiecība.",
+      "photo_alt": "Mārtiņš R. — Rīga",
+      "verified": true
+    },
+    {
+      "name": "Līga T.",
+      "location": "Daugavpils, Latvija",
+      "stars": "★★★★★",
+      "title": "Beidzot varu gulēt bez karstuma",
+      "text": "Beidzot varu gulēt bez karstuma. Kluss, un mitruma noņemšanas funkcija tiešām palīdz mitrās dienās. Iesaku tiem, kas dzīvo dzīvoklī un nevar uzstādīt tradicionālo kondicionieri.",
+      "photo_alt": "Līga T. — Daugavpils",
+      "verified": true
+    },
+    {
+      "name": "Andris M.",
+      "location": "Liepāja, Latvija",
+      "stars": "★★★★★",
+      "title": "Lieliski silda un dzesē",
+      "text": "Pirku galvenokārt sildīšanai ziemā un dzesēšanai vasarā. Abi darbojas ļoti labi, un pults ir ļoti ērta. Piegādāts divu dienu laikā un gatavs lietošanai.",
+      "photo_alt": "Andris M. — Liepāja",
+      "verified": true
+    },
+    {
+      "name": "Sandra L.",
+      "location": "Jelgava, Latvija",
+      "stars": "★★★★★",
+      "title": "Ļoti viegli lietot",
+      "text": "Ļoti viegli lietot. Patīk, ka papildus dzesēšanai arī filtrē gaisu. Novietoju mājas birojā — vide kļuva daudz komfortablāka. Apmierināta ar pirkumu.",
+      "photo_alt": "Sandra L. — Jelgava",
+      "verified": true
+    },
+    {
+      "name": "Lauris P.",
+      "location": "Jūrmala, Latvija",
+      "stars": "★★★★★",
+      "title": "Pārliecināja jau pirmajā lietošanā",
+      "text": "Biju skeptisks, bet pārliecināja jau pirmajā reizē. Bez montāžas, zemas izmaksas un ātra dzesēšana. Lietotne arī darbojas labi — varu ieslēgt pirms atgriežos mājās.",
+      "photo_alt": "Lauris P. — Jūrmala",
+      "verified": true
+    },
+    {
+      "name": "Elīna C.",
+      "location": "Ventspils, Latvija",
+      "stars": "★★★★★",
+      "title": "Lielisks produkts visu gadu",
+      "text": "Lielisks produkts. Vasarā ātri atdzesē guļamistabu, ziemā lietoju sildīšanai, neieslēdzot radiatorus. Praktisks, kluss, un klientu apkalpošana bija ļoti pretimnākoša.",
+      "photo_alt": "Elīna C. — Ventspils",
+      "verified": true
+    }
+  ],
+  "package_content": {
+    "title": "Ko atradīsiet Fresh Air Pro iepakojumā",
+    "subtitle": "Viss iekļauts — plug & play, bez montāžas",
+    "image_alt": "Fresh Air Pro iepakojuma saturs",
+    "items": [
+      {
+        "text": "<strong>1× Fresh Air Pro</strong> dzesēšanai, sildīšanai, mitruma noņemšanai un ventilācijai"
+      },
+      {
+        "text": "📡 1 bezvadu pults ar bateriju"
+      },
+      {
+        "text": "📱 Viedā vadība caur lietotni ar Wi-Fi savienojumu"
+      },
+      {
+        "text": "🔁 Automātiska 115° rotācija vienmērīgākai gaisa sadalei"
+      },
+      {
+        "text": "💨 HEPA filtrs + jonizators tīrākam gaisam"
+      },
+      {
+        "text": "🔇 Klusa darbība: tikai 53,1 dB"
+      },
+      {
+        "text": "🚫 Bez montāžas, elastīgajām caurulēm vai ārējā bloka"
+      },
+      {
+        "text": "🚚 Ātra piegāde 24–48 stundās + apmaksa piegādes brīdī"
+      },
+      {
+        "text": "🔒 2 gadu garantija iekļauta pasūtījumā"
+      },
+      {
+        "text": "CE sertificēts produkts · ⚙️ Kvalitātes kontrole · 💬 Klientu atbalsts"
+      }
+    ]
+  },
+  "incentive_2": {
+    "title": "⏰ PĒDĒJĀ IESPĒJA — piedāvājums beidzas šodien",
+    "text": "Izlaišanas cena 99,00 € ir spēkā tikai kamēr ir krājumi. Pēc tam cena atgriežas uz 198,00 €. Nepalaidiet garām — apstipriniet pasūtījumu tagad un saņemiet 24/48 stundās."
+  },
+  "faq": {
+    "title": "Biežāk uzdotie jautājumi",
+    "items": [
+      {
+        "q": "Vai tiešām varu maksāt piegādes brīdī, bez kartes?",
+        "a": "Jā, apmaksa piegādes brīdī ir mūsu standarta metode. Kad ierodas kurjers, maksājat skaidrā naudā par pasūtījumu. Bez avansa, bez kartes. Drošāk: vispirms redzat preci, tad maksājat."
+      },
+      {
+        "q": "Vai tiešām nav nepieciešama montāža?",
+        "a": "Jā. Fresh Air Pro ir plug & play: pievienojiet kontaktligzdai, nospiediet ON un dažu minūšu laikā baudiet vēsu vai siltu gaisu. Bez speciālista, bez ārējā bloka, bez cauruma sienā."
+      },
+      {
+        "q": "Vai tiešām silda un dzesē līdz 120 m²?",
+        "a": "Jā. Fresh Air Pro dzesē līdz 16 °C vai silda līdz 42 °C telpās līdz 120 m². Tas ir 4 vienā kondicionieris: dzesē, silda, mitrumu noņem un attīra gaisu ar HEPA filtru."
+      },
+      {
+        "q": "Ja neesmu apmierināts, vai varu atgriezt?",
+        "a": "Protams. Jums ir 30 dienas no piegādes, lai atgrieztu, ja neapmierina. Bezmaksas atgriešana, pilna naudas atmaksa. Bez jautājumiem, bez soda. Oficiāla 24 mēnešu garantija ražošanas defektiem."
+      },
+      {
+        "q": "Vai mani personas dati ir drošībā?",
+        "a": "Absolūti jā. Jūsu datus izmantojam tikai piegādei un pasūtījuma apstiprināšanai. Nav surogātpasta, nav telemārketinga, nav nodošanas trešajām pusēm. Atbilst GDPR. Privātuma politiku atradīsiet lapas apakšā."
+      },
+      {
+        "q": "Cik ilgi ilgst piegāde?",
+        "a": "24–48 darba stundas pēc telefoniskā apstiprinājuma. Piegāde ir bezmaksas visā Latvijā. Saņemsiet SMS ar izsekošanas numuru, kad kurjers dodas ceļā."
+      },
+      {
+        "q": "Kā apstiprināt pasūtījumu tagad?",
+        "a": "Ļoti vienkārši. Aizpildiet formu augšā ar vārdu, tālruni un adresi. Mūsu operators piezvanīs 1 stundas laikā apstiprināšanai. Saņemiet Fresh Air Pro 24/48 stundās un maksājiet tikai piegādes brīdī. ✓ APSTIPRINĀT TAGAD"
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Noderīgi produkti ikdienai — piegāde 24–48 stundās ar apmaksu piegādes brīdī.",
+    "company_heading": "Uzņēmums",
+    "policies_heading": "Juridiskā informācija",
+    "contact_heading": "Kontakti",
+    "company_info": [
+      "<strong>TERRA-STITCH INTERNATIONAL S.L.</strong>",
+      "Calle Aragón 150",
+      "08011 Barcelona, Spānija"
+    ]
+  },
+  "scarcity_text": "⚠️ Atlikušas tikai 14 vienības ar atlaidi. Apstipriniet tagad, lai nepalaistu garām piedāvājumu.",
+  "price": {
+    "label": "ĪPAŠAIS PIEDĀVĀJUMS -50%",
+    "anchor": "198,00",
+    "final": "99,00",
+    "currency": "€",
+    "discount": "-50%"
+  },
+  "popup_purchases": [
+    {
+      "initial": "J",
+      "name": "Jānis B.",
+      "message": " tikko pasūtīja Fresh Air Pro",
+      "time": "pirms 2 minūtēm, Rīga"
+    },
+    {
+      "initial": "L",
+      "name": "Līga K.",
+      "message": " tikko apstiprināja pasūtījumu",
+      "time": "pirms 5 minūtēm, Daugavpils"
+    },
+    {
+      "initial": "E",
+      "name": "Edgars V.",
+      "message": " tikko iegādājās Fresh Air Pro",
+      "time": "pirms 8 minūtēm, Liepāja"
+    },
+    {
+      "initial": "A",
+      "name": "Anna M.",
+      "message": " pabeidza pasūtījumu",
+      "time": "pirms 12 minūtēm, Jelgava"
+    },
+    {
+      "initial": "K",
+      "name": "Kārlis P.",
+      "message": " tikko pasūtīja (piegāde rīt)",
+      "time": "pirms 15 minūtēm, Jūrmala"
+    },
+    {
+      "initial": "I",
+      "name": "Inga D.",
+      "message": " apstiprināja savu pasūtījumu",
+      "time": "pirms 21 minūtes, Ventspils"
+    },
+    {
+      "initial": "R",
+      "name": "Raimonds L.",
+      "message": " tikko iegādājās Fresh Air Pro",
+      "time": "pirms 27 minūtēm, Rēzekne"
+    },
+    {
+      "initial": "S",
+      "name": "Santa B.",
+      "message": " pabeidza pasūtījumu 30 sekundēs",
+      "time": "pirms 33 minūtēm, Valmiera"
+    }
+  ]
+}

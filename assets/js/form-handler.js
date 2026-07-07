@@ -119,7 +119,7 @@
 
     const payload = {
       ...data,
-      id_offerta: getURLParam('offer_id'),
+      id_offerta: getURLParam('offer_id') || C.OFFER_ID || '',
       offer: C.OFFER_NAME || '',
       lp: C.LP_ID || '',
       campaign_id: trackingContext.campaign_id,

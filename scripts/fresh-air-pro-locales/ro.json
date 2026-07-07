@@ -1,0 +1,347 @@
+{
+  "lang": "ro",
+  "html_lang": "ro",
+  "country_name": "România",
+  "delivery_country": "în România",
+  "offer_name_suffix": "RO",
+  "offer_id": "1244",
+  "cookie": {
+    "text": "Folosim cookie-uri tehnice și cookie-uri de la terți pentru a îmbunătăți experiența și pentru analiză.",
+    "accept": "Accept",
+    "learn": "Află mai mult"
+  },
+  "footer": {
+    "info_heading": "Informații",
+    "contact_heading": "Contact",
+    "about": "Despre noi",
+    "contact": "Contactează-ne",
+    "privacy": "Politica de Confidențialitate",
+    "terms": "Termeni și Condiții",
+    "cookies": "Politica Cookie-uri",
+    "shipping": "Politica de Livrare",
+    "refund": "Politica de Returnare",
+    "rights": "Toate drepturile rezervate."
+  },
+  "popup_purchases": [
+    {
+      "initial": "A",
+      "name": "Andrei P.",
+      "message": " tocmai a comandat Fresh Air Pro",
+      "time": "acum 2 minute, București"
+    },
+    {
+      "initial": "M",
+      "name": "Maria D.",
+      "message": " tocmai a confirmat comanda",
+      "time": "acum 5 minute, Cluj-Napoca"
+    },
+    {
+      "initial": "C",
+      "name": "Cristian T.",
+      "message": " tocmai a cumpărat Fresh Air Pro",
+      "time": "acum 8 minute, Timișoara"
+    },
+    {
+      "initial": "E",
+      "name": "Elena M.",
+      "message": " a finalizat comanda",
+      "time": "acum 12 minute, Iași"
+    },
+    {
+      "initial": "D",
+      "name": "Dan R.",
+      "message": " tocmai a comandat (livrare mâine)",
+      "time": "acum 15 minute, Constanța"
+    },
+    {
+      "initial": "I",
+      "name": "Ioana S.",
+      "message": " și-a confirmat comanda",
+      "time": "acum 21 minute, Brașov"
+    },
+    {
+      "initial": "V",
+      "name": "Vlad N.",
+      "message": " tocmai a cumpărat Fresh Air Pro",
+      "time": "acum 27 minute, Sibiu"
+    },
+    {
+      "initial": "R",
+      "name": "Raluca H.",
+      "message": " a finalizat comanda în 30 de secunde",
+      "time": "acum 33 minute, Oradea"
+    }
+  ],
+  "landing": {
+    "meta": {
+      "title": "Aer condiționat de perete 4 în 1, fără unitate exterioară și fără instalare — încălzește, răcește și dezumidifică spații de până la 120 m² în câteva minute",
+      "description": "Fresh Air Pro: aer condiționat de perete 4 în 1 fără unitate exterioară. Răcește, încălzește, dezumidifică și purifică aerul până la 120 m². -50% doar azi, plată la livrare, livrare gratuită 24/48h.",
+      "og_image": "/assets/img/products/fresh-air-pro/og-image.jpg",
+      "currency": "RON",
+      "price": "397"
+    },
+    "banner_urgency": {
+      "main": "🔥 OFERTĂ -50%: Doar azi 397 lei în loc de 794 lei",
+      "sub": "Livrare GRATUITĂ în 24/48h • Plată la livrare • Ultimele bucăți disponibile"
+    },
+    "headline": {
+      "rating_label": "★★★★★ 4,8/5 — Peste 3.842 clienți mulțumiți",
+      "title": "UITAȚI DE FACTURILE MARI: Fresh Air Pro 4 în 1 încălzește, răcește, purifică aerul și reduce costurile energetice cu peste 80%.",
+      "subtitle": "Aparatul de aer condiționat split pentru interior reduce semnificativ căldura în câteva minute. Doar conectați-l la priză, apăsați ON și bucurați-vă imediat de aer proaspăt și curat. Fără instalare, fără așteptare, livrare la domiciliu în 24 de ore.",
+      "image_alt": "Fresh Air Pro — aer condiționat de perete 4 în 1 cu telecomandă, aplicație Wi-Fi și filtru HEPA"
+    },
+    "bullets": [
+      {
+        "text": "Răcește până la 16 °C sau încălzește până la 42 °C un spațiu de 120 m²"
+      },
+      {
+        "text": "4 în 1: răcește, încălzește, dezumidifică și filtrează aerul"
+      },
+      {
+        "text": "Reduce costurile cu 80%: consum redus de energie clasa A+++"
+      },
+      {
+        "text": "Instalare plug & play: conectați la priză, apăsați ON și în câteva minute este răcoare"
+      }
+    ],
+    "price": {
+      "label": "OFERTĂ SPECIALĂ -50%",
+      "anchor": "794",
+      "final": "397",
+      "currency": "lei",
+      "discount": "-50%"
+    },
+    "scarcity_text": "⚠️ Au mai rămas doar 14 bucăți la preț redus. Confirmați acum pentru a nu pierde oferta.",
+    "form": {
+      "title": "FINALIZAȚI COMANDA ÎN 30 DE SECUNDE",
+      "subtitle": "Completați formularul de mai jos. Veți fi contactat în 1 oră pentru a confirma livrarea și adresa.",
+      "fields": {
+        "name_label": "Nume și prenume *",
+        "name_placeholder": "Ex. Ion Popescu",
+        "name_error": "Introduceți numele complet (cel puțin 3 caractere)",
+        "phone_label": "Număr de telefon *",
+        "phone_placeholder": "Ex. +40 722 123 456",
+        "phone_error": "Introduceți un număr de telefon valid",
+        "address_label": "Adresă de livrare *",
+        "address_placeholder": "Stradă, număr, oraș, cod poștal",
+        "address_error": "Introduceți o adresă completă (cel puțin 10 caractere)"
+      },
+      "cta_button": "✓ CONFIRMĂ COMANDA — 397 lei",
+      "submitting_label": "Se trimite...",
+      "trust_below": "★★★★★ Evaluat 4,8/5 de peste 3.842 clienți mulțumiți",
+      "secure_note": "🔒 Datele dvs. sunt protejate. Fără spam, fără telemarketing — doar confirmarea comenzii."
+    },
+    "guarantees": [
+      {
+        "icon": "🚚",
+        "title": "Livrare 24/48h",
+        "sub": "Transport gratuit în toată România"
+      },
+      {
+        "icon": "💵",
+        "title": "Plată la livrare",
+        "sub": "Plătiți doar când primiți produsul"
+      },
+      {
+        "icon": "↩️",
+        "title": "Retur 30 zile",
+        "sub": "Satisfacție sau banii înapoi"
+      },
+      {
+        "icon": "🛡️",
+        "title": "Garanție 24 luni",
+        "sub": "Pentru defecte de fabricație"
+      }
+    ],
+    "macro_review": {
+      "photo_alt": "Ioana M. — clientă verificată cu Fresh Air Pro în dormitor",
+      "quote": "«Aveam nevoie de o soluție practică pentru că nu puteam instala un aparat de aer condiționat tradițional. Fresh Air Pro a fost o descoperire plăcută: în câteva minute camera este mult mai răcoroasă, iar aerul se simte mai puțin umed. Este simplu de folosit, silențios, iar controlul prin aplicație este foarte comod. Pentru prețul lui, a fost una dintre cele mai bune achiziții din acest an.»",
+      "author": "Ioana M.",
+      "credentials": "Clientă verificată, București",
+      "stars": "★★★★★"
+    },
+    "competitor_destruction": {
+      "title": "Fresh Air Pro vs aer condiționat tradițional",
+      "subtitle": "De ce tot mai multe familii aleg confortul plug & play",
+      "headers": [
+        "Aer condiționat tradițional",
+        "Fresh Air Pro"
+      ],
+      "rows": [
+        {
+          "bad": "❌ Instalare costisitoare cu tehnician și lucrări în casă",
+          "good": "✅ Fără instalare: gata de utilizare în câteva minute"
+        },
+        {
+          "bad": "❌ Necesită unitate exterioară, adesea interzisă în unele clădiri",
+          "good": "✅ Fără unitate exterioară — ideal pentru orice locuință"
+        },
+        {
+          "bad": "❌ Doar răcire (sau necesită o pompă de căldură costisitoare)",
+          "good": "✅ 4 în 1: răcește, încălzește, dezumidifică și purifică aerul"
+        },
+        {
+          "bad": "❌ Consum ridicat și facturi mari pe tot parcursul anului",
+          "good": "✅ Clasă energetică A+++ cu consum redus cu până la 80%*"
+        },
+        {
+          "bad": "❌ Instalare fixă: nu poate fi mutat ușor",
+          "good": "✅ Compact și utilizabil acolo unde este nevoie"
+        },
+        {
+          "bad": "❌ Control limitat la telecomandă sau butoanele aparatului",
+          "good": "✅ Control inteligent prin aplicație Wi-Fi + telecomandă"
+        },
+        {
+          "bad": "❌ Timp îndelungat pentru instalare și punere în funcțiune",
+          "good": "✅ Porniți și bucurați-vă de confort în câteva minute"
+        },
+        {
+          "bad": "❌ Necesită lucrări de zidărie și întreținerea instalației",
+          "good": "✅ Fără lucrări în casă și întreținere minimă"
+        }
+      ]
+    },
+    "reviews": [
+      {
+        "name": "Andrei R.",
+        "location": "București, România",
+        "stars": "★★★★★",
+        "title": "Soluție perfectă fără lucrări în casă",
+        "text": "Am fost cu adevărat surprins. Căutam o soluție care să nu necesite lucrări în casă, iar Fresh Air Pro a fost perfect. Răcește livingul foarte repede și este foarte simplu de folosit prin aplicație. Raport excelent calitate-preț.",
+        "photo_alt": "Andrei R. — București",
+        "verified": true
+      },
+      {
+        "name": "Gabriela T.",
+        "location": "Cluj-Napoca, România",
+        "stars": "★★★★★",
+        "title": "În sfârșit pot dormi fără să sufăr de căldură",
+        "text": "În sfârșit pot dormi fără să sufăr de căldură. Este silențios, iar funcția de dezumidificare face cu adevărat diferența în zilele toride și umede. Îl recomand celor care locuiesc la apartament și nu pot instala un aparat tradițional.",
+        "photo_alt": "Gabriela T. — Cluj-Napoca",
+        "verified": true
+      },
+      {
+        "name": "Mihai M.",
+        "location": "Timișoara, România",
+        "stars": "★★★★★",
+        "title": "Încălzește și răcește foarte bine",
+        "text": "L-am cumpărat în principal pentru încălzire iarna și răcire vara. Face ambele foarte bine, iar telecomanda este foarte comodă. A ajuns în două zile și a fost gata de utilizare.",
+        "photo_alt": "Mihai M. — Timișoara",
+        "verified": true
+      },
+      {
+        "name": "Sorina L.",
+        "location": "Iași, România",
+        "stars": "★★★★★",
+        "title": "Foarte ușor de utilizat",
+        "text": "Foarte ușor de utilizat. Îmi place că, pe lângă răcire, filtrează și aerul. L-am pus în biroul de acasă și încăperea a devenit mult mai confortabilă. Mulțumită de achiziție.",
+        "photo_alt": "Sorina L. — Iași",
+        "verified": true
+      },
+      {
+        "name": "Lucian P.",
+        "location": "Constanța, România",
+        "stars": "★★★★★",
+        "title": "M-a convins de la prima utilizare",
+        "text": "Eram sceptic, dar m-a convins de la prima utilizare. Fără instalare, consum redus și răcire rapidă. Aplicația funcționează bine și îmi permite să îl pornesc înainte să ajung acasă.",
+        "photo_alt": "Lucian P. — Constanța",
+        "verified": true
+      },
+      {
+        "name": "Elena C.",
+        "location": "Brașov, România",
+        "stars": "★★★★★",
+        "title": "Produs excelent tot anul",
+        "text": "Produs excelent. Vara răcește rapid dormitorul, iar iarna îl folosesc pentru încălzire fără să pornesc imediat caloriferele. Practic, silențios, iar serviciul clienți a fost foarte disponibil.",
+        "photo_alt": "Elena C. — Brașov",
+        "verified": true
+      }
+    ],
+    "package_content": {
+      "title": "Ce găsiți în pachetul Fresh Air Pro",
+      "subtitle": "Totul inclus — plug & play, fără instalare",
+      "image_alt": "Conținutul pachetului Fresh Air Pro",
+      "items": [
+        {
+          "text": "<strong>1× Fresh Air Pro</strong> pentru răcire, încălzire, dezumidificare și ventilație"
+        },
+        {
+          "text": "📡 1 telecomandă wireless cu baterie inclusă"
+        },
+        {
+          "text": "📱 Control inteligent prin aplicație cu conexiune Wi-Fi"
+        },
+        {
+          "text": "🔁 Rotație automată de 115° pentru o distribuție mai uniformă a aerului"
+        },
+        {
+          "text": "💨 Filtru HEPA + ionizator pentru un aer mai curat și mai plăcut"
+        },
+        {
+          "text": "🔇 Funcționare silențioasă: doar 53,1 dB"
+        },
+        {
+          "text": "🚫 Fără instalare, fără furtun flexibil, fără unitate exterioară"
+        },
+        {
+          "text": "🚚 Livrare rapidă în 24-48 ore + plată la livrare"
+        },
+        {
+          "text": "🔒 Garanție de 2 ani inclusă în comandă"
+        },
+        {
+          "text": "Produs certificat CE · ⚙️ Control calitate · 💬 Asistență clienți"
+        }
+      ]
+    },
+    "incentive_2": {
+      "title": "⏰ ULTIMA ȘANSĂ — Oferta expiră astăzi",
+      "text": "Prețul de lansare de 397 lei este valabil doar până la epuizarea stocului. După aceea, prețul revine la 794 lei. Nu ratați ocazia — confirmați comanda acum și primiți produsul în 24/48h."
+    },
+    "faq": {
+      "title": "Întrebări frecvente",
+      "items": [
+        {
+          "q": "Pot plăti cu adevărat la livrare, fără card?",
+          "a": "Da, plata la livrare este metoda noastră standard. Când ajunge curierul, plătiți cash suma comenzii. Fără avans, fără card necesar. Mai sigur așa: vedeți produsul înainte de a plăti."
+        },
+        {
+          "q": "Chiar nu este nevoie de instalare?",
+          "a": "Exact. Fresh Air Pro este o soluție plug & play: îl conectați la priză, apăsați ON și în câteva minute vă bucurați de confort. Fără unitate exterioară, fără găuri în pereți și fără tehnician."
+        },
+        {
+          "q": "Chiar încălzește și răcește?",
+          "a": "Da. Răcește până la 16 °C și încălzește până la 42 °C, acoperind o suprafață de până la 120 m². Combină 4 funcții: răcire, încălzire, dezumidificare și purificare a aerului."
+        },
+        {
+          "q": "Pot returna produsul dacă nu sunt mulțumit?",
+          "a": "Desigur. Aveți 30 de zile de la livrare pentru a returna produsul dacă nu vă convine. Retur gratuit, rambursare completă. Fără întrebări, fără penalități. Garanție oficială de 24 luni pentru defecte de fabricație."
+        },
+        {
+          "q": "Datele mele personale sunt în siguranță?",
+          "a": "Absolut da. Folosim datele dvs. doar pentru livrare și pentru a vă contacta în legătură cu confirmarea comenzii. Fără spam, fără telemarketing, fără transmitere către terți. Conform GDPR. Politica de confidențialitate se află în subsol."
+        },
+        {
+          "q": "Cât durează livrarea?",
+          "a": "24-48 ore lucrătoare după confirmarea telefonică. Transport gratuit în toată România. Veți primi un SMS cu numărul de urmărire când curierul pleacă."
+        },
+        {
+          "q": "Cum confirm comanda acum?",
+          "a": "Este foarte simplu. Completați formularul de mai sus cu nume, telefon și adresă. Un operator vă va suna în 1 oră pentru confirmare. Primiți Fresh Air Pro în 24/48h și plătiți doar la livrare. ✓ CONFIRMĂ ACUM"
+        }
+      ]
+    },
+    "footer": {
+      "tagline": "Produse utile pentru viața de zi cu zi, livrare în 24-48 ore cu plată la livrare.",
+      "company_heading": "Companie",
+      "policies_heading": "Informații legale",
+      "contact_heading": "Contact",
+      "company_info": [
+        "<strong>TERRA-STITCH INTERNATIONAL S.L.</strong>",
+        "Calle Aragón 150",
+        "08011 Barcelona, Spania"
+      ]
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "title": "Ordine ricevuto — Attendi la chiamata di conferma | Fresh Air Pro",
+    "description": "Il tuo ordine Fresh Air Pro è stato registrato. Manca solo un ultimo passaggio: rispondi alla chiamata di conferma.",
+    "currency": "EUR",
+    "price": "69.00"
+  },
+  "headline_warning": {
+    "loader_percent": "90%",
+    "title": "Il tuo ordine è stato registrato con successo!",
+    "text": "Perfetto — il tuo ordine è in elaborazione. Manca solo un ultimo passaggio per completarlo e far partire la spedizione."
+  },
+  "next_steps": {
+    "title": "📋 Cosa succede dopo",
+    "subtitle": "COMPLETA L'ORDINE IN 30 SECONDI",
+    "steps": [
+      {
+        "title": "Rispondi alla chiamata e <strong>conferma i tuoi dati</strong>",
+        "text": ""
+      },
+      {
+        "title": "Il tuo ordine verrà spedito entro <strong>24–48 ore</strong>",
+        "text": ""
+      },
+      {
+        "title": "Consegna a domicilio e <strong>pagamento alla consegna</strong>",
+        "text": ""
+      }
+    ]
+  },
+  "stock_warning": {
+    "icon": "🚨",
+    "title": "📞 Rispondi alla chiamata di conferma",
+    "text": "Se non rispondi alla chiamata, l'ordine verrà automaticamente annullato."
+  },
+  "call_hours": {
+    "icon": "🕒",
+    "title": "🕒 Orari di contatto",
+    "hours": [
+      "Lunedì – Sabato · 9:00 – 18:00"
+    ],
+    "promise_title": "🔒 Pagamento alla consegna",
+    "promise_text": "🔒 I tuoi dati sono protetti. Non spam, non telemarketing, solo conferma ordine."
+  },
+  "product_recall": {
+    "image_alt": "Fresh Air Pro",
+    "title": "DIMENTICATE LE BOLLETTE ELEVATE: Fresh Air Pro 4 in 1 riscalda, raffredda, purifica l'aria e riduce i costi energetici di oltre l'80%.",
+    "text": "Il condizionatore d'aria split per interni riduce sensibilmente il calore in pochi minuti. Basta collegarlo alla presa, premere ON e godersi immediatamente aria fresca, pulita e pulita. Nessun lavoro di installazione, nessun tempo di attesa, consegna a domicilio in 24 ore.",
+    "whatsapp_button": "",
+    "whatsapp_link": ""
+  }
+}

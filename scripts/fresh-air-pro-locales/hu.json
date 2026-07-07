@@ -1,0 +1,347 @@
+{
+  "lang": "hu",
+  "html_lang": "hu",
+  "country_name": "Magyarország",
+  "delivery_country": "Magyarországon",
+  "offer_name_suffix": "HU",
+  "offer_id": "1275",
+  "cookie": {
+    "text": "Technikai és harmadik féltől származó sütiket használunk az élmény javítása és elemzés céljából.",
+    "accept": "Elfogadom",
+    "learn": "További információ"
+  },
+  "footer": {
+    "info_heading": "Információ",
+    "contact_heading": "Kapcsolat",
+    "about": "Rólunk",
+    "contact": "Kapcsolat",
+    "privacy": "Adatvédelmi szabályzat",
+    "terms": "Általános szerződési feltételek",
+    "cookies": "Cookie szabályzat",
+    "shipping": "Szállítási feltételek",
+    "refund": "Visszaküldési szabályzat",
+    "rights": "Minden jog fenntartva."
+  },
+  "popup_purchases": [
+    {
+      "initial": "G",
+      "name": "Gábor K.",
+      "message": " épp most rendelt Fresh Air Pro-t",
+      "time": "2 perce, Budapest"
+    },
+    {
+      "initial": "E",
+      "name": "Eszter B.",
+      "message": " épp most erősítette meg a rendelést",
+      "time": "5 perce, Debrecen"
+    },
+    {
+      "initial": "Z",
+      "name": "Zoltán T.",
+      "message": " épp most vásárolta meg a Fresh Air Pro-t",
+      "time": "8 perce, Szeged"
+    },
+    {
+      "initial": "K",
+      "name": "Katalin M.",
+      "message": " befejezte a rendelést",
+      "time": "12 perce, Pécs"
+    },
+    {
+      "initial": "P",
+      "name": "Péter N.",
+      "message": " épp most rendelt (holnapi kiszállítás)",
+      "time": "15 perce, Győr"
+    },
+    {
+      "initial": "A",
+      "name": "Anna D.",
+      "message": " megerősítette a rendelését",
+      "time": "21 perce, Miskolc"
+    },
+    {
+      "initial": "L",
+      "name": "László H.",
+      "message": " épp most vásárolta meg a Fresh Air Pro-t",
+      "time": "27 perce, Eger"
+    },
+    {
+      "initial": "V",
+      "name": "Viktória S.",
+      "message": " 30 másodperc alatt befejezte a rendelést",
+      "time": "33 perce, Sopron"
+    }
+  ],
+  "landing": {
+    "meta": {
+      "title": "Fali légkondicionáló 4 az 1-ben, külső egység és szerelés nélkül — fűt, hűt és párátlanít akár 120 m²-es helyiségeket percek alatt",
+      "description": "Fresh Air Pro: 4 az 1-ben fali légkondicionáló külső egység nélkül. Hűt, fűt, párátlanít és tisztítja a levegőt akár 120 m²-en. -50% csak ma, utánvétes fizetés, ingyenes 24/48 órás szállítás.",
+      "og_image": "/assets/img/products/fresh-air-pro/og-image.jpg",
+      "currency": "HUF",
+      "price": "36999"
+    },
+    "banner_urgency": {
+      "main": "🔥 -50% AJÁNLAT: Csak ma 36 999 Ft 73 998 Ft helyett",
+      "sub": "Ingyenes szállítás 24/48 órán belül • Utánvétes fizetés • Utolsó darabok"
+    },
+    "headline": {
+      "rating_label": "★★★★★ 4,8/5 — Több mint 3 842 elégedett vásárló",
+      "title": "FELEJTSE EL A MAGAS REZSISZÁMLÁKAT: A Fresh Air Pro 4 az 1-ben fűt, hűt, tisztítja a levegőt és több mint 80%-kal csökkenti az energiaköltségeket.",
+      "subtitle": "A beltéri split légkondicionáló percek alatt jelentősen csökkenti a hőmérsékletet. Csak csatlakoztassa a konnektorhoz, nyomja meg az ON gombot, és azonnal élvezheti a friss, tiszta levegőt. Nincs szerelés, nincs várakozás, házhozszállítás 24 órán belül.",
+      "image_alt": "Fresh Air Pro — 4 az 1-ben fali légkondicionáló távirányítóval, Wi-Fi alkalmazással és HEPA szűrővel"
+    },
+    "bullets": [
+      {
+        "text": "Akár 16 °C-ra hűt vagy 42 °C-ra fűt akár 120 m²-es helyiséget"
+      },
+      {
+        "text": "4 az 1-ben: hűt, fűt, párátlanít és szűri a levegőt"
+      },
+      {
+        "text": "80%-kal csökkenti a költségeket: alacsony energiafogyasztás A+++ osztály"
+      },
+      {
+        "text": "Plug & play szerelés: csatlakoztassa, nyomja meg az ON gombot, és percek alatt hűvös lesz"
+      }
+    ],
+    "price": {
+      "label": "KÜLÖNLEGES AJÁNLAT -50%",
+      "anchor": "73998",
+      "final": "36999",
+      "currency": "Ft",
+      "discount": "-50%"
+    },
+    "scarcity_text": "⚠️ Már csak 14 darab maradt akciós áron. Erősítse meg most, hogy ne maradjon le az ajánlatról.",
+    "form": {
+      "title": "FEJEZZE BE A RENDELÉST 30 MÁSODPERC ALATT",
+      "subtitle": "Töltse ki az alábbi űrlapot. 1 órán belül felvesszük Önnel a kapcsolatot a szállítás és a cím megerősítéséhez.",
+      "fields": {
+        "name_label": "Teljes név *",
+        "name_placeholder": "Pl. Nagy János",
+        "name_error": "Adja meg a teljes nevét (legalább 3 karakter)",
+        "phone_label": "Telefonszám *",
+        "phone_placeholder": "Pl. +36 30 123 4567",
+        "phone_error": "Adjon meg érvényes telefonszámot",
+        "address_label": "Szállítási cím *",
+        "address_placeholder": "Utca, házszám, város, irányítószám",
+        "address_error": "Adja meg a teljes címet (legalább 10 karakter)"
+      },
+      "cta_button": "✓ RENDELÉS MEGERŐSÍTÉSE — 36 999 Ft",
+      "submitting_label": "Küldés...",
+      "trust_below": "★★★★★ 4,8/5 értékelés több mint 3 842 elégedett vásárlótól",
+      "secure_note": "🔒 Adatai védettek. Nincs spam, nincs telemarketing — csak rendelés-megerősítés."
+    },
+    "guarantees": [
+      {
+        "icon": "🚚",
+        "title": "24/48 órás szállítás",
+        "sub": "Ingyenes szállítás egész Magyarországon"
+      },
+      {
+        "icon": "💵",
+        "title": "Utánvétes fizetés",
+        "sub": "Csak a termék átvételekor fizet"
+      },
+      {
+        "icon": "↩️",
+        "title": "30 napos visszaküldés",
+        "sub": "Elégedettség vagy pénzvisszafizetés"
+      },
+      {
+        "icon": "🛡️",
+        "title": "24 hónap garancia",
+        "sub": "Gyártási hibákra"
+      }
+    ],
+    "macro_review": {
+      "photo_alt": "Júlia M. — ellenőrzött vásárló Fresh Air Pro-val a hálószobában",
+      "quote": "«Gyakorlati megoldásra volt szükségem, mert nem tudtam hagyományos klímát szereltetni. A Fresh Air Pro kellemes meglepetés volt: percek alatt sokkal hűvösebb a szoba, és a levegő kevésbé párás. Egyszerű használni, csendes, az alkalmazásos vezérlés pedig nagyon kényelmes. Az árához képest az egyik legjobb vásárlásom idén.»",
+      "author": "Júlia M.",
+      "credentials": "Ellenőrzött vásárló, Budapest",
+      "stars": "★★★★★"
+    },
+    "competitor_destruction": {
+      "title": "Fresh Air Pro vs hagyományos légkondicionáló",
+      "subtitle": "Miért választ egyre több család a plug & play kényelmet",
+      "headers": [
+        "Hagyományos légkondicionáló",
+        "Fresh Air Pro"
+      ],
+      "rows": [
+        {
+          "bad": "❌ Drága szerelés szakemberrel és lakási munkákkal",
+          "good": "✅ Nincs szerelés: percek alatt használatra kész"
+        },
+        {
+          "bad": "❌ Külső egységet igényel, sok épületben tiltott",
+          "good": "✅ Külső egység nélkül — ideális bármely lakáshoz"
+        },
+        {
+          "bad": "❌ Csak hűtés (vagy drága hőszivattyú kell hozzá)",
+          "good": "✅ 4 az 1-ben: hűt, fűt, párátlanít és tisztítja a levegőt"
+        },
+        {
+          "bad": "❌ Magas fogyasztás és magas rezsiköltség egész évben",
+          "good": "✅ A+++ energiaosztály, akár 80%-kal alacsonyabb fogyasztás*"
+        },
+        {
+          "bad": "❌ Rögzített szerelés: nem lehet könnyen áthelyezni",
+          "good": "✅ Kompakt és ott használható, ahol szükséges"
+        },
+        {
+          "bad": "❌ Vezérlés csak távirányítóval vagy a készülék gombjaival",
+          "good": "✅ Okos vezérlés Wi-Fi alkalmazással + távirányító"
+        },
+        {
+          "bad": "❌ Hosszú szerelési és üzembe helyezési idő",
+          "good": "✅ Bekapcsolja és percek alatt élvezi a komfortot"
+        },
+        {
+          "bad": "❌ Falbontást és rendszerkarbantartást igényel",
+          "good": "✅ Nincs lakási munka és minimális karbantartás"
+        }
+      ]
+    },
+    "reviews": [
+      {
+        "name": "Gábor R.",
+        "location": "Budapest, Magyarország",
+        "stars": "★★★★★",
+        "title": "Tökéletes megoldás szerelés nélkül",
+        "text": "Igazán meglepett. Olyan megoldást kerestem, ami nem igényel lakási munkát, és a Fresh Air Pro tökéletes volt. Nagyon gyorsan hűti a nappalit, és az alkalmazással igazán egyszerű használni. Kiváló ár-érték arány.",
+        "photo_alt": "Gábor R. — Budapest",
+        "verified": true
+      },
+      {
+        "name": "Zsófia T.",
+        "location": "Debrecen, Magyarország",
+        "stars": "★★★★★",
+        "title": "Végre alszom a melegben szenvedés nélkül",
+        "text": "Végre tudok aludni anélkül, hogy szenvednék a melegtől. Csendes, és a párátlanító funkció igazán sokat számít a párás napokon. Mindenkinek ajánlom, aki lakásban él és nem szereltethet hagyományos klímát.",
+        "photo_alt": "Zsófia T. — Debrecen",
+        "verified": true
+      },
+      {
+        "name": "András M.",
+        "location": "Szeged, Magyarország",
+        "stars": "★★★★★",
+        "title": "Nagyon jól fűt és hűt",
+        "text": "Főleg télen a fűtéshez és nyáron a hűtéshez vettem. Mindkettőt nagyon jól csinálja, a távirányító pedig nagyon kényelmes. Két nap alatt megérkezett és azonnal használható volt.",
+        "photo_alt": "András M. — Szeged",
+        "verified": true
+      },
+      {
+        "name": "Szabina L.",
+        "location": "Pécs, Magyarország",
+        "stars": "★★★★★",
+        "title": "Nagyon könnyű használni",
+        "text": "Nagyon könnyű használni. Tetszik, hogy a hűtés mellett a levegőt is szűri. A home office-ba tettem, és sokkal kényelmesebb lett a helyiség. Elégedett vagyok a vásárlással.",
+        "photo_alt": "Szabina L. — Pécs",
+        "verified": true
+      },
+      {
+        "name": "László P.",
+        "location": "Győr, Magyarország",
+        "stars": "★★★★★",
+        "title": "Az első használatkor meggyőzött",
+        "text": "Szkeptikus voltam, de az első használatkor meggyőzött. Nincs szerelés, alacsony fogyasztás és gyors hűtés. Az alkalmazás is jól működik, így már hazafelé bekapcsolhatom.",
+        "photo_alt": "László P. — Győr",
+        "verified": true
+      },
+      {
+        "name": "Erika C.",
+        "location": "Miskolc, Magyarország",
+        "stars": "★★★★★",
+        "title": "Kiváló termék egész évben",
+        "text": "Kiváló termék. Nyáron gyorsan hűti a hálószobát, télen pedig fűtésre használom anélkül, hogy azonnal bekapcsolnám a radiátorokat. Praktikus, csendes, az ügyfélszolgálat pedig nagyon segítőkész volt.",
+        "photo_alt": "Erika C. — Miskolc",
+        "verified": true
+      }
+    ],
+    "package_content": {
+      "title": "Mit talál a Fresh Air Pro csomagban",
+      "subtitle": "Minden benne van — plug & play, szerelés nélkül",
+      "image_alt": "Fresh Air Pro csomag tartalma",
+      "items": [
+        {
+          "text": "<strong>1× Fresh Air Pro</strong> hűtéshez, fűtéshez, párátlanításhoz és szellőztetéshez"
+        },
+        {
+          "text": "📡 1 vezeték nélküli távirányító elemmel a csomagban"
+        },
+        {
+          "text": "📱 Okos vezérlés alkalmazással Wi-Fi kapcsolattal"
+        },
+        {
+          "text": "🔁 Automatikus 115°-os forgatás az egyenletesebb levegőelosztásért"
+        },
+        {
+          "text": "💨 HEPA szűrő + ionizátor a tisztább, kellemesebb levegőért"
+        },
+        {
+          "text": "🔇 Csendes működés: mindössze 53,1 dB"
+        },
+        {
+          "text": "🚫 Nincs szerelés, nincs cső, nincs külső egység"
+        },
+        {
+          "text": "🚚 Gyors 24-48 órás szállítás + utánvétes fizetés"
+        },
+        {
+          "text": "🔒 2 év garancia a rendeléshez mellékelve"
+        },
+        {
+          "text": "CE tanúsítvánnyal rendelkező termék · ⚙️ Minőségellenőrzés · 💬 Ügyfélszolgálat"
+        }
+      ]
+    },
+    "incentive_2": {
+      "title": "⏰ UTOLSÓ ESÉLY — Az ajánlat ma lejár",
+      "text": "A 36 999 Ft-os bevezető ár csak a készlet erejéig érvényes. Utána az ár visszaáll 73 998 Ft-ra. Ne hagyja ki — erősítse meg rendelését most, és kapja meg 24/48 órán belül."
+    },
+    "faq": {
+      "title": "Gyakran ismételt kérdések",
+      "items": [
+        {
+          "q": "Tényleg utánvéttel fizethetek, kártya nélkül?",
+          "a": "Igen, az utánvétes fizetés a standard fizetési módunk. Amikor megérkezik a futár, készpénzben fizeti ki a rendelést. Nincs előleg, nincs szükség kártyára. Biztonságosabb így: előbb látja a terméket, aztán fizet."
+        },
+        {
+          "q": "Tényleg nincs szükség szerelésre?",
+          "a": "Pontosan. A Fresh Air Pro plug & play megoldás: csatlakoztatja a konnektorhoz, megnyomja az ON gombot, és percek alatt élvezheti a komfortot. Külső egység, falfúrás és szerelő nélkül."
+        },
+        {
+          "q": "Tényleg fűt és hűt is?",
+          "a": "Igen. Akár 16 °C-ra hűt és 42 °C-ra fűt, akár 120 m²-es területen. 4 funkciót egyesít: hűtés, fűtés, párátlanítás és levegőtisztítás."
+        },
+        {
+          "q": "Visszaküldhetem, ha nem vagyok elégedett?",
+          "a": "Természetesen. A kézbesítéstől számított 30 napja van visszaküldeni, ha nem felel meg. Ingyenes visszaküldés, teljes visszatérítés. Kérdések nélkül, büntetés nélkül. Hivatalos 24 hónapos garancia gyártási hibákra."
+        },
+        {
+          "q": "Biztonságban vannak a személyes adataim?",
+          "a": "Abszolút igen. Adatait kizárólag a szállítás lebonyolítására és a rendelés megerősítéséhez használjuk. Nincs spam, nincs telemarketing, nincs adattovábbítás harmadik félnek. GDPR-kompatibilis. Az adatvédelmi szabályzatot a láblécben találja."
+        },
+        {
+          "q": "Mennyi ideig tart a szállítás?",
+          "a": "24-48 munkaóra a telefonos megerősítés után. Ingyenes szállítás egész Magyarországon. SMS-t kap a nyomkövetési számmal, amikor a futár útnak indul."
+        },
+        {
+          "q": "Hogyan erősítem meg a rendelést most?",
+          "a": "Nagyon egyszerű. Töltse ki a fenti űrlapot névvel, telefonszámmal és címmel. Munkatársunk 1 órán belül felhívja a megerősítéshez. A Fresh Air Pro 24/48 órán belül megérkezik, és csak átvételkor fizet. ✓ ERŐSÍTSE MEG MOST"
+        }
+      ]
+    },
+    "footer": {
+      "tagline": "Hasznos termékek a mindennapi élethez, kézbesítés 24–48 óra alatt utánvétes fizetéssel.",
+      "company_heading": "Cég",
+      "policies_heading": "Jogi információk",
+      "contact_heading": "Kapcsolat",
+      "company_info": [
+        "<strong>TERRA-STITCH INTERNATIONAL S.L.</strong>",
+        "Calle Aragón 150",
+        "08011 Barcelona, Spanyolország"
+      ]
+    }
+  }
+}

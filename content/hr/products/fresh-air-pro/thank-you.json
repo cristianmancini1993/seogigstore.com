@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "title": "Narudžba primljena — Pričekajte poziv za potvrdu | Fresh Air Pro",
+    "description": "Vaša narudžba Fresh Air Pro je registrirana. Još jedan korak: odgovorite na poziv za potvrdu.",
+    "currency": "EUR",
+    "price": "99"
+  },
+  "headline_warning": {
+    "loader_percent": "90%",
+    "title": "Vaša narudžba je uspješno registrirana!",
+    "text": "Odlično — narudžba je u obradi. Ostao je samo posljednji korak za dovršetak i slanje."
+  },
+  "next_steps": {
+    "title": "📋 Što slijedi",
+    "subtitle": "DOVRŠITE NARUDŽBU ZA 30 SEKUNDI",
+    "steps": [
+      {
+        "title": "Odgovorite na poziv i <strong>potvrdite svoje podatke</strong>",
+        "text": ""
+      },
+      {
+        "title": "Narudžba će biti poslana u roku od <strong>24–48 sati</strong>",
+        "text": ""
+      },
+      {
+        "title": "Dostava na kućnu adresu i <strong>plaćanje pouzećem</strong>",
+        "text": ""
+      }
+    ]
+  },
+  "stock_warning": {
+    "icon": "🚨",
+    "title": "📞 Odgovorite na poziv za potvrdu",
+    "text": "Ako ne odgovorite na poziv, narudžba će se automatski otkazati."
+  },
+  "call_hours": {
+    "icon": "🕒",
+    "title": "🕒 Radno vrijeme",
+    "hours": [
+      "Ponedjeljak – Subota · 9:00 – 18:00"
+    ],
+    "promise_title": "🔒 Plaćanje pouzećem",
+    "promise_text": "🔒 Vaši podaci su zaštićeni. Bez spama, bez telemarketinga — samo potvrda narudžbe."
+  },
+  "product_recall": {
+    "image_alt": "Fresh Air Pro",
+    "title": "ZABORAVITE VISOKE RAČUNE: Fresh Air Pro 4 u 1 grije, hladi, pročišćava zrak i smanjuje troškove energije za više od 80%.",
+    "text": "Unutarnja split klima značajno smanjuje vrućinu u nekoliko minuta. Dovoljno je priključiti na utičnicu, pritisnuti ON i odmah uživati u svježem, čistom zraku. Bez ugradnje, bez čekanja, dostava na kućnu adresu u 24 sata.",
+    "whatsapp_button": "",
+    "whatsapp_link": ""
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "title": "Encomenda recebida — Aguarde a chamada de confirmação | Fresh Air Pro",
+    "description": "A sua encomenda Fresh Air Pro foi registada. Falta um último passo: atenda à chamada de confirmação.",
+    "currency": "EUR",
+    "price": "89.00"
+  },
+  "headline_warning": {
+    "loader_percent": "90%",
+    "title": "A sua encomenda foi registada com sucesso!",
+    "text": "Perfeito — a sua encomenda está a ser processada. Falta apenas um último passo para a concluir e iniciar o envio."
+  },
+  "next_steps": {
+    "title": "📋 O que acontece a seguir",
+    "subtitle": "COMPLETE A ENCOMENDA EM 30 SEGUNDOS",
+    "steps": [
+      {
+        "title": "Atenda à chamada e <strong>confirme os seus dados</strong>",
+        "text": ""
+      },
+      {
+        "title": "A encomenda será enviada em <strong>24–48 horas</strong>",
+        "text": ""
+      },
+      {
+        "title": "Entrega ao domicílio e <strong>pagamento na entrega</strong>",
+        "text": ""
+      }
+    ]
+  },
+  "stock_warning": {
+    "icon": "🚨",
+    "title": "📞 Atenda à chamada de confirmação",
+    "text": "Se não atender à chamada, a encomenda será cancelada automaticamente."
+  },
+  "call_hours": {
+    "icon": "🕒",
+    "title": "🕒 Horário de contacto",
+    "hours": [
+      "Segunda – Sábado · 9:00 – 18:00"
+    ],
+    "promise_title": "🔒 Pagamento na entrega",
+    "promise_text": "🔒 Os seus dados estão protegidos. Sem spam, sem telemarketing, apenas confirmação da encomenda."
+  },
+  "product_recall": {
+    "image_alt": "Fresh Air Pro",
+    "title": "ESQUEÇA AS CONTAS ELEVADAS: Fresh Air Pro 4 em 1 aquece, arrefece, purifica o ar e reduz os custos energéticos em mais de 80%.",
+    "text": "O ar condicionado split de interior reduz sensivelmente o calor em poucos minutos. Basta ligar à tomada, premir ON e desfrutar imediatamente de ar fresco e limpo. Sem instalação, sem espera, entrega ao domicílio em 24 horas.",
+    "whatsapp_button": "",
+    "whatsapp_link": ""
+  }
+}

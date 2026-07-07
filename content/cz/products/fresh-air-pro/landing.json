@@ -1,0 +1,272 @@
+{
+  "meta": {
+    "title": "Nástěnná klimatizace 4 v 1 bez venkovní jednotky a instalace — vyhřívá, chladí a odvlhčuje prostory do 120 m² během několika minut",
+    "description": "Fresh Air Pro: nástěnná klimatizace 4 v 1 bez venkovní jednotky. Vyhřívá, chladí, odvlhčuje a čistí vzduch v prostorech do 120 m². -50 % pouze dnes, platba na dobírku, doprava zdarma do 24/48 h.",
+    "og_image": "/assets/img/products/fresh-air-pro/og-image.jpg",
+    "currency": "CZK",
+    "price": "1999"
+  },
+  "banner_urgency": {
+    "main": "🔥 AKCE -50 %: Pouze dnes 1 999 Kč místo 3 998 Kč",
+    "sub": "DOPRAVA ZDARMA do 24/48 h • Platba na dobírku • Poslední kusy skladem"
+  },
+  "headline": {
+    "rating_label": "★★★★★ 4,8/5 — Více než 3 842 spokojených zákazníků",
+    "title": "ZAPOMEŇTE NA VYSOKÉ ÚČTY ZA ENERGII: Fresh Air Pro 4 v 1 vyhřívá, chladí, čistí vzduch a snižuje náklady na energii o více než 80 %.",
+    "subtitle": "Nástěnná klimatizace pro interiér během několika minut výrazně sníží teplotu. Stačí ji zapojit do zásuvky, stisknout ON a okamžitě si užít čerstvý, čistý vzduch. Žádná instalace, žádné čekání, doručení domů do 24 hodin.",
+    "image_alt": "Fresh Air Pro — nástěnná klimatizace 4 v 1 s dálkovým ovladačem, Wi-Fi aplikací a HEPA filtrem"
+  },
+  "bullets": [
+    {
+      "text": "Chladí až na 16 °C nebo vyhřívá až na 42 °C prostor do 120 m²"
+    },
+    {
+      "text": "4 v 1: Chladí, vyhřívá, odvlhčuje a filtruje vzduch"
+    },
+    {
+      "text": "Snižuje náklady o 80 %: Nízká spotřeba energie A+++"
+    },
+    {
+      "text": "Instalace plug & play: zapojte do zásuvky, stiskněte ON a během několika minut je místnost příjemně chladná"
+    }
+  ],
+  "price": {
+    "label": "SPECIÁLNÍ NABÍDKA -50 %",
+    "anchor": "3 998",
+    "final": "1 999",
+    "currency": "Kč",
+    "discount": "-50 %"
+  },
+  "scarcity_text": "⚠️ Zbývá pouze 14 kusů za zvýhodněnou cenu. Potvrďte nyní, abyste nepřišli o nabídku.",
+  "form": {
+    "title": "DOKONČETE OBJEDNÁVKU ZA 30 SEKUND",
+    "subtitle": "Vyplňte formulář níže. Do 1 hodiny vás budeme kontaktovat pro potvrzení doručení a adresy.",
+    "fields": {
+      "name_label": "Jméno a příjmení *",
+      "name_placeholder": "Např. Jan Novák",
+      "name_error": "Zadejte jméno a příjmení (minimálně 3 znaky)",
+      "phone_label": "Telefonní číslo *",
+      "phone_placeholder": "Např. 777 123 456",
+      "phone_error": "Zadejte platné telefonní číslo",
+      "address_label": "Doručovací adresa *",
+      "address_placeholder": "Ulice, číslo, město, PSČ",
+      "address_error": "Zadejte úplnou adresu (minimálně 10 znaků)"
+    },
+    "cta_button": "✓ POTVRDIT OBJEDNÁVKU — 1 999 Kč",
+    "submitting_label": "Odesílání...",
+    "trust_below": "★★★★★ Hodnocení 4,8/5 od více než 3 842 spokojených zákazníků",
+    "secure_note": "🔒 Vaše údaje jsou chráněny. Žádný spam, žádný telemarketing, pouze potvrzení objednávky."
+  },
+  "guarantees": [
+    {
+      "icon": "🚚",
+      "title": "Doručení do 24/48 h",
+      "sub": "Doprava zdarma kdekoli v České republice"
+    },
+    {
+      "icon": "💵",
+      "title": "Platba na dobírku",
+      "sub": "Až když obdržíte produkt"
+    },
+    {
+      "icon": "↩️",
+      "title": "Vrácení do 30 dní",
+      "sub": "Spokojeni nebo vám vrátíme peníze"
+    },
+    {
+      "icon": "🛡️",
+      "title": "Záruka 24 měsíců",
+      "sub": "Na výrobní vady"
+    }
+  ],
+  "macro_review": {
+    "photo_alt": "Jana M. — ověřená zákaznice s Fresh Air Pro v ložnici",
+    "quote": "«Potřebovala jsem praktické řešení, protože jsem nemohla instalovat tradiční klimatizaci. Fresh Air Pro byl příjemné překvapení: během několika minut je pokoj mnohem chladnější a vzduch působí méně vlhce. Je jednoduchý na používání, tichý a ovládání přes aplikaci je opravdu pohodlné. Za tu cenu to byl jeden z nejlepších nákupů letošního roku.»",
+    "author": "Jana M.",
+    "credentials": "Ověřená zákaznice, Praha",
+    "stars": "★★★★★"
+  },
+  "competitor_destruction": {
+    "title": "Fresh Air Pro vs tradiční klimatizace",
+    "subtitle": "Proč stále více rodin volí plug & play komfort",
+    "headers": [
+      "Tradiční klimatizace",
+      "Fresh Air Pro"
+    ],
+    "rows": [
+      {
+        "bad": "❌ Drahá instalace s technikem a stavebními úpravami",
+        "good": "✅ Žádná instalace: připraven k použití během několika minut"
+      },
+      {
+        "bad": "❌ Vyžaduje venkovní jednotku, často zakázanou v některých budovách",
+        "good": "✅ Bez venkovní jednotky, ideální pro jakékoli bydlení"
+      },
+      {
+        "bad": "❌ Pouze chlazení (nebo drahé tepelné čerpadlo)",
+        "good": "✅ 4 v 1: chladí, vyhřívá, odvlhčuje a čistí vzduch"
+      },
+      {
+        "bad": "❌ Vysoká spotřeba a vysoké účty po celý rok",
+        "good": "✅ Energetická třída A+++ se sníženou spotřebou až o 80 %*"
+      },
+      {
+        "bad": "❌ Pevná instalace: nelze ji snadno přemístit",
+        "good": "✅ Kompaktní a použitelný tam, kde ho potřebujete"
+      },
+      {
+        "bad": "❌ Omezené ovládání pouze dálkovým ovladačem nebo tlačítky na zařízení",
+        "good": "✅ Chytré ovládání přes Wi-Fi aplikaci + dálkový ovladač"
+      },
+      {
+        "bad": "❌ Dlouhé lhůty instalace a uvedení do provozu",
+        "good": "✅ Zapněte a užívejte si komfort během několika minut"
+      },
+      {
+        "bad": "❌ Vyžaduje zednické práce a údržbu systému",
+        "good": "✅ Žádné stavební úpravy a minimální údržba"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "name": "Jan R.",
+      "location": "Praha, Česká republika",
+      "stars": "★★★★★",
+      "title": "Perfektní řešení bez stavebních úprav",
+      "text": "Opravdu mě překvapil. Hledal jsem řešení bez zednických prací a Fresh Air Pro byl ideální. Velmi rychle ochladí obývací pokoj a ovládání přes aplikaci je opravdu jednoduché. Výborný poměr ceny a kvality.",
+      "photo_alt": "Jan R. — Praha",
+      "verified": true
+    },
+    {
+      "name": "Marie T.",
+      "location": "Brno, Česká republika",
+      "stars": "★★★★★",
+      "title": "Konečně mohu spát bez vedra",
+      "text": "Konečně mohu spát bez trápení v horku. Je tichý a funkce odvlhčovače opravdu pomáhá v dusných dnech. Doporučuji každému, kdo bydlí v bytě a nemůže instalovat tradiční klimatizaci.",
+      "photo_alt": "Marie T. — Brno",
+      "verified": true
+    },
+    {
+      "name": "Petr M.",
+      "location": "Ostrava, Česká republika",
+      "stars": "★★★★★",
+      "title": "Vyhřívá i chladí velmi dobře",
+      "text": "Koupil jsem ho hlavně na vytápění v zimě a chlazení v létě. Obě funkce zvládá výborně a dálkový ovladač je velmi pohodlný. Dorazil za dva dny a byl hned připraven k použití.",
+      "photo_alt": "Petr M. — Ostrava",
+      "verified": true
+    },
+    {
+      "name": "Lucie L.",
+      "location": "Plzeň, Česká republika",
+      "stars": "★★★★★",
+      "title": "Velmi snadné používání",
+      "text": "Velmi snadné používání. Líbí se mi, že kromě chlazení také filtruje vzduch. Dala jsem ho do domácí kanceláře a prostředí je mnohem příjemnější. S nákupem jsem spokojená.",
+      "photo_alt": "Lucie L. — Plzeň",
+      "verified": true
+    },
+    {
+      "name": "Tomáš P.",
+      "location": "Liberec, Česká republika",
+      "stars": "★★★★★",
+      "title": "Přesvědčil mě hned při prvním použití",
+      "text": "Byl jsem skeptický, ale přesvědčil mě hned při prvním použití. Žádná instalace, nízká spotřeba a rychlé chlazení. Aplikace také funguje dobře a umožní zapnout ho ještě před příchodem domů.",
+      "photo_alt": "Tomáš P. — Liberec",
+      "verified": true
+    },
+    {
+      "name": "Eva C.",
+      "location": "Olomouc, Česká republika",
+      "stars": "★★★★★",
+      "title": "Skvělý produkt po celý rok",
+      "text": "Skvělý produkt. V létě rychle ochladí ložnici a v zimě ho používám na vytápění bez okamžitého zapínání radiátorů. Je praktický, tichý a zákaznická podpora byla velmi nápomocná.",
+      "photo_alt": "Eva C. — Olomouc",
+      "verified": true
+    }
+  ],
+  "package_content": {
+    "title": "Co najdete v balení Fresh Air Pro",
+    "subtitle": "Vše v ceně — plug & play, žádná instalace",
+    "image_alt": "Obsah balení Fresh Air Pro",
+    "items": [
+      {
+        "text": "<strong>1× Fresh Air Pro</strong> na chlazení, vytápění, odvlhčování a ventilaci"
+      },
+      {
+        "text": "📡 1 bezdrátový dálkový ovladač s baterií v balení"
+      },
+      {
+        "text": "📱 Chytré ovládání přes aplikaci s Wi-Fi připojením"
+      },
+      {
+        "text": "🔁 Automatická rotace 115° pro rovnoměrnější rozložení vzduchu"
+      },
+      {
+        "text": "💨 HEPA filtr + ionizátor pro čistší a příjemnější vzduch"
+      },
+      {
+        "text": "🔇 Tichý provoz: pouze 53,1 dB"
+      },
+      {
+        "text": "🚫 Žádná instalace, žádná flexibilní hadice, žádná venkovní jednotka"
+      },
+      {
+        "text": "🚚 Rychlé doručení do 24–48 hodin + platba na dobírku"
+      },
+      {
+        "text": "🔒 2letá záruka v ceně objednávky"
+      },
+      {
+        "text": "Produkt certifikovaný CE · ⚙️ Kontrola kvality · 💬 Zákaznická podpora"
+      }
+    ]
+  },
+  "incentive_2": {
+    "title": "⏰ POSLEDNÍ ŠANCE — Nabídka končí dnes",
+    "text": "Úvodní cena 1 999 Kč platí pouze do vyprodání zásob. Poté se cena vrátí na 3 998 Kč. Nepromeškejte příležitost — potvrďte objednávku nyní a obdržíte ho do 24/48 h."
+  },
+  "faq": {
+    "title": "Často kladené otázky",
+    "items": [
+      {
+        "q": "Mohu opravdu platit na dobírku, bez karty?",
+        "a": "Ano, platba na dobírku je náš standardní způsob. Když dorazí kurýr, zaplatíte v hotovosti částku objednávky. Žádná záloha, žádná karta. Bezpečnější takto: produkt uvidíte před zaplacením."
+      },
+      {
+        "q": "Je opravdu potřeba nějaká instalace?",
+        "a": "Ne. Fresh Air Pro nevyžaduje žádnou instalaci, venkovní jednotku ani stavební úpravy. Stačí ho zapojit do zásuvky, stisknout ON a během několika minut je místnost příjemně chladná nebo teplá. Ideální pro byty, kde není možné instalovat tradiční klimatizaci."
+      },
+      {
+        "q": "Funguje i na vytápění a chlazení?",
+        "a": "Ano. Fresh Air Pro je skutečný 4 v 1 systém: ochladí prostor až na 16 °C, vyhřeje až na 42 °C, odvlhčuje a filtruje vzduch přes HEPA filtr. Pokrývá prostory do 120 m² a díky energetické třídě A+++ spotřebuje až o 80 % méně energie."
+      },
+      {
+        "q": "Pokud nejsem spokojený, mohu ho vrátit?",
+        "a": "Samozřejmě. Máte 30 dní od doručení na vrácení, pokud vás neuspokojí. Vrácení zdarma, plná refundace. Žádné otázky, žádné poplatky. Oficiální 24měsíční záruka na výrobní vady."
+      },
+      {
+        "q": "Jsou moje osobní údaje v bezpečí?",
+        "a": "Určitě ano. Vaše údaje používáme pouze pro doručení a kontaktování kvůli potvrzení. Žádný spam, žádný telemarketing, žádné předávání třetím stranám. V souladu s GDPR. Naše Zásady ochrany osobních údajů najdete v patičce."
+      },
+      {
+        "q": "Jak dlouho trvá doručení?",
+        "a": "24–48 pracovních hodin po telefonickém potvrzení. Doprava je zdarma kdekoli v České republice. Po odeslání kurýrem obdržíte SMS s číslem pro sledování zásilky."
+      },
+      {
+        "q": "Jak nyní potvrdím objednávku?",
+        "a": "Je to velmi jednoduché. Vyplňte formulář výše se jménem, telefonem a adresou. Náš operátor vám zavolá do 1 hodiny pro potvrzení. Fresh Air Pro obdržíte do 24/48 h a platíte pouze na dobírku. ✓ POTVRDIT NYNÍ"
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Užitečné produkty pro každodenní život, doručení do 24–48 hodin s platbou na dobírku.",
+    "company_heading": "Společnost",
+    "policies_heading": "Právní informace",
+    "contact_heading": "Kontakt",
+    "company_info": [
+      "<strong>TERRA-STITCH INTERNATIONAL S.L.</strong>",
+      "Calle Aragón 150",
+      "08011 Barcelona, Španělsko"
+    ]
+  }
+}

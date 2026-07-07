@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "title": "Pedido recibido — Espera la llamada de confirmación | Fresh Air Pro",
+    "description": "Tu pedido de Fresh Air Pro ha sido registrado. Falta un último paso: responde a la llamada de confirmación.",
+    "currency": "EUR",
+    "price": "89.00"
+  },
+  "headline_warning": {
+    "loader_percent": "90%",
+    "title": "¡Tu pedido se ha registrado correctamente!",
+    "text": "Perfecto — tu pedido está en proceso. Solo falta un último paso para completarlo y enviarlo."
+  },
+  "next_steps": {
+    "title": "📋 Qué ocurre después",
+    "subtitle": "COMPLETE EL PEDIDO EN 30 SEGUNDOS",
+    "steps": [
+      {
+        "title": "Responde a la llamada y <strong>confirma tus datos</strong>",
+        "text": ""
+      },
+      {
+        "title": "Tu pedido se enviará en <strong>24–48 horas</strong>",
+        "text": ""
+      },
+      {
+        "title": "Entrega a domicilio y <strong>pago contra reembolso</strong>",
+        "text": ""
+      }
+    ]
+  },
+  "stock_warning": {
+    "icon": "🚨",
+    "title": "📞 Responde a la llamada de confirmación",
+    "text": "Si no respondes a la llamada, el pedido se cancelará automáticamente."
+  },
+  "call_hours": {
+    "icon": "🕒",
+    "title": "🕒 Horario de contacto",
+    "hours": [
+      "Lunes – Sábado · 9:00 – 18:00"
+    ],
+    "promise_title": "🔒 Pago contra reembolso",
+    "promise_text": "🔒 Sus datos están protegidos. Sin spam, sin telemarketing, solo confirmación del pedido."
+  },
+  "product_recall": {
+    "image_alt": "Fresh Air Pro",
+    "title": "OLVÍDESE DE LAS FACTURAS ELEVADAS: Fresh Air Pro 4 en 1 calienta, enfría, purifica el aire y reduce los costes energéticos en más del 80%.",
+    "text": "El aire acondicionado split de interior reduce notablemente el calor en pocos minutos. Basta con enchufarlo, pulsar ON y disfrutar al instante de aire fresco y limpio. Sin instalación, sin esperas, entrega a domicilio en 24 horas.",
+    "whatsapp_button": "",
+    "whatsapp_link": ""
+  }
+}

@@ -1,0 +1,347 @@
+{
+  "lang": "es",
+  "html_lang": "es",
+  "country_name": "España",
+  "delivery_country": "en España",
+  "offer_name_suffix": "ES",
+  "offer_id": "2283",
+  "cookie": {
+    "text": "Usamos cookies técnicas y de terceros para mejorar tu experiencia y para análisis.",
+    "accept": "Aceptar",
+    "learn": "Más información"
+  },
+  "footer": {
+    "info_heading": "Información",
+    "contact_heading": "Contacto",
+    "about": "Sobre nosotros",
+    "contact": "Contáctenos",
+    "privacy": "Política de privacidad",
+    "terms": "Términos y condiciones",
+    "cookies": "Política de cookies",
+    "shipping": "Política de envío",
+    "refund": "Política de reembolso",
+    "rights": "Todos los derechos reservados."
+  },
+  "popup_purchases": [
+    {
+      "initial": "C",
+      "name": "Carlos R.",
+      "message": " acaba de pedir Fresh Air Pro",
+      "time": "hace 2 minutos, Madrid"
+    },
+    {
+      "initial": "M",
+      "name": "María B.",
+      "message": " acaba de confirmar el pedido",
+      "time": "hace 5 minutos, Barcelona"
+    },
+    {
+      "initial": "J",
+      "name": "Javier T.",
+      "message": " acaba de comprar Fresh Air Pro",
+      "time": "hace 8 minutos, Valencia"
+    },
+    {
+      "initial": "C",
+      "name": "Carmen M.",
+      "message": " ha completado el pedido",
+      "time": "hace 12 minutos, Sevilla"
+    },
+    {
+      "initial": "A",
+      "name": "Antonio P.",
+      "message": " acaba de pedir (entrega mañana)",
+      "time": "hace 15 minutos, Málaga"
+    },
+    {
+      "initial": "L",
+      "name": "Laura D.",
+      "message": " ha confirmado su pedido",
+      "time": "hace 21 minutos, Zaragoza"
+    },
+    {
+      "initial": "R",
+      "name": "Roberto L.",
+      "message": " acaba de comprar Fresh Air Pro",
+      "time": "hace 27 minutos, Bilbao"
+    },
+    {
+      "initial": "I",
+      "name": "Isabel V.",
+      "message": " completó el pedido en 30 segundos",
+      "time": "hace 33 minutos, Murcia"
+    }
+  ],
+  "landing": {
+    "meta": {
+      "title": "Aire acondicionado de pared 4 en 1 sin unidad exterior ni instalación — calienta, enfría y deshumidifica hasta 120 m² en minutos",
+      "description": "Fresh Air Pro: aire acondicionado de pared 4 en 1 sin unidad exterior. Enfría, calienta, deshumidifica y purifica el aire hasta 120 m². -50% solo hoy, pago contra reembolso, envío gratuito en 24/48h.",
+      "og_image": "/assets/img/products/fresh-air-pro/og-image.jpg",
+      "currency": "EUR",
+      "price": "89.00"
+    },
+    "banner_urgency": {
+      "main": "🔥 OFERTA -50%: Solo hoy 89€ en lugar de 178€",
+      "sub": "Envío GRATUITO en 24/48h • Pago contra reembolso • Últimas unidades disponibles"
+    },
+    "headline": {
+      "rating_label": "★★★★★ 4,8/5 — Más de 3.842 clientes satisfechos",
+      "title": "OLVÍDESE DE LAS FACTURAS ELEVADAS: Fresh Air Pro 4 en 1 calienta, enfría, purifica el aire y reduce los costes energéticos en más del 80%.",
+      "subtitle": "El aire acondicionado split de interior reduce notablemente el calor en pocos minutos. Basta con enchufarlo, pulsar ON y disfrutar al instante de aire fresco y limpio. Sin instalación, sin esperas, entrega a domicilio en 24 horas.",
+      "image_alt": "Fresh Air Pro — aire acondicionado de pared 4 en 1 con mando a distancia, app Wi-Fi y filtro HEPA"
+    },
+    "bullets": [
+      {
+        "text": "Enfría hasta 16 °C o calienta hasta 42 °C en espacios de hasta 120 m²"
+      },
+      {
+        "text": "4 en 1: Enfría, calienta, deshumidifica y filtra el aire"
+      },
+      {
+        "text": "Reduce los costes un 80%: Bajo consumo energético A+++"
+      },
+      {
+        "text": "Instalación plug & play: enchufa, pulsa ON y en minutos el ambiente está fresco"
+      }
+    ],
+    "price": {
+      "label": "OFERTA ESPECIAL -50%",
+      "anchor": "178,00",
+      "final": "89,00",
+      "currency": "€",
+      "discount": "-50%"
+    },
+    "scarcity_text": "⚠️ Solo quedan 14 unidades al precio reducido. Confirma ahora para no perder la oferta.",
+    "form": {
+      "title": "COMPLETE EL PEDIDO EN 30 SEGUNDOS",
+      "subtitle": "Rellene el formulario de abajo. Le contactaremos en 1 hora para confirmar la entrega y la dirección.",
+      "fields": {
+        "name_label": "Nombre y apellidos *",
+        "name_placeholder": "Ej. Juan García",
+        "name_error": "Introduzca nombre y apellidos (mínimo 3 caracteres)",
+        "phone_label": "Número de teléfono *",
+        "phone_placeholder": "Ej. 612 345 678",
+        "phone_error": "Introduzca un número de teléfono válido",
+        "address_label": "Dirección de entrega *",
+        "address_placeholder": "Calle, número, ciudad, código postal",
+        "address_error": "Introduzca una dirección completa (mínimo 10 caracteres)"
+      },
+      "cta_button": "✓ CONFIRMAR PEDIDO — 89,00€",
+      "submitting_label": "Enviando...",
+      "trust_below": "★★★★★ Valorado 4,8/5 por más de 3.842 clientes satisfechos",
+      "secure_note": "🔒 Sus datos están protegidos. Sin spam, sin telemarketing, solo confirmación del pedido."
+    },
+    "guarantees": [
+      {
+        "icon": "🚚",
+        "title": "Entrega 24/48h",
+        "sub": "Envío gratuito en toda España"
+      },
+      {
+        "icon": "💵",
+        "title": "Pago contra reembolso",
+        "sub": "Solo cuando recibe el producto"
+      },
+      {
+        "icon": "↩️",
+        "title": "Devolución 30 días",
+        "sub": "Satisfecho o reembolsado"
+      },
+      {
+        "icon": "🛡️",
+        "title": "Garantía 24 meses",
+        "sub": "Por defectos de fabricación"
+      }
+    ],
+    "macro_review": {
+      "photo_alt": "Lucía M. — clienta verificada con Fresh Air Pro en el dormitorio",
+      "quote": "«Necesitaba una solución práctica porque no podía instalar un aire acondicionado tradicional. Fresh Air Pro fue un descubrimiento agradable: en pocos minutos la habitación está mucho más fresca y el aire se siente menos húmedo. Es fácil de usar, silencioso y el control por app es muy cómodo. Por lo que cuesta, ha sido una de las mejores compras de este año.»",
+      "author": "Lucía M.",
+      "credentials": "Clienta verificada, Barcelona",
+      "stars": "★★★★★"
+    },
+    "competitor_destruction": {
+      "title": "Fresh Air Pro vs aire acondicionado tradicional",
+      "subtitle": "Por qué cada vez más hogares eligen el confort plug & play",
+      "headers": [
+        "Aire acondicionado tradicional",
+        "Fresh Air Pro"
+      ],
+      "rows": [
+        {
+          "bad": "❌ Instalación costosa con técnico y obras en casa",
+          "good": "✅ Sin instalación: listo para usar en minutos"
+        },
+        {
+          "bad": "❌ Requiere unidad exterior, a menudo prohibida en edificios",
+          "good": "✅ Sin unidad exterior, ideal para cualquier vivienda"
+        },
+        {
+          "bad": "❌ Solo refrigeración (o requiere bomba de calor costosa)",
+          "good": "✅ 4 en 1: enfría, calienta, deshumidifica y purifica el aire"
+        },
+        {
+          "bad": "❌ Consumo elevado y facturas altas todo el año",
+          "good": "✅ Clase energética A+++ con consumo reducido hasta un 80%*"
+        },
+        {
+          "bad": "❌ Instalación fija: no se puede mover fácilmente",
+          "good": "✅ Compacto y utilizable donde lo necesite"
+        },
+        {
+          "bad": "❌ Control limitado al mando o comandos del dispositivo",
+          "good": "✅ Control inteligente por app Wi-Fi + mando a distancia"
+        },
+        {
+          "bad": "❌ Tiempos largos de instalación y puesta en marcha",
+          "good": "✅ Encienda y disfrute del confort en minutos"
+        },
+        {
+          "bad": "❌ Requiere obras y mantenimiento del sistema",
+          "good": "✅ Sin obras en casa y mantenimiento mínimo"
+        }
+      ]
+    },
+    "reviews": [
+      {
+        "name": "Carlos R.",
+        "location": "Madrid, España",
+        "stars": "★★★★★",
+        "title": "Solución perfecta sin obras",
+        "text": "Me sorprendió mucho. Buscaba una solución sin obras y Fresh Air Pro fue perfecto. Enfría el salón muy rápido y es muy fácil de usar con la app. Excelente relación calidad-precio.",
+        "photo_alt": "Carlos R. — Madrid",
+        "verified": true
+      },
+      {
+        "name": "Lucía T.",
+        "location": "Barcelona, España",
+        "stars": "★★★★★",
+        "title": "Por fin duermo sin sufrir el calor",
+        "text": "Por fin puedo dormir sin sufrir el calor. Es silencioso y la función deshumidificador marca la diferencia en los días más bochornosos. Lo recomiendo a quien vive en piso y no puede instalar aire acondicionado tradicional.",
+        "photo_alt": "Lucía T. — Barcelona",
+        "verified": true
+      },
+      {
+        "name": "Andrés M.",
+        "location": "Valencia, España",
+        "stars": "★★★★★",
+        "title": "Calienta y enfría muy bien",
+        "text": "Lo compré principalmente para calefacción en invierno y refrigeración en verano. Hace ambas cosas muy bien y el mando es muy cómodo. Llegó en dos días y listo para usar.",
+        "photo_alt": "Andrés M. — Valencia",
+        "verified": true
+      },
+      {
+        "name": "Sara L.",
+        "location": "Sevilla, España",
+        "stars": "★★★★★",
+        "title": "Muy fácil de usar",
+        "text": "Muy fácil de usar. Me gusta que además de enfriar filtra el aire. Lo puse en el despacho donde trabajo desde casa y el ambiente es mucho más confortable. Satisfecha con la compra.",
+        "photo_alt": "Sara L. — Sevilla",
+        "verified": true
+      },
+      {
+        "name": "Pablo P.",
+        "location": "Málaga, España",
+        "stars": "★★★★★",
+        "title": "Convencido desde el primer uso",
+        "text": "Era escéptico, pero me convenció desde el primer uso. Sin instalación, consumo bajo y refrigeración rápida. La app también funciona bien y permite encenderlo antes de llegar a casa.",
+        "photo_alt": "Pablo P. — Málaga",
+        "verified": true
+      },
+      {
+        "name": "Elena C.",
+        "location": "Bilbao, España",
+        "stars": "★★★★★",
+        "title": "Gran producto todo el año",
+        "text": "Gran producto. En verano enfría rápido el dormitorio y en invierno lo uso para calentar sin encender los radiadores de inmediato. Práctico, silencioso y el servicio de atención al cliente fue muy atento.",
+        "photo_alt": "Elena C. — Bilbao",
+        "verified": true
+      }
+    ],
+    "package_content": {
+      "title": "Qué incluye el paquete Fresh Air Pro",
+      "subtitle": "Todo incluido — plug & play, sin instalación",
+      "image_alt": "Contenido del paquete Fresh Air Pro",
+      "items": [
+        {
+          "text": "<strong>1× Fresh Air Pro</strong> para refrigeración, calefacción, deshumidificación y ventilación"
+        },
+        {
+          "text": "📡 1 mando a distancia inalámbrico con pila incluida"
+        },
+        {
+          "text": "📱 Control inteligente por app con conexión Wi-Fi"
+        },
+        {
+          "text": "🔁 Rotación automática de 115° para una distribución más uniforme"
+        },
+        {
+          "text": "💨 Filtro HEPA + ionizador para un aire más limpio y agradable"
+        },
+        {
+          "text": "🔇 Funcionamiento silencioso: solo 53,1 dB"
+        },
+        {
+          "text": "🚫 Sin instalación, sin tubo flexible, sin unidad exterior"
+        },
+        {
+          "text": "🚚 Entrega rápida en 24–48 horas + pago contra reembolso"
+        },
+        {
+          "text": "🔒 Garantía de 2 años incluida"
+        },
+        {
+          "text": "Producto certificado CE · ⚙️ Control de calidad · 💬 Atención al cliente"
+        }
+      ]
+    },
+    "incentive_2": {
+      "title": "⏰ ÚLTIMA OPORTUNIDAD — La oferta termina hoy",
+      "text": "El precio de lanzamiento de 89,00€ es válido solo hasta agotar existencias. Después el precio vuelve a 178,00€. No pierda la oportunidad — confirme su pedido ahora y recíbalo en 24/48h."
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "q": "¿Puedo pagar realmente contra reembolso, sin tarjeta?",
+          "a": "Sí, el pago contra reembolso es nuestro método estándar. Cuando llega el mensajero, pagas en efectivo el importe del pedido. Sin anticipo, sin tarjeta. Más seguro así: ves el producto antes de pagar."
+        },
+        {
+          "q": "¿Realmente no necesito instalación?",
+          "a": "Sí. Fresh Air Pro es plug & play: conéctalo a la toma de corriente, pulsa ON y en pocos minutos disfrutas de aire fresco o cálido. Sin técnico, sin obras, sin unidad exterior."
+        },
+        {
+          "q": "¿Enfría y calienta realmente hasta 120 m²?",
+          "a": "Sí. Fresh Air Pro enfría hasta 16 °C o calienta hasta 42 °C y cubre espacios de hasta 120 m². La función 4 en 1 combina refrigeración, calefacción, deshumidificación y purificación del aire en un solo aparato."
+        },
+        {
+          "q": "¿Puedo devolverlo si no estoy satisfecho?",
+          "a": "Por supuesto. Tienes 30 días desde la entrega para devolverlo si no te convence. Devolución gratuita, reembolso completo. Sin preguntas, sin penalización. Garantía oficial de 24 meses por defectos de fabricación."
+        },
+        {
+          "q": "¿Están seguros mis datos personales?",
+          "a": "Por supuesto. Usamos tus datos solo para gestionar la entrega y contactarte para la confirmación. Sin spam, sin telemarketing, sin cesión a terceros. Conforme al RGPD. Puedes consultar nuestra Política de Privacidad en el pie de página."
+        },
+        {
+          "q": "¿Cuánto tarda la entrega?",
+          "a": "24–48 horas laborables tras la confirmación telefónica. El envío es gratuito en toda España. Recibirás un SMS con el número de seguimiento cuando salga el mensajero."
+        },
+        {
+          "q": "¿Cómo confirmo mi pedido ahora?",
+          "a": "Muy sencillo. Rellena el formulario de arriba con nombre, teléfono y dirección. Un operador te llamará en 1 hora para confirmar. Recibes Fresh Air Pro en 24/48h y pagas solo contra reembolso. ✓ CONFIRMAR AHORA"
+        }
+      ]
+    },
+    "footer": {
+      "tagline": "Productos útiles para el día a día, entrega en 24–48 horas con pago contra reembolso.",
+      "company_heading": "Empresa",
+      "policies_heading": "Información legal",
+      "contact_heading": "Contacto",
+      "company_info": [
+        "<strong>TERRA-STITCH INTERNATIONAL S.L.</strong>",
+        "Calle Aragón 150",
+        "08011 Barcelona, España"
+      ]
+    }
+  }
+}

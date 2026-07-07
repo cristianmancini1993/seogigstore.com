@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "title": "Comandă primită — Așteptați apelul de confirmare | Fresh Air Pro",
+    "description": "Comanda Fresh Air Pro a fost înregistrată. Mai lipsește un pas: răspundeți la apelul de confirmare.",
+    "currency": "RON",
+    "price": "397"
+  },
+  "headline_warning": {
+    "loader_percent": "90%",
+    "title": "Comanda dvs. a fost înregistrată cu succes!",
+    "text": "Perfect — comanda este în procesare. Mai lipsește doar un ultim pas pentru a o finaliza și a trimite livrarea."
+  },
+  "next_steps": {
+    "title": "📋 Ce urmează",
+    "subtitle": "FINALIZAȚI COMANDA ÎN 30 DE SECUNDE",
+    "steps": [
+      {
+        "title": "Răspundeți la apel și <strong>confirmați datele</strong>",
+        "text": ""
+      },
+      {
+        "title": "Comanda va fi expediată în <strong>24–48 de ore</strong>",
+        "text": ""
+      },
+      {
+        "title": "Livrare la domiciliu și <strong>plată la livrare</strong>",
+        "text": ""
+      }
+    ]
+  },
+  "stock_warning": {
+    "icon": "🚨",
+    "title": "📞 Răspundeți la apelul de confirmare",
+    "text": "Dacă nu răspundeți la apel, comanda va fi anulată automat."
+  },
+  "call_hours": {
+    "icon": "🕒",
+    "title": "🕒 Program de contact",
+    "hours": [
+      "Luni – Sâmbătă · 9:00 – 18:00"
+    ],
+    "promise_title": "🔒 Plată la livrare",
+    "promise_text": "🔒 Datele dvs. sunt protejate. Fără spam, fără telemarketing — doar confirmarea comenzii."
+  },
+  "product_recall": {
+    "image_alt": "Fresh Air Pro",
+    "title": "UITAȚI DE FACTURILE MARI: Fresh Air Pro 4 în 1 încălzește, răcește, purifică aerul și reduce costurile energetice cu peste 80%.",
+    "text": "Aparatul de aer condiționat split pentru interior reduce semnificativ căldura în câteva minute. Doar conectați-l la priză, apăsați ON și bucurați-vă imediat de aer proaspăt și curat. Fără instalare, fără așteptare, livrare la domiciliu în 24 de ore.",
+    "whatsapp_button": "",
+    "whatsapp_link": ""
+  }
+}

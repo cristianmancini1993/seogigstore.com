@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "title": "Užsakymas gautas — Laukite patvirtinimo skambučio | Fresh Air Pro",
+    "description": "Jūsų Fresh Air Pro užsakymas užregistruotas. Liko paskutinis žingsnis: atsiliepkite į patvirtinimo skambutį.",
+    "currency": "EUR",
+    "price": "69.00"
+  },
+  "headline_warning": {
+    "loader_percent": "90%",
+    "title": "Jūsų užsakymas sėkmingai užregistruotas!",
+    "text": "Puiku — užsakymas tvarkomas. Liko tik paskutinis žingsnis, kad jį užbaigtumėte ir pradėtume siuntimą."
+  },
+  "next_steps": {
+    "title": "📋 Kas bus toliau",
+    "subtitle": "UŽBAIKITE UŽSAKYMĄ PER 30 SEKUNDŽIŲ",
+    "steps": [
+      {
+        "title": "Atsiliepkite į skambutį ir <strong>patvirtinkite savo duomenis</strong>",
+        "text": ""
+      },
+      {
+        "title": "Užsakymas bus išsiųstas per <strong>24–48 valandas</strong>",
+        "text": ""
+      },
+      {
+        "title": "Pristatymas į namus ir <strong>mokėjimas pristatymo metu</strong>",
+        "text": ""
+      }
+    ]
+  },
+  "stock_warning": {
+    "icon": "🚨",
+    "title": "📞 Atsiliepkite į patvirtinimo skambutį",
+    "text": "Jei neatsiliepsite į skambutį, užsakymas bus automatiškai atšauktas."
+  },
+  "call_hours": {
+    "icon": "🕒",
+    "title": "🕒 Kontaktų laikas",
+    "hours": [
+      "Pirmadienis – Šeštadienis · 9:00 – 18:00"
+    ],
+    "promise_title": "🔒 Mokėjimas pristatymo metu",
+    "promise_text": "🔒 Jūsų duomenys saugūs. Jokio šlamšto, jokio telemarketingo — tik užsakymo patvirtinimas."
+  },
+  "product_recall": {
+    "image_alt": "Fresh Air Pro",
+    "title": "PAMIRŠKITE DIDELĖS SĄSKAITAS: Fresh Air Pro 4 viename šildo, vėsina, valo orą ir sumažina energijos sąnaudas daugiau nei 80 %.",
+    "text": "Šis vidaus oro kondicionierius per kelias minutes akivaizdžiai sumažina karštį. Tiesiog prijunkite prie lizdo, paspauskite ON ir iš karto mėgaukitės švariu, gaiviu oru. Jokio montavimo, jokio laukimo — pristatymas į namus per 24 valandas.",
+    "whatsapp_button": "",
+    "whatsapp_link": ""
+  }
+}

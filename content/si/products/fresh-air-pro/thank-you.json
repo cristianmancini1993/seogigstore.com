@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "title": "Naročilo prejeto — Počakajte na potrditveni klic | Fresh Air Pro",
+    "description": "Vaše naročilo Fresh Air Pro je registrirano. Manjka še zadnji korak: sprejmite potrditveni klic.",
+    "currency": "EUR",
+    "price": "79"
+  },
+  "headline_warning": {
+    "loader_percent": "90%",
+    "title": "Vaše naročilo je bilo uspešno registrirano!",
+    "text": "Odlično — naročilo je v obdelavi. Manjka le še zadnji korak za dokončanje in odpošiljanje."
+  },
+  "next_steps": {
+    "title": "📋 Kaj sledi",
+    "subtitle": "ZAKLJUČITE NAROČILO V 30 SEKUNDAH",
+    "steps": [
+      {
+        "title": "Sprejmite klic in <strong>potrdite svoje podatke</strong>",
+        "text": ""
+      },
+      {
+        "title": "Naročilo bo odposlano v <strong>24–48 urah</strong>",
+        "text": ""
+      },
+      {
+        "title": "Dostava na dom in <strong>plačilo ob prevzemu</strong>",
+        "text": ""
+      }
+    ]
+  },
+  "stock_warning": {
+    "icon": "🚨",
+    "title": "📞 Sprejmite potrditveni klic",
+    "text": "Če ne sprejmete klica, bo naročilo samodejno preklicano."
+  },
+  "call_hours": {
+    "icon": "🕒",
+    "title": "🕒 Kontaktni čas",
+    "hours": [
+      "Ponedeljek – Sobota · 9:00 – 18:00"
+    ],
+    "promise_title": "🔒 Plačilo ob prevzemu",
+    "promise_text": "🔒 Vaši podatki so zaščiteni. Brez neželene pošte, brez telemarketinga, samo potrditev naročila."
+  },
+  "product_recall": {
+    "image_alt": "Fresh Air Pro",
+    "title": "POZABITE NA VISOKE RAČUNE ZA ENERGIJO: Fresh Air Pro 4 v 1 ogreva, hladi, čisti zrak in zmanjša stroške energije za več kot 80 %.",
+    "text": "Stenska klimatska naprava za notranjost v nekaj minutah občutno zniža temperaturo. Samo priključite v vtičnico, pritisnite ON in takoj uživajte v svežem, čistem zraku. Brez montaže, brez čakanja, dostava na dom v 24 urah.",
+    "whatsapp_button": "",
+    "whatsapp_link": ""
+  }
+}

@@ -1,0 +1,347 @@
+{
+  "lang": "sk",
+  "html_lang": "sk",
+  "country_name": "Slovensko",
+  "delivery_country": "na Slovensku",
+  "offer_name_suffix": "SK",
+  "offer_id": 764,
+  "cookie": {
+    "text": "Používame technické a analytické cookies tretích strán na zlepšenie vašej skúsenosti a na analytické účely.",
+    "accept": "Prijať",
+    "learn": "Zistiť viac"
+  },
+  "footer": {
+    "info_heading": "Informácie",
+    "contact_heading": "Kontakt",
+    "about": "O nás",
+    "contact": "Kontaktujte nás",
+    "privacy": "Zásady ochrany osobných údajov",
+    "terms": "Obchodné podmienky",
+    "cookies": "Zásady používania cookies",
+    "shipping": "Prepravné podmienky",
+    "refund": "Zásady vrátenia peňazí",
+    "rights": "Všetky práva vyhradené"
+  },
+  "popup_purchases": [
+    {
+      "initial": "M",
+      "name": "Martin K.",
+      "message": " práve objednal Fresh Air Pro",
+      "time": "pred 2 minútami, Bratislava"
+    },
+    {
+      "initial": "Z",
+      "name": "Zuzana H.",
+      "message": " práve potvrdila objednávku",
+      "time": "pred 5 minútami, Košice"
+    },
+    {
+      "initial": "P",
+      "name": "Peter N.",
+      "message": " práve zakúpil Fresh Air Pro",
+      "time": "pred 8 minútami, Žilina"
+    },
+    {
+      "initial": "J",
+      "name": "Jana S.",
+      "message": " dokončila objednávku",
+      "time": "pred 12 minútami, Nitra"
+    },
+    {
+      "initial": "T",
+      "name": "Tomáš V.",
+      "message": " práve objednal (doručenie zajtra)",
+      "time": "pred 15 minútami, Prešov"
+    },
+    {
+      "initial": "L",
+      "name": "Lucia M.",
+      "message": " potvrdila svoju objednávku",
+      "time": "pred 21 minútami, Banská Bystrica"
+    },
+    {
+      "initial": "M",
+      "name": "Michal B.",
+      "message": " práve zakúpil Fresh Air Pro",
+      "time": "pred 27 minútami, Trnava"
+    },
+    {
+      "initial": "E",
+      "name": "Eva D.",
+      "message": " dokončila objednávku za 30 sekúnd",
+      "time": "pred 33 minútami, Trenčín"
+    }
+  ],
+  "landing": {
+    "meta": {
+      "title": "Nástenná klimatizácia 4 v 1 bez vonkajšej jednotky a inštalácie — vykúri, ochladí a odvlhčí priestory do 120 m² za pár minút",
+      "description": "Fresh Air Pro: nástenná klimatizácia 4 v 1 bez vonkajšej jednotky. Vykúri, ochladí, odvlhčí a čistí vzduch v priestoroch do 120 m². -50 % len dnes, platba pri doručení, doprava zadarmo do 24/48 h.",
+      "og_image": "/assets/img/products/fresh-air-pro/og-image.jpg",
+      "currency": "EUR",
+      "price": "79"
+    },
+    "banner_urgency": {
+      "main": "🔥 AKCIA -50 %: Len dnes 79 € namiesto 158 €",
+      "sub": "DOPRAVA ZADARMO do 24/48 h • Platba pri doručení • Posledné kusy skladom"
+    },
+    "headline": {
+      "rating_label": "★★★★★ 4,8/5 — Viac ako 3 842 spokojných zákazníkov",
+      "title": "ZABUDNITE NA VYSOKÉ ÚČTY ZA ENERGIU: Fresh Air Pro 4 v 1 vykúri, ochladí, čistí vzduch a znižuje náklady na energiu o viac ako 80 %.",
+      "subtitle": "Nástenná klimatizácia pre interiér výrazne zníži teplotu za pár minút. Stačí ju zapojiť do zásuvky, stlačiť ON a okamžite si vychutnať čerstvý, čistý vzduch. Žiadna inštalácia, žiadne čakanie, doručenie domov do 24 hodín.",
+      "image_alt": "Fresh Air Pro — nástenná klimatizácia 4 v 1 s diaľkovým ovládaním, Wi-Fi aplikáciou a HEPA filtrom"
+    },
+    "bullets": [
+      {
+        "text": "Ochladí až na 16 °C alebo vykúri až na 42 °C priestor do 120 m²"
+      },
+      {
+        "text": "4 v 1: Chladí, vykuruje, odvlhčuje a filtruje vzduch"
+      },
+      {
+        "text": "Znižuje náklady o 80 %: Nízka spotreba energie A+++"
+      },
+      {
+        "text": "Inštalácia plug & play: zapojte do zásuvky, stlačte ON a za pár minút je miestnosť príjemne chladná"
+      }
+    ],
+    "price": {
+      "label": "ŠPECIÁLNA PONUKA -50 %",
+      "anchor": "158",
+      "final": "79",
+      "currency": "€",
+      "discount": "-50 %"
+    },
+    "scarcity_text": "⚠️ Zostáva len 14 kusov za zľavnenú cenu. Potvrďte teraz, aby ste neprišli o ponuku.",
+    "form": {
+      "title": "DOKONČITE OBJEDNÁVKU ZA 30 SEKÚND",
+      "subtitle": "Vyplňte formulár nižšie. Do 1 hodiny vás budeme kontaktovať na potvrdenie doručenia a adresy.",
+      "fields": {
+        "name_label": "Meno a priezvisko *",
+        "name_placeholder": "Napr. Ján Novák",
+        "name_error": "Zadajte meno a priezvisko (minimálne 3 znaky)",
+        "phone_label": "Telefónne číslo *",
+        "phone_placeholder": "Napr. 0912 345 678",
+        "phone_error": "Zadajte platné telefónne číslo",
+        "address_label": "Doručovacia adresa *",
+        "address_placeholder": "Ulica, číslo, mesto, PSČ",
+        "address_error": "Zadajte úplnú adresu (minimálne 10 znakov)"
+      },
+      "cta_button": "✓ POTVRDIŤ OBJEDNÁVKU — 79 €",
+      "submitting_label": "Odosiela sa...",
+      "trust_below": "★★★★★ Hodnotenie 4,8/5 od viac ako 3 842 spokojných zákazníkov",
+      "secure_note": "🔒 Vaše údaje sú chránené. Žiadny spam, žiadny telemarketing, len potvrdenie objednávky."
+    },
+    "guarantees": [
+      {
+        "icon": "🚚",
+        "title": "Doručenie do 24/48 h",
+        "sub": "Doprava zadarmo kdekoľvek na Slovensku"
+      },
+      {
+        "icon": "💵",
+        "title": "Platba pri doručení",
+        "sub": "Až keď dostanete produkt"
+      },
+      {
+        "icon": "↩️",
+        "title": "Vrátenie do 30 dní",
+        "sub": "Spokojní alebo vám vrátime peniaze"
+      },
+      {
+        "icon": "🛡️",
+        "title": "Záruka 24 mesiacov",
+        "sub": "Na výrobné vady"
+      }
+    ],
+    "macro_review": {
+      "photo_alt": "Jana M. — overená zákazníčka s Fresh Air Pro v spálni",
+      "quote": "«Potrebovala som praktické riešenie, pretože som nemohla inštalovať tradičnú klimatizáciu. Fresh Air Pro bol príjemné prekvapenie: za pár minút je izba oveľa chladnejšia a vzduch pôsobí menej vlhko. Je jednoduchý na používanie, tichý a ovládanie cez aplikáciu je naozaj pohodlné. Za tú cenu to bol jeden z najlepších nákupov tohto roka.»",
+      "author": "Jana M.",
+      "credentials": "Overená zákazníčka, Bratislava",
+      "stars": "★★★★★"
+    },
+    "competitor_destruction": {
+      "title": "Fresh Air Pro vs tradičná klimatizácia",
+      "subtitle": "Prečo čoraz viac rodín volí plug & play komfort",
+      "headers": [
+        "Tradičná klimatizácia",
+        "Fresh Air Pro"
+      ],
+      "rows": [
+        {
+          "bad": "❌ Drahá inštalácia s technikom a stavebnými úpravami",
+          "good": "✅ Žiadna inštalácia: pripravený na použitie za pár minút"
+        },
+        {
+          "bad": "❌ Vyžaduje vonkajšiu jednotku, často zakázanú v niektorých budovách",
+          "good": "✅ Bez vonkajšej jednotky, ideálne pre akékoľvek bývanie"
+        },
+        {
+          "bad": "❌ Iba chladenie (alebo drahá tepelná pumpa)",
+          "good": "✅ 4 v 1: chladí, vykuruje, odvlhčuje a čistí vzduch"
+        },
+        {
+          "bad": "❌ Vysoká spotreba a ťažké účty počas celého roka",
+          "good": "✅ Energetická trieda A+++ so zníženou spotrebou až o 80 %*"
+        },
+        {
+          "bad": "❌ Pevná inštalácia: nedá sa jednoducho presunúť",
+          "good": "✅ Kompaktný a použiteľný tam, kde ho potrebujete"
+        },
+        {
+          "bad": "❌ Obmedzené ovládanie len diaľkovým ovládačom alebo tlačidlami na zariadení",
+          "good": "✅ Inteligentné ovládanie cez Wi-Fi aplikáciu + diaľkové ovládanie"
+        },
+        {
+          "bad": "❌ Dlhé časy inštalácie a uvedenia do prevádzky",
+          "good": "✅ Zapnite a užívajte si komfort za pár minút"
+        },
+        {
+          "bad": "❌ Vyžaduje murárske práce a údržbu systému",
+          "good": "✅ Žiadne stavebné úpravy a minimálna údržba"
+        }
+      ]
+    },
+    "reviews": [
+      {
+        "name": "Martin R.",
+        "location": "Bratislava, Slovensko",
+        "stars": "★★★★★",
+        "title": "Perfektné riešenie bez stavebných úprav",
+        "text": "Naozaj ma prekvapil. Hľadal som riešenie bez murárskych prác a Fresh Air Pro bol ideálny. Veľmi rýchlo ochladí obývačku a ovládanie cez aplikáciu je naozaj jednoduché. Výborný pomer ceny a kvality.",
+        "photo_alt": "Martin R. — Bratislava",
+        "verified": true
+      },
+      {
+        "name": "Zuzana T.",
+        "location": "Košice, Slovensko",
+        "stars": "★★★★★",
+        "title": "Konečne môžem spať bez horúčav",
+        "text": "Konečne môžem spať bez utrpenia v horúčavách. Je tichý a funkcia odvlhčovača naozaj pomáha v dusných dňoch. Odporúčam každému, kto býva v byte a nemôže inštalovať tradičnú klimatizáciu.",
+        "photo_alt": "Zuzana T. — Košice",
+        "verified": true
+      },
+      {
+        "name": "Andrej M.",
+        "location": "Žilina, Slovensko",
+        "stars": "★★★★★",
+        "title": "Vykuruje aj chladí veľmi dobre",
+        "text": "Kúpil som ho hlavne na vykurovanie v zime a chladenie v lete. Obe funkcie zvláda výborne a diaľkové ovládanie je veľmi pohodlné. Prišiel za dva dni a bol hneď pripravený na použitie.",
+        "photo_alt": "Andrej M. — Žilina",
+        "verified": true
+      },
+      {
+        "name": "Sára L.",
+        "location": "Nitra, Slovensko",
+        "stars": "★★★★★",
+        "title": "Veľmi jednoduché používanie",
+        "text": "Veľmi jednoduché používanie. Páči sa mi, že okrem chladenia aj filtruje vzduch. Dala som ho do domácej kancelárie a prostredie je oveľa príjemnejšie. Som spokojná s nákupom.",
+        "photo_alt": "Sára L. — Nitra",
+        "verified": true
+      },
+      {
+        "name": "Lukáš P.",
+        "location": "Prešov, Slovensko",
+        "stars": "★★★★★",
+        "title": "Presvedčil ma hneď pri prvom použití",
+        "text": "Bol som skeptický, ale presvedčil ma hneď pri prvom použití. Žiadna inštalácia, nízka spotreba a rýchle chladenie. Aplikácia tiež funguje dobre a umožní zapnúť ho ešte pred príchodom domov.",
+        "photo_alt": "Lukáš P. — Prešov",
+        "verified": true
+      },
+      {
+        "name": "Elena C.",
+        "location": "Banská Bystrica, Slovensko",
+        "stars": "★★★★★",
+        "title": "Skvelý produkt počas celého roka",
+        "text": "Skvelý produkt. V lete rýchlo ochladí spálňu a v zime ho používam na vykurovanie bez okamžitého zapínania radiátorov. Je praktický, tichý a zákaznícka podpora bola veľmi nápomocná.",
+        "photo_alt": "Elena C. — Banská Bystrica",
+        "verified": true
+      }
+    ],
+    "package_content": {
+      "title": "Čo nájdete v balení Fresh Air Pro",
+      "subtitle": "Všetko v cene — plug & play, žiadna inštalácia",
+      "image_alt": "Obsah balenia Fresh Air Pro",
+      "items": [
+        {
+          "text": "<strong>1× Fresh Air Pro</strong> na chladenie, vykurovanie, odvlhčovanie a ventiláciu"
+        },
+        {
+          "text": "📡 1 bezdrôtové diaľkové ovládanie s batériou v balení"
+        },
+        {
+          "text": "📱 Inteligentné ovládanie cez aplikáciu s Wi-Fi pripojením"
+        },
+        {
+          "text": "🔁 Automatická rotácia 115° pre rovnomernejšie rozloženie vzduchu"
+        },
+        {
+          "text": "💨 HEPA filter + ionizátor pre čistejší a príjemnejší vzduch"
+        },
+        {
+          "text": "🔇 Tichá prevádzka: len 53,1 dB"
+        },
+        {
+          "text": "🚫 Žiadna inštalácia, žiadna flexibilná rúra, žiadna vonkajšia jednotka"
+        },
+        {
+          "text": "🚚 Rýchle doručenie do 24–48 hodín + platba pri doručení"
+        },
+        {
+          "text": "🔒 2-ročná záruka v cene objednávky"
+        },
+        {
+          "text": "Produkt certifikovaný CE · ⚙️ Kontrola kvality · 💬 Zákaznícka podpora"
+        }
+      ]
+    },
+    "incentive_2": {
+      "title": "⏰ POSLEDNÁ ŠANCA — Ponuka končí dnes",
+      "text": "Uvítacia cena 79 € platí len do vypredania zásob. Potom sa cena vráti na 158 €. Nepremeškajte príležitosť — potvrďte objednávku teraz a dostanete ho do 24/48 h."
+    },
+    "faq": {
+      "title": "Často kladené otázky",
+      "items": [
+        {
+          "q": "Môžem naozaj platiť pri doručení, bez karty?",
+          "a": "Áno, platba pri doručení je náš štandardný spôsob. Keď príde kuriér, zaplatíte v hotovosti sumu objednávky. Žiadna záloha, žiadna karta. Bezpečnejšie takto: produkt uvidíte pred zaplatením."
+        },
+        {
+          "q": "Je naozaj potrebná nejaká inštalácia?",
+          "a": "Nie. Fresh Air Pro nevyžaduje žiadnu inštaláciu, vonkajšiu jednotku ani stavebné úpravy. Stačí ho zapojiť do zásuvky, stlačiť ON a za pár minút je miestnosť príjemne chladná alebo teplá. Ideálne pre byty, kde nie je možné inštalovať tradičnú klimatizáciu."
+        },
+        {
+          "q": "Funguje aj na vykurovanie aj na chladenie?",
+          "a": "Áno. Fresh Air Pro je skutočný 4 v 1 systém: ochladí priestor až na 16 °C, vykúri až na 42 °C, odvlhčuje a filtruje vzduch cez HEPA filter. Pokrýva priestory do 120 m² a vďaka energetickej triede A+++ spotrebuje až o 80 % menej energie."
+        },
+        {
+          "q": "Ak nie som spokojný, môžem ho vrátiť?",
+          "a": "Samozrejme. Máte 30 dní od doručenia na vrátenie, ak vás neuspokojí. Vrátenie zadarmo, plná refundácia. Žiadne otázky, žiadne poplatky. Oficiálna 24-mesačná záruka na výrobné vady."
+        },
+        {
+          "q": "Sú moje osobné údaje v bezpečí?",
+          "a": "Určite áno. Vaše údaje používame len na doručenie a kontaktovanie kvôli potvrdeniu. Žiadny spam, žiadny telemarketing, žiadne predávanie tretím stranám. V súlade s GDPR. Našu Zásadu ochrany osobných údajov nájdete v pätičke."
+        },
+        {
+          "q": "Ako dlho trvá doručenie?",
+          "a": "24–48 pracovných hodín po telefonickom potvrdení. Doprava je zadarmo kdekoľvek na Slovensku. Po odoslaní kuriérom dostanete SMS s číslom na sledovanie zásielky."
+        },
+        {
+          "q": "Ako teraz potvrdím objednávku?",
+          "a": "Je to veľmi jednoduché. Vyplňte formulár vyššie s menom, telefónom a adresou. Náš operátor vám zavolá do 1 hodiny na potvrdenie. Fresh Air Pro dostanete do 24/48 h a platíte len pri doručení. ✓ POTVRDIŤ TERAZ"
+        }
+      ]
+    },
+    "footer": {
+      "tagline": "Užitočné produkty pre každodenný život, doručenie do 24–48 hodín s platbou pri doručení.",
+      "company_heading": "Spoločnosť",
+      "policies_heading": "Právne informácie",
+      "contact_heading": "Kontakt",
+      "company_info": [
+        "<strong>TERRA-STITCH INTERNATIONAL S.L.</strong>",
+        "Calle Aragón 150",
+        "08011 Barcelona, Španielsko"
+      ]
+    }
+  }
+}

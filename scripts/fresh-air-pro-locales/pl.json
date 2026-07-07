@@ -1,0 +1,347 @@
+{
+  "lang": "pl",
+  "html_lang": "pl",
+  "country_name": "Polska",
+  "delivery_country": "w Polsce",
+  "offer_name_suffix": "PL",
+  "offer_id": "1739",
+  "cookie": {
+    "text": "Używamy technicznych plików cookie i plików cookie stron trzecich w celu poprawy doświadczenia i analizy.",
+    "accept": "Akceptuję",
+    "learn": "Dowiedz się więcej"
+  },
+  "footer": {
+    "info_heading": "Informacje",
+    "contact_heading": "Kontakt",
+    "about": "O nas",
+    "contact": "Kontakt",
+    "privacy": "Polityka prywatności",
+    "terms": "Regulamin",
+    "cookies": "Polityka cookies",
+    "shipping": "Polityka dostawy",
+    "refund": "Polityka zwrotów",
+    "rights": "Wszelkie prawa zastrzeżone."
+  },
+  "popup_purchases": [
+    {
+      "initial": "M",
+      "name": "Marek K.",
+      "message": " właśnie zamówił Fresh Air Pro",
+      "time": "2 minuty temu, Warszawa"
+    },
+    {
+      "initial": "A",
+      "name": "Anna B.",
+      "message": " właśnie potwierdziła zamówienie",
+      "time": "5 minut temu, Kraków"
+    },
+    {
+      "initial": "J",
+      "name": "Jakub T.",
+      "message": " właśnie kupił Fresh Air Pro",
+      "time": "8 minut temu, Wrocław"
+    },
+    {
+      "initial": "K",
+      "name": "Katarzyna M.",
+      "message": " ukończyła zamówienie",
+      "time": "12 minut temu, Poznań"
+    },
+    {
+      "initial": "T",
+      "name": "Tomasz P.",
+      "message": " właśnie zamówił (dostawa jutro)",
+      "time": "15 minut temu, Gdańsk"
+    },
+    {
+      "initial": "M",
+      "name": "Magdalena D.",
+      "message": " potwierdziła swoje zamówienie",
+      "time": "21 minut temu, Łódź"
+    },
+    {
+      "initial": "P",
+      "name": "Piotr L.",
+      "message": " właśnie kupił Fresh Air Pro",
+      "time": "27 minut temu, Lublin"
+    },
+    {
+      "initial": "A",
+      "name": "Aleksandra V.",
+      "message": " ukończyła zamówienie w 30 sekund",
+      "time": "33 minuty temu, Szczecin"
+    }
+  ],
+  "landing": {
+    "meta": {
+      "title": "Klimatyzator ścienny 4 w 1 bez jednostki zewnętrznej i montażu — ogrzewa, chłodzi i osusza pomieszczenia do 120 m² w kilka minut",
+      "description": "Fresh Air Pro: klimatyzator ścienny 4 w 1 bez jednostki zewnętrznej. Chłodzi, ogrzewa, osusza i oczyszcza powietrze do 120 m². -50% tylko dziś, płatność za pobraniem, darmowa dostawa 24/48h.",
+      "og_image": "/assets/img/products/fresh-air-pro/og-image.jpg",
+      "currency": "PLN",
+      "price": "299"
+    },
+    "banner_urgency": {
+      "main": "🔥 OFERTA -50%: Tylko dziś 299 zł zamiast 598 zł",
+      "sub": "Darmowa dostawa w 24/48h • Płatność za pobraniem • Ostatnie sztuki"
+    },
+    "headline": {
+      "rating_label": "★★★★★ 4,8/5 — Ponad 3 842 zadowolonych klientów",
+      "title": "ZAPOMNIJ O WYSOKICH RACHUNKACH: Fresh Air Pro 4 w 1 ogrzewa, chłodzi, oczyszcza powietrze i obniża koszty energii o ponad 80%.",
+      "subtitle": "Klimatyzator split do wnętrz znacząco obniża temperaturę w kilka minut. Wystarczy podłączyć do gniazdka, nacisnąć ON i od razu cieszyć się świeżym, czystym powietrzem. Bez montażu, bez czekania, dostawa do domu w 24 godziny.",
+      "image_alt": "Fresh Air Pro — klimatyzator ścienny 4 w 1 z pilotem, aplikacją Wi-Fi i filtrem HEPA"
+    },
+    "bullets": [
+      {
+        "text": "Chłodzi do 16 °C lub ogrzewa do 42 °C pomieszczenie do 120 m²"
+      },
+      {
+        "text": "4 w 1: chłodzi, ogrzewa, osusza i filtruje powietrze"
+      },
+      {
+        "text": "Obniża koszty o 80%: niskie zużycie energii klasa A+++"
+      },
+      {
+        "text": "Montaż plug & play: podłącz do gniazdka, naciśnij ON i w kilka minut jest chłodno"
+      }
+    ],
+    "price": {
+      "label": "OFERTA SPECJALNA -50%",
+      "anchor": "598",
+      "final": "299",
+      "currency": "zł",
+      "discount": "-50%"
+    },
+    "scarcity_text": "⚠️ Zostało tylko 14 sztuk w promocyjnej cenie. Potwierdź teraz, aby nie stracić oferty.",
+    "form": {
+      "title": "DOKOŃCZ ZAMÓWIENIE W 30 SEKUND",
+      "subtitle": "Wypełnij poniższy formularz. Skontaktujemy się z Tobą w ciągu 1 godziny, aby potwierdzić dostawę i adres.",
+      "fields": {
+        "name_label": "Imię i nazwisko *",
+        "name_placeholder": "Np. Jan Kowalski",
+        "name_error": "Podaj imię i nazwisko (co najmniej 3 znaki)",
+        "phone_label": "Numer telefonu *",
+        "phone_placeholder": "Np. +48 600 123 456",
+        "phone_error": "Podaj prawidłowy numer telefonu",
+        "address_label": "Adres dostawy *",
+        "address_placeholder": "Ulica, numer, miasto, kod pocztowy",
+        "address_error": "Podaj pełny adres (co najmniej 10 znaków)"
+      },
+      "cta_button": "✓ POTWIERDŹ ZAMÓWIENIE — 299 zł",
+      "submitting_label": "Wysyłanie...",
+      "trust_below": "★★★★★ Oceniony na 4,8/5 przez ponad 3 842 zadowolonych klientów",
+      "secure_note": "🔒 Twoje dane są chronione. Bez spamu, bez telemarketingu — tylko potwierdzenie zamówienia."
+    },
+    "guarantees": [
+      {
+        "icon": "🚚",
+        "title": "Dostawa 24/48h",
+        "sub": "Darmowa wysyłka w całej Polsce"
+      },
+      {
+        "icon": "💵",
+        "title": "Płatność za pobraniem",
+        "sub": "Płacisz dopiero po otrzymaniu produktu"
+      },
+      {
+        "icon": "↩️",
+        "title": "Zwrot 30 dni",
+        "sub": "Satysfakcja lub zwrot pieniędzy"
+      },
+      {
+        "icon": "🛡️",
+        "title": "Gwarancja 24 miesiące",
+        "sub": "Na wady fabryczne"
+      }
+    ],
+    "macro_review": {
+      "photo_alt": "Julia M. — zweryfikowana klientka z Fresh Air Pro w sypialni",
+      "quote": "«Potrzebowałam praktycznego rozwiązania, bo nie mogłam zamontować tradycyjnej klimatyzacji. Fresh Air Pro okazał się świetnym odkryciem: w kilka minut pokój jest znacznie chłodniejszy, a powietrze mniej wilgotne. Prosty w obsłudze, cichy, a sterowanie przez aplikację jest naprawdę wygodne. Za tę cenę to jeden z najlepszych zakupów w tym roku.»",
+      "author": "Julia M.",
+      "credentials": "Zweryfikowana klientka, Warszawa",
+      "stars": "★★★★★"
+    },
+    "competitor_destruction": {
+      "title": "Fresh Air Pro vs tradycyjna klimatyzacja",
+      "subtitle": "Dlaczego coraz więcej rodzin wybiera komfort plug & play",
+      "headers": [
+        "Tradycyjna klimatyzacja",
+        "Fresh Air Pro"
+      ],
+      "rows": [
+        {
+          "bad": "❌ Drogi montaż z technikiem i pracami w domu",
+          "good": "✅ Bez montażu: gotowy do użycia w kilka minut"
+        },
+        {
+          "bad": "❌ Wymaga jednostki zewnętrznej, często zabronionej w budynkach",
+          "good": "✅ Bez jednostki zewnętrznej — idealny do każdego mieszkania"
+        },
+        {
+          "bad": "❌ Tylko chłodzenie (lub droga pompa ciepła)",
+          "good": "✅ 4 w 1: chłodzi, ogrzewa, osusza i oczyszcza powietrze"
+        },
+        {
+          "bad": "❌ Wysokie zużycie energii i wysokie rachunki przez cały rok",
+          "good": "✅ Klasa energetyczna A+++ ze zużyciem obniżonym nawet o 80%*"
+        },
+        {
+          "bad": "❌ Stały montaż: nie można łatwo przenieść",
+          "good": "✅ Kompaktowy i używany tam, gdzie potrzeba"
+        },
+        {
+          "bad": "❌ Sterowanie tylko pilotem lub przyciskami na urządzeniu",
+          "good": "✅ Inteligentne sterowanie przez aplikację Wi-Fi + pilot"
+        },
+        {
+          "bad": "❌ Długi czas montażu i uruchomienia",
+          "good": "✅ Włączasz i cieszysz się komfortem w kilka minut"
+        },
+        {
+          "bad": "❌ Wymaga prac murarskich i konserwacji instalacji",
+          "good": "✅ Bez prac w domu i minimalna konserwacja"
+        }
+      ]
+    },
+    "reviews": [
+      {
+        "name": "Marek R.",
+        "location": "Warszawa, Polska",
+        "stars": "★★★★★",
+        "title": "Idealne rozwiązanie bez prac remontowych",
+        "text": "Byłem naprawdę zaskoczony. Szukałem rozwiązania bez prac w domu i Fresh Air Pro był idealny. Bardzo szybko chłodzi salon i jest naprawdę prosty w obsłudze przez aplikację. Świetny stosunek jakości do ceny.",
+        "photo_alt": "Marek R. — Warszawa",
+        "verified": true
+      },
+      {
+        "name": "Katarzyna T.",
+        "location": "Kraków, Polska",
+        "stars": "★★★★★",
+        "title": "W końcu śpię bez cierpienia od upału",
+        "text": "W końcu mogę spać bez cierpienia od upału. Jest cichy, a funkcja osuszania naprawdę robi różnicę w dni upalne i wilgotne. Polecam każdemu, kto mieszka w mieszkaniu i nie może zamontować tradycyjnej klimatyzacji.",
+        "photo_alt": "Katarzyna T. — Kraków",
+        "verified": true
+      },
+      {
+        "name": "Andrzej M.",
+        "location": "Wrocław, Polska",
+        "stars": "★★★★★",
+        "title": "Świetnie ogrzewa i chłodzi",
+        "text": "Kupiłem go głównie do ogrzewania zimą i chłodzenia latem. Obie funkcje działają bardzo dobrze, a pilot jest bardzo wygodny. Dotarł w dwa dni i był gotowy do użycia.",
+        "photo_alt": "Andrzej M. — Wrocław",
+        "verified": true
+      },
+      {
+        "name": "Sara L.",
+        "location": "Poznań, Polska",
+        "stars": "★★★★★",
+        "title": "Bardzo łatwy w użyciu",
+        "text": "Bardzo łatwy w użyciu. Podoba mi się, że oprócz chłodzenia filtruje też powietrze. Postawiłam go w biurze domowym i pomieszczenie stało się znacznie wygodniejsze. Zadowolona z zakupu.",
+        "photo_alt": "Sara L. — Poznań",
+        "verified": true
+      },
+      {
+        "name": "Łukasz P.",
+        "location": "Gdańsk, Polska",
+        "stars": "★★★★★",
+        "title": "Przekonał mnie od pierwszego użycia",
+        "text": "Byłem sceptyczny, ale przekonał mnie od pierwszego użycia. Bez montażu, niskie zużycie energii i szybkie chłodzenie. Aplikacja też działa dobrze i pozwala włączyć go przed powrotem do domu.",
+        "photo_alt": "Łukasz P. — Gdańsk",
+        "verified": true
+      },
+      {
+        "name": "Elena C.",
+        "location": "Łódź, Polska",
+        "stars": "★★★★★",
+        "title": "Świetny produkt przez cały rok",
+        "text": "Świetny produkt. Latem szybko chłodzi sypialnię, a zimą używam go do ogrzewania bez włączania kaloryferów. Praktyczny, cichy, a obsługa klienta była bardzo pomocna.",
+        "photo_alt": "Elena C. — Łódź",
+        "verified": true
+      }
+    ],
+    "package_content": {
+      "title": "Co znajdziesz w paczce Fresh Air Pro",
+      "subtitle": "Wszystko w zestawie — plug & play, bez montażu",
+      "image_alt": "Zawartość opakowania Fresh Air Pro",
+      "items": [
+        {
+          "text": "<strong>1× Fresh Air Pro</strong> do chłodzenia, ogrzewania, osuszania i wentylacji"
+        },
+        {
+          "text": "📡 1 pilot bezprzewodowy z baterią w zestawie"
+        },
+        {
+          "text": "📱 Inteligentne sterowanie przez aplikację z połączeniem Wi-Fi"
+        },
+        {
+          "text": "🔁 Automatyczny obrót 115° dla równomierniejszej dystrybucji powietrza"
+        },
+        {
+          "text": "💨 Filtr HEPA + jonizator dla czystszego i przyjemniejszego powietrza"
+        },
+        {
+          "text": "🔇 Cicha praca: tylko 53,1 dB"
+        },
+        {
+          "text": "🚫 Bez montażu, bez węża, bez jednostki zewnętrznej"
+        },
+        {
+          "text": "🚚 Szybka dostawa w 24-48 godzin + płatność za pobraniem"
+        },
+        {
+          "text": "🔒 2 lata gwarancji w zestawie z zamówieniem"
+        },
+        {
+          "text": "Produkt certyfikowany CE · ⚙️ Kontrola jakości · 💬 Obsługa klienta"
+        }
+      ]
+    },
+    "incentive_2": {
+      "title": "⏰ OSTATNIA SZANSA — Oferta kończy się dziś",
+      "text": "Cena premierowa 299 zł obowiązuje tylko do wyczerpania zapasów. Potem cena wraca do 598 zł. Nie przegap okazji — potwierdź zamówienie teraz i otrzymaj je w 24/48 godzin."
+    },
+    "faq": {
+      "title": "Najczęściej zadawane pytania",
+      "items": [
+        {
+          "q": "Czy naprawdę mogę zapłacić za pobraniem, bez karty?",
+          "a": "Tak, płatność za pobraniem to nasz standardowy sposób płatności. Gdy przyjedzie kurier, płacisz gotówką za zamówienie. Bez zaliczki, bez karty. Bezpieczniej: widzisz produkt przed zapłatą."
+        },
+        {
+          "q": "Czy naprawdę nie trzeba montażu?",
+          "a": "Dokładnie tak. Fresh Air Pro to rozwiązanie plug & play: podłączasz do gniazdka, naciskasz ON i w kilka minut cieszysz się komfortem. Bez jednostki zewnętrznej, bez wiercenia w ścianach i bez technika."
+        },
+        {
+          "q": "Czy naprawdę ogrzewa i chłodzi?",
+          "a": "Tak. Chłodzi do 16 °C i ogrzewa do 42 °C, obejmując powierzchnię do 120 m². Łączy 4 funkcje: chłodzenie, ogrzewanie, osuszanie i oczyszczanie powietrza."
+        },
+        {
+          "q": "Czy mogę zwrócić produkt, jeśli nie będę zadowolony?",
+          "a": "Oczywiście. Masz 30 dni od dostawy na zwrot, jeśli produkt Ci nie odpowiada. Darmowy zwrot, pełny zwrot pieniędzy. Bez pytań, bez kar. Oficjalna gwarancja 24 miesiące na wady fabryczne."
+        },
+        {
+          "q": "Czy moje dane osobowe są bezpieczne?",
+          "a": "Absolutnie tak. Używamy Twoich danych wyłącznie do obsługi dostawy i kontaktu w sprawie potwierdzenia zamówienia. Bez spamu, bez telemarketingu, bez przekazywania osobom trzecim. Zgodnie z RODO. Politykę prywatności znajdziesz w stopce."
+        },
+        {
+          "q": "Ile trwa dostawa?",
+          "a": "24-48 godzin roboczych po telefonicznym potwierdzeniu. Darmowa wysyłka w całej Polsce. Otrzymasz SMS z numerem śledzenia, gdy kurier wyruszy."
+        },
+        {
+          "q": "Jak potwierdzić zamówienie teraz?",
+          "a": "To bardzo proste. Wypełnij formularz powyżej: imię, telefon i adres. Nasz konsultant zadzwoni w ciągu 1 godziny, aby potwierdzić. Otrzymasz Fresh Air Pro w 24/48h i zapłacisz tylko przy odbiorze. ✓ POTWIERDŹ TERAZ"
+        }
+      ]
+    },
+    "footer": {
+      "tagline": "Przydatne produkty do codziennego życia, dostawa w 24-48 godzin z płatnością za pobraniem.",
+      "company_heading": "Firma",
+      "policies_heading": "Informacje prawne",
+      "contact_heading": "Kontakt",
+      "company_info": [
+        "<strong>TERRA-STITCH INTERNATIONAL S.L.</strong>",
+        "Calle Aragón 150",
+        "08011 Barcelona, Hiszpania"
+      ]
+    }
+  }
+}
