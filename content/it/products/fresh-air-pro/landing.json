@@ -176,103 +176,94 @@
   },
   "reviews": [
     {
-      "name": "Giorgio T.",
-      "location": "Verona, Italia",
-      "stars": "★★★★★",
-      "title": "Finalmente uno che taglia anche le sterpaglie!",
-      "text": "L'ho usato su erba alta quasi un metro nel mio orto e su rovi pieni di spine. Taglia tutto senza inceppi, in 25 minuti ho finito una zona dove prima ci volevano ore con il decespugliatore a benzina. E zero benzina sui pantaloni.",
-      "photo_alt": "Giorgio — Verona",
-      "verified": true
-    },
-    {
-      "name": "Laura B.",
+      "name": "Marco R.",
       "location": "Milano, Italia",
       "stars": "★★★★★",
-      "title": "6 ore di autonomia vera, mai successo prima",
-      "text": "Avevo paura che la batteria durasse poco come sugli attrezzi cinesi che avevo provato. Invece ho lavorato 5 ore filate e mi è rimasta una batteria carica nuova. Il kit è completo, la cintura è comoda. Vale ogni euro.",
-      "photo_alt": "Laura — Milano",
+      "title": "Soluzione perfetta senza lavori in casa",
+      "text": "Sono rimasto davvero sorpreso. Cercavo una soluzione che non richiedesse lavori in casa e Fresh Air Pro è stato perfetto. Raffredda il soggiorno molto velocemente ed è davvero semplice da usare tramite app. Ottimo rapporto qualità-prezzo.",
+      "photo_alt": "Marco R. — Milano",
       "verified": true
     },
     {
-      "name": "Andrea P.",
+      "name": "Giulia T.",
       "location": "Bologna, Italia",
       "stars": "★★★★★",
-      "title": "Bordi, angoli, recinzioni — fa tutto",
-      "text": "Avevo un decespugliatore vecchio che non riusciva a entrare negli angoli. Con Fresh Air Pro rifinisco bordi vicino al muro, sotto le siepi, lungo la recinzione in pochi minuti. Senza cavi che si impigliano. Il giardino non era mai stato così pulito.",
-      "photo_alt": "Andrea — Bologna",
+      "title": "Finalmente posso dormire senza soffrire il caldo",
+      "text": "Finalmente posso dormire senza soffrire il caldo. È silenzioso e la funzione deumidificatore fa davvero la differenza nelle giornate più afose. Lo consiglio a chi vive in appartamento e non può installare un climatizzatore tradizionale.",
+      "photo_alt": "Giulia T. — Bologna",
       "verified": true
     },
     {
-      "name": "Silvia M.",
-      "location": "Napoli, Italia",
+      "name": "Andrea M.",
+      "location": "Torino, Italia",
       "stars": "★★★★★",
-      "title": "Leggero, mio marito non ce la faceva più con quello a benzina",
-      "text": "Mio marito ha 68 anni e quello vecchio era diventato troppo pesante. Fresh Air Pro pesa quanto una bottiglia d'acqua piena, lo gestisce benissimo. È contento e finalmente il giardino è in ordine.",
-      "photo_alt": "Silvia — Napoli",
+      "title": "Riscalda e raffredda molto bene",
+      "text": "L'ho acquistato principalmente per il riscaldamento in inverno e il raffrescamento in estate. Fa entrambe le cose molto bene e il telecomando è comodissimo. Arrivato in due giorni e pronto all'uso.",
+      "photo_alt": "Andrea M. — Torino",
       "verified": true
     },
     {
-      "name": "Roberto L.",
-      "location": "Bari, Italia",
+      "name": "Sara L.",
+      "location": "Verona, Italia",
       "stars": "★★★★★",
-      "title": "Arrivato in 36 ore, montato in 5 minuti",
-      "text": "Ordinato lunedì, arrivato mercoledì mattina. Pacco completo: 2 batterie, caricabatterie, 3 teste, cintura, occhiali. Montaggio velocissimo. Pago alla consegna senza problemi, corriere educato. Lo consiglio.",
-      "photo_alt": "Roberto — Bari",
+      "title": "Facilissimo da utilizzare",
+      "text": "Facilissimo da utilizzare. Mi piace il fatto che oltre a raffreddare filtri anche l'aria. L'ho messo nello studio dove lavoro da casa e l'ambiente è diventato molto più confortevole. Soddisfatta dell'acquisto.",
+      "photo_alt": "Sara L. — Verona",
       "verified": true
     },
     {
-      "name": "Francesca D.",
+      "name": "Luca P.",
       "location": "Firenze, Italia",
       "stars": "★★★★★",
-      "title": "Finalmente posso curare il giardino da sola",
-      "text": "Sono una donna di 55 anni, da quando è mancato mio marito non riuscivo più a usare il suo decespugliatore. Ho preso questo perché leggero. È perfetto: l'ho usato per tutto il giardino, batteria che dura, taglio pulito. Felicissima.",
-      "photo_alt": "Francesca — Firenze",
+      "title": "Convinto fin dal primo utilizzo",
+      "text": "Ero scettico, invece mi ha convinto fin dal primo utilizzo. Nessuna installazione, consumi contenuti e raffrescamento rapido. Anche l'app funziona bene e permette di accenderlo prima di rientrare a casa.",
+      "photo_alt": "Luca P. — Firenze",
+      "verified": true
+    },
+    {
+      "name": "Elena C.",
+      "location": "Napoli, Italia",
+      "stars": "★★★★★",
+      "title": "Ottimo prodotto tutto l'anno",
+      "text": "Ottimo prodotto. In estate raffredda velocemente la camera e in inverno lo uso per riscaldare senza accendere subito i termosifoni. È pratico, silenzioso e il servizio clienti è stato molto disponibile.",
+      "photo_alt": "Elena C. — Napoli",
       "verified": true
     }
   ],
   "package_content": {
     "title": "Cosa trovi nel pacco Fresh Air Pro",
-    "subtitle": "Tutto incluso — pronto all'uso in 5 minuti",
+    "subtitle": "Tutto incluso — plug & play, nessuna installazione",
     "image_alt": "Contenuto della confezione Fresh Air Pro",
     "items": [
       {
-        "text": "1× Fresh Air Pro — corpo macchina con motore brushless 48V"
+        "text": "✅ <strong>1× Fresh Air Pro</strong> per raffreddamento, riscaldamento, deumidificazione e ventilazione"
       },
       {
-        "text": "2× Batterie al litio 48V (a lunga durata, fino a 6h totali)"
+        "text": "📡 1 telecomando wireless con batteria inclusa"
       },
       {
-        "text": "1× Caricabatterie rapido"
+        "text": "📱 Controllo intelligente tramite app con connessione Wi-Fi"
       },
       {
-        "text": "1× Bobina con filo da taglio in nylon (per erba e bordi)"
+        "text": "🔁 Rotazione automatica di 115° per una distribuzione più uniforme"
       },
       {
-        "text": "1× Lama a 3 punte in acciaio (per sterpaglie ed erba alta)"
+        "text": "💨 Filtro HEPA + ionizzatore per un'aria più pulita e piacevole"
       },
       {
-        "text": "1× Disco circolare metallico (per arbusti e rami)"
+        "text": "🔇 Funzionamento silenzioso: solo 53,1 dB"
       },
       {
-        "text": "1× Cintura ergonomica con imbottitura"
+        "text": "🚫 Nessuna installazione, nessun tubo flessibile, nessuna unità esterna"
       },
       {
-        "text": "1× Protezione integrata per piante e fiori"
+        "text": "🚚 Consegna rapida in 24-48 ore + pagamento alla consegna"
       },
       {
-        "text": "1× Paio di guanti da lavoro",
-        "bonus": true
+        "text": "🔒 Garanzia di 2 anni inclusa nell'ordine"
       },
       {
-        "text": "1× Occhiali di protezione",
-        "bonus": true
-      },
-      {
-        "text": "1× Manuale d'uso in italiano + chiave di montaggio"
-      },
-      {
-        "text": "Garanzia ufficiale 24 mesi inclusa",
-        "bonus": true
+        "text": "✅ Prodotto certificato CE · ⚙️ Controllo qualità · 💬 Assistenza clienti"
       }
     ]
   },

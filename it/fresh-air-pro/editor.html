@@ -180,7 +180,7 @@ const SECTIONS = [
   { id: 'package', title: 'Contenuto confezione', fields: [
     { path: 'package_content.title', label: 'Titolo', type: 'text' },
     { path: 'package_content.subtitle', label: 'Sottotitolo', type: 'text' },
-    ...Array.from({ length: 12 }, (_, i) => ({
+    ...Array.from({ length: 10 }, (_, i) => ({
       path: 'package_content.items.' + i + '.text', label: 'Item ' + (i+1), type: 'text'
     })),
   ]},
