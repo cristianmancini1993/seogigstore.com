@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Editor — Fresh Air Pro Landing</title>
+<link rel="stylesheet" href="/assets/css/variables.css">
+<link rel="stylesheet" href="/assets/css/reset.css">
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: Montserrat, system-ui, sans-serif;
+    background: #f1f5f9;
+    color: #0f172a;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr;
+  }
+  .topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.75rem 1rem;
+    background: #fff;
+    border-bottom: 1px solid #e2e8f0;
+  }
+  .topbar h1 { font-size: 1rem; margin: 0; font-weight: 700; }
+  .topbar p { margin: 0.15rem 0 0; font-size: 0.8rem; color: #64748b; }
+  .topbar__actions { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+  button, .btn {
+    border: 0;
+    border-radius: 8px;
+    padding: 0.55rem 0.9rem;
+    font: inherit;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .btn-primary { background: #16a34a; color: #fff; }
+  .btn-secondary { background: #e2e8f0; color: #0f172a; }
+  .layout {
+    display: grid;
+    grid-template-columns: minmax(320px, 420px) 1fr;
+    min-height: 0;
+  }
+  .panel {
+    overflow: auto;
+    padding: 1rem;
+    border-right: 1px solid #e2e8f0;
+    background: #fff;
+  }
+  .section {
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    margin-bottom: 0.75rem;
+    overflow: hidden;
+  }
+  .section summary {
+    list-style: none;
+    cursor: pointer;
+    padding: 0.85rem 1rem;
+    font-weight: 700;
+    background: #f8fafc;
+    border-bottom: 1px solid transparent;
+  }
+  .section[open] summary { border-bottom-color: #e2e8f0; }
+  .section summary::-webkit-details-marker { display: none; }
+  .section__body { padding: 0.85rem 1rem 1rem; display: grid; gap: 0.75rem; }
+  label { display: grid; gap: 0.35rem; font-size: 0.78rem; font-weight: 600; color: #475569; }
+  input, textarea {
+    width: 100%;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    padding: 0.55rem 0.65rem;
+    font: inherit;
+    background: #fff;
+  }
+  textarea { min-height: 88px; resize: vertical; }
+  .preview-wrap { background: #e2e8f0; padding: 0.75rem; min-height: 0; }
+  iframe {
+    width: 100%;
+    height: calc(100vh - 74px);
+    border: 0;
+    border-radius: 10px;
+    background: #fff;
+  }
+  .status {
+    font-size: 0.78rem;
+    color: #64748b;
+    min-height: 1rem;
+  }
+  .status.ok { color: #15803d; }
+  .status.err { color: #b91c1c; }
+  @media (max-width: 960px) {
+    .layout { grid-template-columns: 1fr; grid-template-rows: 1fr 1fr; }
+    .panel { border-right: 0; border-bottom: 1px solid #e2e8f0; }
+    iframe { height: 50vh; }
+  }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div>
+    <h1>Fresh Air Pro — Editor Landing</h1>
+    <p>Modifica sezione per sezione. Anteprima live a destra.</p>
+  </div>
+  <div class="topbar__actions">
+    <button type="button" class="btn-secondary" id="reload-btn">Ricarica</button>
+    <button type="button" class="btn-primary" id="save-btn">Salva modifiche</button>
+  </div>
+</header>
+
+<div class="layout">
+  <aside class="panel" id="editor-panel">
+    <p class="status" id="status"></p>
+    <div id="sections"></div>
+  </aside>
+  <div class="preview-wrap">
+    <iframe id="preview" title="Anteprima landing" src="/it/fresh-air-pro/landing.html"></iframe>
+  </div>
+</div>
+
+<script>
+const JSON_PATH = '/content/it/products/fresh-air-pro/landing.json';
+const API_PATH = '/api/save-json';
+let data = null;
+let previewFrame = document.getElementById('preview');
+let statusEl = document.getElementById('status');
+
+const SECTIONS = [
+  { id: 'meta', title: 'Meta (titolo pagina)', fields: [
+    { path: 'meta.title', label: 'Titolo browser / SEO', type: 'text' },
+    { path: 'meta.description', label: 'Meta description', type: 'textarea' },
+    { path: 'meta.price', label: 'Prezzo (numero)', type: 'text' },
+  ]},
+  { id: 'banner', title: 'Banner in alto', fields: [
+    { path: 'banner_urgency.main', label: 'Testo banner', type: 'text' },
+  ]},
+  { id: 'hero', title: 'Hero — titolo principale', fields: [
+    { path: 'headline.rating_label', label: 'Rating', type: 'text' },
+    { path: 'headline.title', label: 'Titolo H1 (HTML ok: <em>)', type: 'textarea' },
+    { path: 'headline.subtitle', label: 'Sottotitolo', type: 'textarea' },
+    { path: 'headline.image_alt', label: 'Alt immagine hero', type: 'text' },
+  ]},
+  { id: 'price', title: 'Prezzo e offerta', fields: [
+    { path: 'price.label', label: 'Etichetta offerta', type: 'text' },
+    { path: 'price.anchor', label: 'Prezzo barrato', type: 'text' },
+    { path: 'price.final', label: 'Prezzo scontato', type: 'text' },
+    { path: 'price.discount', label: 'Badge sconto', type: 'text' },
+  ]},
+  { id: 'bullets', title: 'Bullet points', fields: Array.from({ length: 4 }, (_, i) => ({
+    path: 'bullets.' + i + '.text', label: 'Bullet ' + (i + 1), type: 'textarea'
+  }))},
+  { id: 'form', title: 'Modulo ordine', fields: [
+    { path: 'form.title', label: 'Titolo form', type: 'text' },
+    { path: 'form.subtitle', label: 'Sottotitolo form', type: 'textarea' },
+    { path: 'form.cta_button', label: 'Testo pulsante', type: 'text' },
+  ]},
+  { id: 'macro', title: 'Recensione esperta', fields: [
+    { path: 'macro_review.quote', label: 'Citazione', type: 'textarea' },
+    { path: 'macro_review.author', label: 'Nome', type: 'text' },
+    { path: 'macro_review.credentials', label: 'Credenziali', type: 'text' },
+  ]},
+  { id: 'competitor', title: 'Tabella confronto', fields: [
+    { path: 'competitor_destruction.title', label: 'Titolo', type: 'text' },
+    { path: 'competitor_destruction.subtitle', label: 'Sottotitolo', type: 'text' },
+    ...Array.from({ length: 7 }, (_, i) => ([
+      { path: 'competitor_destruction.rows.' + i + '.bad', label: 'Riga ' + (i+1) + ' — competitor', type: 'text' },
+      { path: 'competitor_destruction.rows.' + i + '.good', label: 'Riga ' + (i+1) + ' — Fresh Air Pro', type: 'text' },
+    ])).flat(),
+  ]},
+  { id: 'reviews', title: 'Recensioni clienti', fields: [0,1,2,3,4,5].flatMap(i => [
+    { path: 'reviews.' + i + '.name', label: 'Review ' + (i+1) + ' — nome', type: 'text' },
+    { path: 'reviews.' + i + '.location', label: 'Review ' + (i+1) + ' — città', type: 'text' },
+    { path: 'reviews.' + i + '.title', label: 'Review ' + (i+1) + ' — titolo', type: 'text' },
+    { path: 'reviews.' + i + '.text', label: 'Review ' + (i+1) + ' — testo', type: 'textarea' },
+  ])},
+  { id: 'package', title: 'Contenuto confezione', fields: [
+    { path: 'package_content.title', label: 'Titolo', type: 'text' },
+    { path: 'package_content.subtitle', label: 'Sottotitolo', type: 'text' },
+    ...Array.from({ length: 12 }, (_, i) => ({
+      path: 'package_content.items.' + i + '.text', label: 'Item ' + (i+1), type: 'text'
+    })),
+  ]},
+  { id: 'urgency', title: 'Urgenza finale', fields: [
+    { path: 'incentive_2.title', label: 'Titolo', type: 'text' },
+    { path: 'incentive_2.text', label: 'Testo', type: 'textarea' },
+  ]},
+  { id: 'faq', title: 'FAQ', fields: [0,1,2,3,4,5,6].flatMap(i => [
+    { path: 'faq.items.' + i + '.q', label: 'FAQ ' + (i+1) + ' — domanda', type: 'text' },
+    { path: 'faq.items.' + i + '.a', label: 'FAQ ' + (i+1) + ' — risposta', type: 'textarea' },
+  ])},
+];
+
+function get(obj, path) {
+  return path.split('.').reduce((acc, key) => (acc == null ? undefined : acc[key]), obj);
+}
+
+function set(obj, path, value) {
+  const keys = path.split('.');
+  let cur = obj;
+  for (let i = 0; i < keys.length - 1; i++) {
+    const k = keys[i];
+    if (cur[k] == null) cur[k] = /^\d+$/.test(keys[i + 1]) ? [] : {};
+    cur = cur[k];
+  }
+  cur[keys[keys.length - 1]] = value;
+}
+
+function pushPreview() {
+  if (!previewFrame.contentWindow) return;
+  previewFrame.contentWindow.postMessage({ type: 'lp-preview', payload: data }, '*');
+}
+
+function renderEditor() {
+  const root = document.getElementById('sections');
+  root.innerHTML = '';
+  SECTIONS.forEach((section, idx) => {
+    const details = document.createElement('details');
+    details.className = 'section';
+    if (idx === 2) details.open = true;
+    details.innerHTML = '<summary>' + section.title + '</summary>';
+    const body = document.createElement('div');
+    body.className = 'section__body';
+    section.fields.forEach(field => {
+      const label = document.createElement('label');
+      label.textContent = field.label;
+      const input = document.createElement(field.type === 'textarea' ? 'textarea' : 'input');
+      if (field.type === 'text') input.type = 'text';
+      input.value = get(data, field.path) || '';
+      input.addEventListener('input', () => {
+        set(data, field.path, input.value);
+        pushPreview();
+      });
+      label.appendChild(input);
+      body.appendChild(label);
+    });
+    details.appendChild(body);
+    root.appendChild(details);
+  });
+}
+
+async function loadData() {
+  const res = await fetch(JSON_PATH, { cache: 'no-store' });
+  if (!res.ok) throw new Error('Impossibile caricare JSON');
+  data = await res.json();
+  renderEditor();
+  previewFrame.onload = () => pushPreview();
+  pushPreview();
+}
+
+async function saveData() {
+  statusEl.className = 'status';
+  statusEl.textContent = 'Salvataggio...';
+  const res = await fetch(API_PATH, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ path: JSON_PATH.slice(1), data }),
+  });
+  if (!res.ok) {
+    statusEl.className = 'status err';
+    statusEl.textContent = 'Errore salvataggio. Usa il server editor (scripts/landing-dev-server.py).';
+    return;
+  }
+  statusEl.className = 'status ok';
+  statusEl.textContent = 'Salvato. Anteprima aggiornata.';
+  pushPreview();
+  previewFrame.src = '/it/fresh-air-pro/landing.html?ts=' + Date.now();
+}
+
+document.getElementById('save-btn').addEventListener('click', saveData);
+document.getElementById('reload-btn').addEventListener('click', loadData);
+loadData().catch(err => {
+  statusEl.className = 'status err';
+  statusEl.textContent = err.message;
+});
+</script>
+</body>
+</html>
