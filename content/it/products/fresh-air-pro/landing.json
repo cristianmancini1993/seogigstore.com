@@ -137,40 +137,44 @@
     "stars": "★★★★★"
   },
   "competitor_destruction": {
-    "title": "Fresh Air Pro vs decespugliatore tradizionale a benzina",
-    "subtitle": "Perché sempre più giardinieri stanno passando alla batteria",
+    "title": "Fresh Air Pro vs condizionatore tradizionale",
+    "subtitle": "Perché sempre più famiglie scelgono il comfort plug & play",
     "headers": [
-      "Decespugliatore a benzina",
+      "Condizionatore Tradizionale",
       "Fresh Air Pro"
     ],
     "rows": [
       {
-        "bad": "Pesa 7-9 kg, schiena distrutta dopo 1 ora",
-        "good": "Solo 2,8 kg, lavori ore senza affaticarti"
+        "bad": "❌ Installazione costosa con tecnico e lavori in casa",
+        "good": "✅ Nessuna installazione: pronto all'uso in pochi minuti"
       },
       {
-        "bad": "Rumore 95+ dB, devi indossare cuffie",
-        "good": "Silenzioso, lavori in qualsiasi orario"
+        "bad": "❌ Richiede un'unità esterna, spesso vietata in alcuni edifici",
+        "good": "✅ Senza unità esterna, ideale per qualsiasi abitazione"
       },
       {
-        "bad": "Benzina + olio + manutenzione costante",
-        "good": "Solo batteria — accendi e taglia"
+        "bad": "❌ Solo raffreddamento (o richiede una pompa di calore costosa)",
+        "good": "✅ 4 in 1: raffredda, riscalda, deumidifica e purifica l'aria"
       },
       {
-        "bad": "Difficile partire a freddo, motore capriccioso",
-        "good": "Avvio istantaneo con grilletto"
+        "bad": "❌ Consumi elevati e bollette pesanti durante tutto l'anno",
+        "good": "✅ Classe energetica A+++ con consumi ridotti fino all'80%*"
       },
       {
-        "bad": "Una sola testa di taglio (filo)",
-        "good": "3 teste intercambiabili in 30 secondi"
+        "bad": "❌ Installazione fissa: non puoi spostarlo facilmente",
+        "good": "✅ Compatto e utilizzabile dove serve"
       },
       {
-        "bad": "Costo: 250-450€ + carburante annuo",
-        "good": "79,90€ tutto incluso, zero costi annui"
+        "bad": "❌ Controllo limitato al telecomando o ai comandi sul dispositivo",
+        "good": "✅ Controllo smart tramite App Wi-Fi + telecomando"
       },
       {
-        "bad": "Inquinante, vietato in alcune zone urbane",
-        "good": "Zero emissioni, usabile ovunque"
+        "bad": "❌ Tempi lunghi per installazione e messa in funzione",
+        "good": "✅ Accendi e goditi il comfort in pochi minuti"
+      },
+      {
+        "bad": "❌ Richiede opere murarie e manutenzione dell'impianto",
+        "good": "✅ Nessun lavoro in casa e manutenzione minima"
       }
     ]
   },

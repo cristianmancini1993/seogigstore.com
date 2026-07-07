@@ -166,7 +166,7 @@ const SECTIONS = [
   { id: 'competitor', title: 'Tabella confronto', fields: [
     { path: 'competitor_destruction.title', label: 'Titolo', type: 'text' },
     { path: 'competitor_destruction.subtitle', label: 'Sottotitolo', type: 'text' },
-    ...Array.from({ length: 7 }, (_, i) => ([
+    ...Array.from({ length: 8 }, (_, i) => ([
       { path: 'competitor_destruction.rows.' + i + '.bad', label: 'Riga ' + (i+1) + ' — competitor', type: 'text' },
       { path: 'competitor_destruction.rows.' + i + '.good', label: 'Riga ' + (i+1) + ' — Fresh Air Pro', type: 'text' },
     ])).flat(),
