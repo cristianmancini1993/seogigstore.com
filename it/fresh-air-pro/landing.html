@@ -61,7 +61,7 @@ window.SITE_CONFIG = {
   PRICE: 69.0,
   OFFER_ID: '3990',
   OFFER_NAME: 'Fresh Air Pro IT',
-  LP_ID: 'it-fresh-air-pro-v1',
+  LP_ID: '4030',
   META_PIXEL_ID: '',
   GOOGLE_TAG_ID: '',
   GOOGLE_ADS_CONVERSION_ID: '',
@@ -87,9 +87,9 @@ window.POPUP_PURCHASES = [
 </script>
 <script src="/assets/js/tracking.js" defer></script>
 <script src="/assets/js/main.js" defer></script>
-<script src="/assets/js/form-handler.js" defer></script>
 <script src="/assets/js/popup-purchases.js" defer></script>
 <script src="/assets/js/landing-content.js" defer></script>
+<script src="https://offers.adricenetwork.com/forms/html/js-v2/" async></script>
 </head>
 <body>
 
@@ -154,7 +154,7 @@ window.POPUP_PURCHASES = [
 <!-- 7. FORM 1 -->
 <section class="form-1" id="form-1">
   <div class="container">
-    <form class="cod-form" novalidate>
+    <div class="cod-form">
       <h2 class="cod-form__title">COMPLETA L'ORDINE IN 30 SECONDI</h2>
       <p class="cod-form__subtitle">Compila il modulo qui sotto. Verrai contattato entro 1 ora per confermare consegna e indirizzo.</p>
       <ul class="cod-form__social-proof" aria-live="polite">
@@ -167,22 +167,23 @@ window.POPUP_PURCHASES = [
           <span>Solo nell'ultima ora sono arrivati <strong>395 ordini</strong></span>
         </li>
       </ul>
-      <div class="cod-form__field">
-        <label class="cod-form__label" for="name1">Nome e cognome *</label>
-        <input class="cod-form__input" type="text" id="name1" name="name" placeholder="Es. Mario Rossi" required minlength="3" autocomplete="name">
-        <span class="cod-form__error">Inserisci nome e cognome (almeno 3 caratteri)</span>
-      </div>
-      <div class="cod-form__field">
-        <label class="cod-form__label" for="phone1">Numero di telefono *</label>
-        <input class="cod-form__input" type="tel" id="phone1" name="phone" placeholder="Es. 333 1234567" required autocomplete="tel">
-        <span class="cod-form__error">Inserisci un numero di telefono valido</span>
-      </div>
-      <div class="cod-form__field">
-        <label class="cod-form__label" for="address1">Indirizzo di consegna *</label>
-        <input class="cod-form__input" type="text" id="address1" name="address" placeholder="Via, civico, città, CAP" required minlength="10" autocomplete="street-address">
-        <span class="cod-form__error">Inserisci un indirizzo completo (almeno 10 caratteri)</span>
-      </div>
-      <button type="submit" class="cta-button cta-button--pulse">✓ CONFERMA L'ORDINE — 79,90€</button>
+      <form class="tm-order-form" action="https://offers.adricenetwork.com/forms/html/" method="post">
+<label for="name">Nome e cognome*</label>
+<input id="name" type="text" name="name" autocomplete="name" placeholder="Nome e cognome" required><br>
+<label for="tel">Telefono*</label>
+<input id="tel" type="tel" name="tel" autocomplete="tel" placeholder="Telefono" required><br>
+<label for="street-address">Indirizzo completo*</label>
+<input id="street-address" type="text" name="street-address" autocomplete="street-address" placeholder="Indirizzo completo" required><br>
+<input name="uid" type="hidden" value="018e3961-c73a-7965-8fc1-b1d91c869a42" />
+<input name="offer" type="hidden" value="3990" />
+<input name="lp" type="hidden" value="4030" />
+<input name="thankyoupage" type="hidden" value="https://seogigstore.com/it/fresh-air-pro/thank-you-3990.html"/>
+<input name="webhook" type="hidden" value="https://hook.eu2.make.com/6w6627fflahnsa4qpoqggy993yac0ubz"/>
+<input name="_key" type="hidden" value="6f829a954dfd5740d3b245f67ffdd323ee49ae25" />
+<div style="margin-top: 10px; text-align: center">
+    <button name="submit" type="submit">PAGA ALLA CONSEGNA</button>
+</div>
+</form>
       <div class="cod-form__rating">
         <span class="cod-form__rating-score">
           <strong>4,8/5</strong>
@@ -196,7 +197,7 @@ window.POPUP_PURCHASES = [
         </span>
       </div>
       <p class="cod-form__trust" style="margin-top:0.75rem">🔒 I tuoi dati sono protetti. Non spam, non telemarketing, solo conferma ordine.</p>
-    </form>
+    </div>
   </div>
 </section>
 
@@ -425,25 +426,26 @@ window.POPUP_PURCHASES = [
 <!-- 16. FORM 2 -->
 <section class="form-2" id="form-2">
   <div class="container">
-    <form class="cod-form" novalidate>
+    <div class="cod-form">
       <h2 class="cod-form__title">⚡ ORDINA ORA — RICEVILO IN 24/48H</h2>
       <p class="cod-form__subtitle">Compila il modulo qui sotto. Verrai contattato entro 1 ora per confermare consegna e indirizzo.</p>
-      <div class="cod-form__field">
-        <label class="cod-form__label" for="name2">Nome e cognome *</label>
-        <input class="cod-form__input" type="text" id="name2" name="name" placeholder="Es. Mario Rossi" required minlength="3" autocomplete="name">
-        <span class="cod-form__error">Inserisci nome e cognome (almeno 3 caratteri)</span>
-      </div>
-      <div class="cod-form__field">
-        <label class="cod-form__label" for="phone2">Numero di telefono *</label>
-        <input class="cod-form__input" type="tel" id="phone2" name="phone" placeholder="Es. 333 1234567" required autocomplete="tel">
-        <span class="cod-form__error">Inserisci un numero di telefono valido</span>
-      </div>
-      <div class="cod-form__field">
-        <label class="cod-form__label" for="address2">Indirizzo di consegna *</label>
-        <input class="cod-form__input" type="text" id="address2" name="address" placeholder="Via, civico, città, CAP" required minlength="10" autocomplete="street-address">
-        <span class="cod-form__error">Inserisci un indirizzo completo (almeno 10 caratteri)</span>
-      </div>
-      <button type="submit" class="cta-button cta-button--pulse">✓ CONFERMA L'ORDINE — 79,90€</button>
+      <form class="tm-order-form" action="https://offers.adricenetwork.com/forms/html/" method="post">
+<label for="name2">Nome e cognome*</label>
+<input id="name2" type="text" name="name" autocomplete="name" placeholder="Nome e cognome" required><br>
+<label for="tel2">Telefono*</label>
+<input id="tel2" type="tel" name="tel" autocomplete="tel" placeholder="Telefono" required><br>
+<label for="street-address2">Indirizzo completo*</label>
+<input id="street-address2" type="text" name="street-address" autocomplete="street-address" placeholder="Indirizzo completo" required><br>
+<input name="uid" type="hidden" value="018e3961-c73a-7965-8fc1-b1d91c869a42" />
+<input name="offer" type="hidden" value="3990" />
+<input name="lp" type="hidden" value="4030" />
+<input name="thankyoupage" type="hidden" value="https://seogigstore.com/it/fresh-air-pro/thank-you-3990.html"/>
+<input name="webhook" type="hidden" value="https://hook.eu2.make.com/6w6627fflahnsa4qpoqggy993yac0ubz"/>
+<input name="_key" type="hidden" value="6f829a954dfd5740d3b245f67ffdd323ee49ae25" />
+<div style="margin-top: 10px; text-align: center">
+    <button name="submit" type="submit">PAGA ALLA CONSEGNA</button>
+</div>
+</form>
       <div class="cod-form__rating">
         <span class="cod-form__rating-score">
           <strong>4,8/5</strong>
@@ -456,7 +458,7 @@ window.POPUP_PURCHASES = [
           <picture><source type="image/webp" srcset="/assets/img/reviews/fresh-air-pro/popup-4.webp"><img src="/assets/img/reviews/fresh-air-pro/popup-4.webp" alt="" width="24" height="24" loading="lazy" decoding="async"></picture>
         </span>
       </div>
-    </form>
+    </div>
   </div>
 </section>
 

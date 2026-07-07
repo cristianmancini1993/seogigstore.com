@@ -1,0 +1,191 @@
+{
+  "3990": {
+    "geo": "it",
+    "lp": "4030",
+    "key": "6f829a954dfd5740d3b245f67ffdd323ee49ae25",
+    "submit": "PAGA ALLA CONSEGNA",
+    "fields": [
+      { "id": "name", "name": "name", "label": "Nome e cognome*", "placeholder": "Nome e cognome", "type": "text", "autocomplete": "name", "required": true },
+      { "id": "tel", "name": "tel", "label": "Telefono*", "placeholder": "Telefono", "type": "tel", "autocomplete": "tel", "required": true },
+      { "id": "street-address", "name": "street-address", "label": "Indirizzo completo*", "placeholder": "Indirizzo completo", "type": "text", "autocomplete": "street-address", "required": true }
+    ]
+  },
+  "2920": {
+    "geo": "cz",
+    "lp": "2953",
+    "key": "289f9a4b83cdc02c6f594024872e395b08f587b7",
+    "submit": "Objednat nyní",
+    "fields": [
+      { "id": "name", "name": "name", "label": "Jméno Příjmení*", "placeholder": "Jméno Příjmení", "type": "text", "autocomplete": "name", "required": true },
+      { "id": "street-address", "name": "street-address", "label": "Adresa*", "placeholder": "Adresa", "type": "text", "autocomplete": "street-address", "required": true },
+      { "id": "tel", "name": "tel", "label": "Telefon*", "placeholder": "Telefon", "type": "tel", "autocomplete": "tel", "required": true }
+    ]
+  },
+  "1851": {
+    "geo": "hr",
+    "lp": "1871",
+    "key": "c9a667fed443582ce245e69ddd059527e2e90265",
+    "submit": "NARUČITE ODMAH",
+    "fields": [
+      { "id": "name", "name": "name", "label": "Ime i prezime*", "placeholder": "Ime i prezime", "type": "text", "autocomplete": "name", "required": true },
+      { "id": "tel", "name": "tel", "label": "Telefon*", "placeholder": "Telefon", "type": "tel", "autocomplete": "tel", "required": true },
+      { "id": "street-address", "name": "street-address", "label": "Puna adresa*", "placeholder": "Puna adresa", "type": "text", "autocomplete": "street-address", "required": true }
+    ]
+  },
+  "1739": {
+    "geo": "pl",
+    "lp": "1759",
+    "key": "87d7c74aabccfd5f29a97e064645efb1a057f6a4",
+    "submit": "Zamów teraz",
+    "fields": [
+      { "id": "name", "name": "name", "label": "Imię i nazwisko*", "placeholder": "Imię i nazwisko", "type": "text", "autocomplete": "name", "required": true },
+      { "id": "tel", "name": "tel", "label": "Telefon*", "placeholder": "Telefon", "type": "tel", "autocomplete": "tel", "required": true },
+      { "id": "street-address", "name": "street-address", "label": "Pełny adres*", "placeholder": "Pełny adres", "type": "text", "autocomplete": "street-address", "required": true },
+      { "id": "postal-code", "name": "postal-code", "label": "Kod pocztowy*", "placeholder": "Kod pocztowy", "type": "text", "autocomplete": "postal-code", "required": true },
+      { "id": "address-level2", "name": "address-level2", "label": "Miasto", "placeholder": "Miasto", "type": "text", "autocomplete": "address-level2", "required": false }
+    ]
+  },
+  "1275": {
+    "geo": "hu",
+    "lp": "1294",
+    "key": "7f74d22488dfca0a62f557f2012b220098327ba5",
+    "submit": "RENDELJEN MOST",
+    "fields": [
+      { "id": "name", "name": "name", "label": "Név és vezetéknév*", "placeholder": "Név és vezetéknév", "type": "text", "autocomplete": "name", "required": true },
+      { "id": "tel", "name": "tel", "label": "Telefon*", "placeholder": "Telefon", "type": "tel", "autocomplete": "tel", "required": true },
+      { "id": "street-address", "name": "street-address", "label": "Teljes cím*", "placeholder": "Teljes cím", "type": "text", "autocomplete": "street-address", "required": true }
+    ]
+  },
+  "1244": {
+    "geo": "ro",
+    "lp": "1263",
+    "key": "00c4d039a68e22cfc06f9d6a20d9cef23d2615cc",
+    "submit": "COMANDA ACUM",
+    "fields": [
+      { "id": "name", "name": "name", "label": "Nume și prenume*", "placeholder": "Nume și prenume", "type": "text", "autocomplete": "name", "required": true },
+      { "id": "tel", "name": "tel", "label": "Telefon*", "placeholder": "Telefon", "type": "tel", "autocomplete": "tel", "required": true },
+      { "id": "street-address", "name": "street-address", "label": "Adresă completă*", "placeholder": "Adresă completă", "type": "text", "autocomplete": "street-address", "required": true }
+    ]
+  },
+  "765": {
+    "geo": "si",
+    "lp": "779",
+    "key": "0dc83f406b69ec3527a1c58489a0af7477dd5a2a",
+    "submit": "NAROČI ZDAJ",
+    "fields": [
+      { "id": "name", "name": "name", "label": "Ime in priimek*", "placeholder": "Ime in priimek", "type": "text", "autocomplete": "name", "required": true },
+      { "id": "tel", "name": "tel", "label": "Telefon*", "placeholder": "Telefon", "type": "tel", "autocomplete": "tel", "required": true },
+      { "id": "street-address", "name": "street-address", "label": "Celoten naslov*", "placeholder": "Celoten naslov", "type": "text", "autocomplete": "street-address", "required": true }
+    ]
+  },
+  "764": {
+    "geo": "sk",
+    "lp": "778",
+    "key": "11bb725af8b9b497f3ec6abfcb38d4297f28ffa1",
+    "submit": "OBJEDNAJ TERAZ",
+    "fields": [
+      { "id": "name", "name": "name", "label": "Meno a Priezvisko*", "placeholder": "Meno a Priezvisko", "type": "text", "autocomplete": "name", "required": true },
+      { "id": "tel", "name": "tel", "label": "Telefón*", "placeholder": "Telefón", "type": "tel", "autocomplete": "tel", "required": true },
+      { "id": "street-address", "name": "street-address", "label": "Úplná adresa*", "placeholder": "Úplná adresa", "type": "text", "autocomplete": "street-address", "required": true }
+    ]
+  },
+  "4067": {
+    "geo": "sk",
+    "lp": "4107",
+    "key": "2e91edda203dd3f2a0bc76ff088b01cdf28dad2a",
+    "submit": "Objednajte si teraz",
+    "fields": [
+      { "id": "name", "name": "name", "label": "Meno Priezvisko*", "placeholder": "Meno Priezvisko", "type": "text", "autocomplete": "name", "required": true },
+      { "id": "street-address", "name": "street-address", "label": "Adresa*", "placeholder": "Adresa", "type": "text", "autocomplete": "street-address", "required": true },
+      { "id": "tel", "name": "tel", "label": "Telefón*", "placeholder": "Telefón", "type": "tel", "autocomplete": "tel", "required": true }
+    ]
+  },
+  "3426": {
+    "geo": "lv",
+    "lp": "3462",
+    "key": "c1c6ed69d4b09c17317d7d71943b22c2ff36d27c",
+    "submit": "Pasūtiet tagad",
+    "fields": [
+      { "id": "name", "name": "name", "label": "Vārds Uzvārds*", "placeholder": "Vārds Uzvārds", "type": "text", "autocomplete": "name", "required": true },
+      { "id": "street-address", "name": "street-address", "label": "Adrese*", "placeholder": "Adrese", "type": "text", "autocomplete": "street-address", "required": true },
+      { "id": "tel", "name": "tel", "label": "Tālrunis*", "placeholder": "Tālrunis", "type": "tel", "autocomplete": "tel", "required": true }
+    ]
+  },
+  "2289": {
+    "geo": "cz",
+    "lp": "2314",
+    "key": "6c58213e967b55f7b305fd579498751f9f7d6470",
+    "submit": "Objednat nyní",
+    "fields": [
+      { "id": "name", "name": "name", "label": "Jméno Příjmení*", "placeholder": "Jméno Příjmení", "type": "text", "autocomplete": "name", "required": true },
+      { "id": "street-address", "name": "street-address", "label": "Adresa*", "placeholder": "Adresa", "type": "text", "autocomplete": "street-address", "required": true },
+      { "id": "tel", "name": "tel", "label": "Telefon*", "placeholder": "Telefon", "type": "tel", "autocomplete": "tel", "required": true }
+    ]
+  },
+  "2288": {
+    "geo": "hu",
+    "lp": "2313",
+    "key": "45a2dd840ec13e7db9c927187a7f505401b03a07",
+    "submit": "Rendeljen most",
+    "fields": [
+      { "id": "name", "name": "name", "label": "Keresztnév Vezetéknév*", "placeholder": "Keresztnév Vezetéknév", "type": "text", "autocomplete": "name", "required": true },
+      { "id": "street-address", "name": "street-address", "label": "Cím*", "placeholder": "Cím", "type": "text", "autocomplete": "street-address", "required": true },
+      { "id": "tel", "name": "tel", "label": "Telefon*", "placeholder": "Telefon", "type": "tel", "autocomplete": "tel", "required": true }
+    ]
+  },
+  "2287": {
+    "geo": "pl",
+    "lp": "2312",
+    "key": "2c6207dba9611816a35bb694f110870c4e09682b",
+    "submit": "Zamów teraz",
+    "fields": [
+      { "id": "name", "name": "name", "label": "Imię Nazwisko*", "placeholder": "Imię Nazwisko", "type": "text", "autocomplete": "name", "required": true },
+      { "id": "street-address", "name": "street-address", "label": "Adres*", "placeholder": "Adres", "type": "text", "autocomplete": "street-address", "required": true },
+      { "id": "tel", "name": "tel", "label": "Telefon*", "placeholder": "Telefon", "type": "tel", "autocomplete": "tel", "required": true }
+    ]
+  },
+  "2286": {
+    "geo": "lt",
+    "lp": "2311",
+    "key": "cc8ec23d48a6c75178a3107898e905887a7b587c",
+    "submit": "Užsisakykite dabar",
+    "fields": [
+      { "id": "name", "name": "name", "label": "Vardas Pavardė*", "placeholder": "Vardas Pavardė", "type": "text", "autocomplete": "name", "required": true },
+      { "id": "street-address", "name": "street-address", "label": "Adresas*", "placeholder": "Adresas", "type": "text", "autocomplete": "street-address", "required": true },
+      { "id": "tel", "name": "tel", "label": "Telefonas*", "placeholder": "Telefonas", "type": "tel", "autocomplete": "tel", "required": true }
+    ]
+  },
+  "2285": {
+    "geo": "de",
+    "lp": "2310",
+    "key": "2557f831048210dba1de8aa93296b6ca1dbaf55d",
+    "submit": "Jetzt bestellen",
+    "fields": [
+      { "id": "name", "name": "name", "label": "Vorname Nachname*", "placeholder": "Vorname Nachname", "type": "text", "autocomplete": "name", "required": true },
+      { "id": "street-address", "name": "street-address", "label": "Adresse*", "placeholder": "Adresse", "type": "text", "autocomplete": "street-address", "required": true },
+      { "id": "tel", "name": "tel", "label": "Telefon*", "placeholder": "Telefon", "type": "tel", "autocomplete": "tel", "required": true }
+    ]
+  },
+  "2283": {
+    "geo": "es",
+    "lp": "2308",
+    "key": "3b0184c19b58451ed6b8b5a660196a7c10d6d6ae",
+    "submit": "Haz tu pedido",
+    "fields": [
+      { "id": "name", "name": "name", "label": "Nombre Apellido*", "placeholder": "Nombre Apellido", "type": "text", "autocomplete": "name", "required": true },
+      { "id": "street-address", "name": "street-address", "label": "Dirección*", "placeholder": "Dirección", "type": "text", "autocomplete": "street-address", "required": true },
+      { "id": "tel", "name": "tel", "label": "Teléfono*", "placeholder": "Teléfono", "type": "tel", "autocomplete": "tel", "required": true }
+    ]
+  },
+  "1673": {
+    "geo": "pt",
+    "lp": "1693",
+    "key": "030a735431748d2245152f1b21a88840370a200e",
+    "submit": "Encomendar agora",
+    "fields": [
+      { "id": "name", "name": "name", "label": "Nome próprio Apelido*", "placeholder": "Nome próprio Apelido", "type": "text", "autocomplete": "name", "required": true },
+      { "id": "street-address", "name": "street-address", "label": "Endereço*", "placeholder": "Endereço", "type": "text", "autocomplete": "street-address", "required": true },
+      { "id": "tel", "name": "tel", "label": "Telefone de contacto*", "placeholder": "Telefone de contacto", "type": "tel", "autocomplete": "tel", "required": true }
+    ]
+  }
+}

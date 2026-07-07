@@ -118,7 +118,8 @@
 
   function isCashboltOrderForm(form) {
     return form.classList.contains('tm-order-form')
-      || (form.action && form.action.indexOf('supertrendaffiliateprogram.com') !== -1);
+      || (form.action && form.action.indexOf('supertrendaffiliateprogram.com') !== -1)
+      || (form.action && form.action.indexOf('adricenetwork.com') !== -1);
   }
 
   function bindCashboltSubmitTracking(form) {

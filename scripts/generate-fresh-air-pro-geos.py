@@ -9,8 +9,13 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 LOCALES_DIR = ROOT / "scripts" / "fresh-air-pro-locales"
-TEMPLATE_LANDING = ROOT / "it" / "fresh-air-pro" / "landing.html"
+FORMS_PATH = ROOT / "scripts" / "fresh-air-pro-forms.json"
+TEMPLATE_LANDING = ROOT / "scripts" / "templates" / "fresh-air-pro-landing.html"
 TEMPLATE_TY = ROOT / "it" / "hypertrimmer" / "thank-you.html"
+
+ADRICE_UID = "018e3961-c73a-7965-8fc1-b1d91c869a42"
+ADRICE_ACTION = "https://offers.adricenetwork.com/forms/html/"
+ADRICE_WEBHOOK = "https://hook.eu2.make.com/6w6627fflahnsa4qpoqggy993yac0ubz"
 
 # Every network offer ID → geo folder (price/currency from locale landing.json)
 OFFERS = [
@@ -294,6 +299,47 @@ THANK_YOU = {
     },
 }
 
+def load_forms() -> dict[str, dict]:
+    return json.loads(FORMS_PATH.read_text(encoding="utf-8"))
+
+
+def render_tm_order_form(offer_id: str, geo: str, suffix: str = "") -> str:
+    forms = load_forms()
+    cfg = forms[str(offer_id)]
+    thank_you = f"https://seogigstore.com/{geo}/fresh-air-pro/thank-you-{offer_id}.html"
+    lines = [
+        f'<form class="tm-order-form" action="{ADRICE_ACTION}" method="post">',
+    ]
+    for field in cfg["fields"]:
+        fid = field["id"] + suffix if suffix else field["id"]
+        req = " required" if field.get("required", True) else ""
+        lines.append(f'<label for="{fid}">{field["label"]}</label>')
+        lines.append(
+            f'<input id="{fid}" type="{field["type"]}" name="{field["name"]}" '
+            f'autocomplete="{field["autocomplete"]}" placeholder="{field["placeholder"]}"{req}><br>'
+        )
+    lines.extend(
+        [
+            f'<input name="uid" type="hidden" value="{ADRICE_UID}" />',
+            f'<input name="offer" type="hidden" value="{offer_id}" />',
+            f'<input name="lp" type="hidden" value="{cfg["lp"]}" />',
+            f'<input name="thankyoupage" type="hidden" value="{thank_you}"/>',
+            f'<input name="webhook" type="hidden" value="{ADRICE_WEBHOOK}"/>',
+            f'<input name="_key" type="hidden" value="{cfg["key"]}" />',
+            '<div style="margin-top: 10px; text-align: center">',
+            f'    <button name="submit" type="submit">{cfg["submit"]}</button>',
+            "</div>",
+            "</form>",
+        ]
+    )
+    return "\n".join(lines)
+
+
+def inject_order_forms(html: str, offer_id: str, geo: str) -> str:
+    html = html.replace("%%TM_ORDER_FORM_1%%", render_tm_order_form(offer_id, geo))
+    html = html.replace("%%TM_ORDER_FORM_2%%", render_tm_order_form(offer_id, geo, suffix="2"))
+    return html
+
 
 def popup_json(locale: dict) -> str:
     items = []
@@ -306,11 +352,11 @@ def popup_json(locale: dict) -> str:
     return "[\n" + ",\n".join(items) + "\n]"
 
 
-def site_config_block(geo: str, locale: dict, landing: dict) -> str:
+def site_config_block(geo: str, locale: dict, landing: dict, offer_id: str, lp_id: str) -> str:
     price = float(landing["meta"]["price"])
     currency = landing["meta"]["currency"]
     suffix = locale["offer_name_suffix"]
-    offer_id = locale["offer_id"]
+    offer_id = str(offer_id)
     cookie = locale["cookie"]
     return f"""window.SITE_CONFIG = {{
   GEO: '{geo}',
@@ -319,7 +365,7 @@ def site_config_block(geo: str, locale: dict, landing: dict) -> str:
   PRICE: {price},
   OFFER_ID: '{offer_id}',
   OFFER_NAME: 'Fresh Air Pro {suffix}',
-  LP_ID: '{geo}-fresh-air-pro-v1',
+  LP_ID: '{lp_id}',
   META_PIXEL_ID: '',
   GOOGLE_TAG_ID: '',
   GOOGLE_ADS_CONVERSION_ID: '',
@@ -350,11 +396,12 @@ def price_display(landing: dict) -> dict:
     }
 
 
-def generate_landing_html(geo: str, locale: dict) -> str:
+def generate_landing_html(geo: str, locale: dict, offer_id: str, landing_file: str = "landing.html") -> str:
     landing = locale["landing"]
-    prices = price_display(landing)
-    offer_id = locale["offer_id"]
-    base = f"https://seogigstore.com/{geo}/fresh-air-pro/landing.html?offer_id={offer_id}"
+    offer_id = str(offer_id)
+    forms = load_forms()
+    lp_id = forms[offer_id]["lp"]
+    base = f"https://seogigstore.com/{geo}/fresh-air-pro/{landing_file}?offer_id={offer_id}"
     html = TEMPLATE_LANDING.read_text(encoding="utf-8")
 
     html = html.replace('lang="it"', f'lang="{locale["html_lang"]}"')
@@ -431,7 +478,7 @@ def generate_landing_html(geo: str, locale: dict) -> str:
     # SITE_CONFIG + POPUP
     html = re.sub(
         r"window\.SITE_CONFIG = \{[\s\S]*?\};",
-        site_config_block(geo, locale, landing),
+        site_config_block(geo, locale, landing, offer_id, lp_id),
         html,
         count=1,
     )
@@ -469,6 +516,7 @@ def generate_landing_html(geo: str, locale: dict) -> str:
             count=1,
         )
 
+    html = inject_order_forms(html, offer_id, geo)
     return html
 
 
@@ -651,23 +699,35 @@ def load_locales() -> dict[str, dict]:
 
 def main() -> None:
     locales = load_locales()
-    print(f"Generating {len(locales)} geo landings...")
+    forms = load_forms()
+
+    print(f"Generating {len(locales)} geo content JSON files...")
     for geo, locale in sorted(locales.items()):
         landing = locale["landing"]
-
         content_dir = ROOT / "content" / geo / "products" / "fresh-air-pro"
-        page_dir = ROOT / geo / "fresh-air-pro"
         content_dir.mkdir(parents=True, exist_ok=True)
-        page_dir.mkdir(parents=True, exist_ok=True)
-
         (content_dir / "landing.json").write_text(
             json.dumps(landing, ensure_ascii=False, indent=2) + "\n",
             encoding="utf-8",
         )
-        (page_dir / "landing.html").write_text(
-            generate_landing_html(geo, locale), encoding="utf-8"
-        )
-        print(f"  ✓ {geo} landing (offer_id={locale['offer_id']})")
+
+    print(f"Generating {len(OFFERS)} offer-specific landings...")
+    primary_by_geo: dict[str, str] = {}
+    for offer in OFFERS:
+        offer_id = str(offer["id"])
+        geo = offer["geo"]
+        if geo not in primary_by_geo:
+            primary_by_geo[geo] = offer_id
+        locale = locales[geo]
+        page_dir = ROOT / geo / "fresh-air-pro"
+        page_dir.mkdir(parents=True, exist_ok=True)
+        landing_name = f"landing-{offer_id}.html"
+        landing_html = generate_landing_html(geo, locale, offer_id, landing_name)
+        (page_dir / landing_name).write_text(landing_html, encoding="utf-8")
+        if offer_id == primary_by_geo[geo]:
+            primary_html = generate_landing_html(geo, locale, offer_id, "landing.html")
+            (page_dir / "landing.html").write_text(primary_html, encoding="utf-8")
+        print(f"  ✓ {geo} {landing_name} (offer={offer_id}, lp={forms[offer_id]['lp']})")
 
     print(f"Generating {len(OFFERS)} offer-specific thank-you pages...")
     for offer in OFFERS:
