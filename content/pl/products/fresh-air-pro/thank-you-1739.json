@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "title": "Zamówienie przyjęte — Oczekuj na telefon potwierdzający | Fresh Air Pro",
+    "description": "Twoje zamówienie Fresh Air Pro zostało zarejestrowane. Brakuje ostatniego kroku: odbierz telefon potwierdzający.",
+    "currency": "PLN",
+    "price": "299"
+  },
+  "headline_warning": {
+    "loader_percent": "90%",
+    "title": "Twoje zamówienie zostało pomyślnie zarejestrowane!",
+    "text": "Świetnie — zamówienie jest w realizacji. Brakuje tylko ostatniego kroku, aby je sfinalizować i wysłać przesyłkę."
+  },
+  "next_steps": {
+    "title": "📋 Co dzieje się dalej",
+    "subtitle": "DOKOŃCZ ZAMÓWIENIE W 30 SEKUND",
+    "steps": [
+      {
+        "title": "Odbierz telefon i <strong>potwierdź swoje dane</strong>",
+        "text": ""
+      },
+      {
+        "title": "Zamówienie zostanie wysłane w ciągu <strong>24–48 godzin</strong>",
+        "text": ""
+      },
+      {
+        "title": "Dostawa do domu i <strong>płatność przy odbiorze</strong>",
+        "text": ""
+      }
+    ]
+  },
+  "stock_warning": {
+    "icon": "🚨",
+    "title": "📞 Odbierz telefon potwierdzający",
+    "text": "Jeśli nie odbierzesz telefonu, zamówienie zostanie automatycznie anulowane."
+  },
+  "call_hours": {
+    "icon": "🕒",
+    "title": "🕒 Godziny kontaktu",
+    "hours": [
+      "Poniedziałek – Sobota · 9:00 – 18:00"
+    ],
+    "promise_title": "🔒 Płatność przy odbiorze",
+    "promise_text": "🔒 Twoje dane są chronione. Bez spamu, bez telemarketingu — tylko potwierdzenie zamówienia."
+  },
+  "product_recall": {
+    "image_alt": "Fresh Air Pro",
+    "title": "ZAPOMNIJ O WYSOKICH RACHUNKACH: Fresh Air Pro 4 w 1 ogrzewa, chłodzi, oczyszcza powietrze i obniża koszty energii o ponad 80%.",
+    "text": "Klimatyzator split do wnętrz znacząco obniża temperaturę w kilka minut. Wystarczy podłączyć do gniazdka, nacisnąć ON i od razu cieszyć się świeżym, czystym powietrzem. Bez montażu, bez czekania, dostawa do domu w 24 godziny.",
+    "whatsapp_button": "",
+    "whatsapp_link": ""
+  },
+  "offer_id": "1739"
+}

@@ -12,6 +12,27 @@ LOCALES_DIR = ROOT / "scripts" / "fresh-air-pro-locales"
 TEMPLATE_LANDING = ROOT / "it" / "fresh-air-pro" / "landing.html"
 TEMPLATE_TY = ROOT / "it" / "hypertrimmer" / "thank-you.html"
 
+# Every network offer ID → geo folder (price/currency from locale landing.json)
+OFFERS = [
+    {"id": "3990", "geo": "it"},
+    {"id": "764", "geo": "sk"},
+    {"id": "4067", "geo": "sk"},
+    {"id": "765", "geo": "si"},
+    {"id": "1244", "geo": "ro"},
+    {"id": "1275", "geo": "hu"},
+    {"id": "2288", "geo": "hu"},
+    {"id": "1673", "geo": "pt"},
+    {"id": "1739", "geo": "pl"},
+    {"id": "2287", "geo": "pl"},
+    {"id": "1851", "geo": "hr"},
+    {"id": "2283", "geo": "es"},
+    {"id": "2285", "geo": "de"},
+    {"id": "2286", "geo": "lt"},
+    {"id": "2289", "geo": "cz"},
+    {"id": "2920", "geo": "cz"},
+    {"id": "3426", "geo": "lv"},
+]
+
 POPUP_IMAGES = [
     "/assets/img/reviews/fresh-air-pro/popup-3.webp",
     "/assets/img/reviews/fresh-air-pro/popup-4.webp",
@@ -451,7 +472,7 @@ def generate_landing_html(geo: str, locale: dict) -> str:
     return html
 
 
-def generate_thank_you_html(geo: str, locale: dict) -> str:
+def generate_thank_you_html(geo: str, locale: dict, offer_id: str) -> str:
     landing = locale["landing"]
     ty = THANK_YOU.get(geo, THANK_YOU["it"])
     ft = locale["footer"]
@@ -478,6 +499,9 @@ def generate_thank_you_html(geo: str, locale: dict) -> str:
   PRODUCT_SLUG: 'fresh-air-pro',
   CURRENCY: '{currency}',
   PRICE: {price},
+  OFFER_ID: '{offer_id}',
+  OFFER_NAME: 'Fresh Air Pro {locale["offer_name_suffix"]}',
+  LP_ID: '{geo}-fresh-air-pro-{offer_id}',
   META_PIXEL_ID: '',
   GOOGLE_TAG_ID: '',
   GOOGLE_ADS_CONVERSION_ID: '',
@@ -570,10 +594,10 @@ def generate_thank_you_html(geo: str, locale: dict) -> str:
     return html
 
 
-def generate_thank_you_json(geo: str, locale: dict) -> dict:
+def generate_thank_you_json(geo: str, locale: dict, offer_id: str) -> dict:
     landing = locale["landing"]
     ty = THANK_YOU.get(geo, THANK_YOU["it"])
-    return {
+    data = {
         "meta": {
             "title": ty["title"],
             "description": ty["description"],
@@ -613,15 +637,22 @@ def generate_thank_you_json(geo: str, locale: dict) -> dict:
             "whatsapp_button": "",
             "whatsapp_link": "",
         },
+        "offer_id": offer_id,
     }
+    return data
+
+
+def load_locales() -> dict[str, dict]:
+    locales: dict[str, dict] = {}
+    for path in LOCALES_DIR.glob("*.json"):
+        locales[path.stem] = json.loads(path.read_text(encoding="utf-8"))
+    return locales
 
 
 def main() -> None:
-    locales = sorted(LOCALES_DIR.glob("*.json"))
-    print(f"Generating {len(locales)} geos...")
-    for path in locales:
-        geo = path.stem
-        locale = json.loads(path.read_text(encoding="utf-8"))
+    locales = load_locales()
+    print(f"Generating {len(locales)} geo landings...")
+    for geo, locale in sorted(locales.items()):
         landing = locale["landing"]
 
         content_dir = ROOT / "content" / geo / "products" / "fresh-air-pro"
@@ -633,17 +664,43 @@ def main() -> None:
             json.dumps(landing, ensure_ascii=False, indent=2) + "\n",
             encoding="utf-8",
         )
-        (content_dir / "thank-you.json").write_text(
-            json.dumps(generate_thank_you_json(geo, locale), ensure_ascii=False, indent=2) + "\n",
-            encoding="utf-8",
-        )
         (page_dir / "landing.html").write_text(
             generate_landing_html(geo, locale), encoding="utf-8"
         )
-        (page_dir / "thank-you.html").write_text(
-            generate_thank_you_html(geo, locale), encoding="utf-8"
+        print(f"  ✓ {geo} landing (offer_id={locale['offer_id']})")
+
+    print(f"Generating {len(OFFERS)} offer-specific thank-you pages...")
+    for offer in OFFERS:
+        offer_id = offer["id"]
+        geo = offer["geo"]
+        locale = locales[geo]
+        content_dir = ROOT / "content" / geo / "products" / "fresh-air-pro"
+        page_dir = ROOT / geo / "fresh-air-pro"
+        ty_name = f"thank-you-{offer_id}.html"
+        ty_json_name = f"thank-you-{offer_id}.json"
+
+        (content_dir / ty_json_name).write_text(
+            json.dumps(
+                generate_thank_you_json(geo, locale, offer_id),
+                ensure_ascii=False,
+                indent=2,
+            )
+            + "\n",
+            encoding="utf-8",
         )
-        print(f"  ✓ {geo} (offer_id={locale['offer_id']})")
+        (page_dir / ty_name).write_text(
+            generate_thank_you_html(geo, locale, offer_id), encoding="utf-8"
+        )
+        print(f"  ✓ {geo} {ty_name}")
+
+    # Remove legacy generic thank-you pages (replaced by offer-specific files)
+    for geo in locales:
+        legacy = ROOT / geo / "fresh-air-pro" / "thank-you.html"
+        legacy_json = ROOT / "content" / geo / "products" / "fresh-air-pro" / "thank-you.json"
+        if legacy.exists():
+            legacy.unlink()
+        if legacy_json.exists():
+            legacy_json.unlink()
 
     print("Done.")
 

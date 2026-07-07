@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "title": "Objednávka prijatá — Čakajte na potvrdzovací hovor | Fresh Air Pro",
+    "description": "Vaša objednávka Fresh Air Pro bola zaregistrovaná. Chýba posledný krok: zdvihnite potvrdzovací hovor.",
+    "currency": "EUR",
+    "price": "79"
+  },
+  "headline_warning": {
+    "loader_percent": "90%",
+    "title": "Vaša objednávka bola úspešne zaregistrovaná!",
+    "text": "Výborne — objednávka sa spracováva. Zostáva už len posledný krok na dokončenie a odoslanie."
+  },
+  "next_steps": {
+    "title": "📋 Čo bude nasledovať",
+    "subtitle": "DOKONČITE OBJEDNÁVKU ZA 30 SEKÚND",
+    "steps": [
+      {
+        "title": "Zdvihnite hovor a <strong>potvrďte svoje údaje</strong>",
+        "text": ""
+      },
+      {
+        "title": "Objednávka bude odoslaná do <strong>24–48 hodín</strong>",
+        "text": ""
+      },
+      {
+        "title": "Doručenie domov a <strong>platba na dobierku</strong>",
+        "text": ""
+      }
+    ]
+  },
+  "stock_warning": {
+    "icon": "🚨",
+    "title": "📞 Zdvihnite potvrdzovací hovor",
+    "text": "Ak nezdvihnete hovor, objednávka sa automaticky zruší."
+  },
+  "call_hours": {
+    "icon": "🕒",
+    "title": "🕒 Kontaktné hodiny",
+    "hours": [
+      "Pondelok – Sobota · 9:00 – 18:00"
+    ],
+    "promise_title": "🔒 Platba na dobierku",
+    "promise_text": "🔒 Vaše údaje sú chránené. Žiadny spam, žiadny telemarketing, len potvrdenie objednávky."
+  },
+  "product_recall": {
+    "image_alt": "Fresh Air Pro",
+    "title": "ZABUDNITE NA VYSOKÉ ÚČTY ZA ENERGIU: Fresh Air Pro 4 v 1 vykúri, ochladí, čistí vzduch a znižuje náklady na energiu o viac ako 80 %.",
+    "text": "Nástenná klimatizácia pre interiér výrazne zníži teplotu za pár minút. Stačí ju zapojiť do zásuvky, stlačiť ON a okamžite si vychutnať čerstvý, čistý vzduch. Žiadna inštalácia, žiadne čakanie, doručenie domov do 24 hodín.",
+    "whatsapp_button": "",
+    "whatsapp_link": ""
+  },
+  "offer_id": "4067"
+}

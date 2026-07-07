@@ -143,7 +143,9 @@
       submitBtn.innerHTML = '⏳ ' + (C.SUBMITTING_LABEL || 'Invio in corso...');
     }
 
-    const tyURL = appendTrackingParams('/' + C.GEO + '/' + C.PRODUCT_SLUG + '/thank-you.html', trackingContext);
+    const offerId = getURLParam('offer_id') || C.OFFER_ID || '';
+    const tyFile = offerId ? 'thank-you-' + offerId + '.html' : 'thank-you.html';
+    const tyURL = appendTrackingParams('/' + C.GEO + '/' + C.PRODUCT_SLUG + '/' + tyFile, trackingContext);
 
     try {
       if (C.FORM_ENDPOINT && !C.FORM_ENDPOINT.includes('TODO')) {

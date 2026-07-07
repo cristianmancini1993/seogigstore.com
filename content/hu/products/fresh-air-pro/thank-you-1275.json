@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "title": "Rendelés fogadva — Várja a megerősítő hívást | Fresh Air Pro",
+    "description": "Fresh Air Pro rendelését rögzítettük. Még egy lépés: vegye fel a megerősítő hívást.",
+    "currency": "HUF",
+    "price": "36999"
+  },
+  "headline_warning": {
+    "loader_percent": "90%",
+    "title": "Rendelését sikeresen rögzítettük!",
+    "text": "Remek — rendelése feldolgozás alatt van. Már csak egy utolsó lépés van hátra a befejezéshez és a szállításhoz."
+  },
+  "next_steps": {
+    "title": "📋 Mi történik ezután",
+    "subtitle": "FEJEZZE BE A RENDELÉST 30 MÁSODPERC ALATT",
+    "steps": [
+      {
+        "title": "Vegye fel a hívást és <strong>erősítse meg adatait</strong>",
+        "text": ""
+      },
+      {
+        "title": "Rendelését <strong>24–48 órán</strong> belül feladjuk",
+        "text": ""
+      },
+      {
+        "title": "Házhozszállítás és <strong>utánvét</strong>",
+        "text": ""
+      }
+    ]
+  },
+  "stock_warning": {
+    "icon": "🚨",
+    "title": "📞 Vegye fel a megerősítő hívást",
+    "text": "Ha nem veszi fel a hívást, a rendelés automatikusan törlődik."
+  },
+  "call_hours": {
+    "icon": "🕒",
+    "title": "🕒 Elérhetőség",
+    "hours": [
+      "Hétfő – Szombat · 9:00 – 18:00"
+    ],
+    "promise_title": "🔒 Utánvét",
+    "promise_text": "🔒 Adatai védettek. Nincs spam, nincs telemarketing — csak rendelés-megerősítés."
+  },
+  "product_recall": {
+    "image_alt": "Fresh Air Pro",
+    "title": "FELEJTSE EL A MAGAS REZSISZÁMLÁKAT: A Fresh Air Pro 4 az 1-ben fűt, hűt, tisztítja a levegőt és több mint 80%-kal csökkenti az energiaköltségeket.",
+    "text": "A beltéri split légkondicionáló percek alatt jelentősen csökkenti a hőmérsékletet. Csak csatlakoztassa a konnektorhoz, nyomja meg az ON gombot, és azonnal élvezheti a friss, tiszta levegőt. Nincs szerelés, nincs várakozás, házhozszállítás 24 órán belül.",
+    "whatsapp_button": "",
+    "whatsapp_link": ""
+  },
+  "offer_id": "1275"
+}
