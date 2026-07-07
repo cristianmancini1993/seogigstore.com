@@ -18,6 +18,30 @@ ADRICE_UID = "018e3961-c73a-7965-8fc1-b1d91c869a42"
 ADRICE_ACTION = "https://offers.adricenetwork.com/forms/html/"
 ADRICE_WEBHOOK = "https://hook.eu2.make.com/6w6627fflahnsa4qpoqggy993yac0ubz"
 
+GOOGLE_ADS_ID = "AW-18192990064"
+GOOGLE_ADS_CONVERSION_SEND_TO = "AW-18192990064/1U2ICLnWpMwcEPD-i-ND"
+
+# Network CPA (EUR) per offer ID — usato come value nella conversione Google Ads
+OFFER_CPA = {
+    "3990": 14,
+    "764": 18,
+    "4067": 18,
+    "765": 18,
+    "1244": 16,
+    "1275": 17,
+    "2288": 17,
+    "1673": 15,
+    "1739": 15,
+    "2287": 13,
+    "1851": 17,
+    "2283": 15,
+    "2285": 16,
+    "2286": 19,
+    "2289": 18,
+    "2920": 18,
+    "3426": 17,
+}
+
 # Every network offer ID → geo folder (price/currency from locale landing.json)
 OFFERS = [
     {"id": "3990", "geo": "it"},
@@ -299,6 +323,38 @@ THANK_YOU = {
         "badges": ["🔒 Apmaksa piegādes brīdī", "🛡️ 24 mēnešu garantija", "🔐 SSL aizsardzība"],
     },
 }
+
+def conversion_snippet_html(cpa: float) -> str:
+    return f"""<!-- Event snippet for Purchase (1) conversion page -->
+<script>
+  (function () {{
+    var p = new URLSearchParams(window.location.search);
+
+    function stored(name) {{
+      try {{ return window.localStorage.getItem('df_' + name) || ''; }}
+      catch (e) {{ return ''; }}
+    }}
+
+    var campaignId = p.get('campaign_id') || p.get('utm_campaign') || p.get('campaignid') || p.get('subid') || stored('campaign_id') || stored('utm_campaign') || stored('subid') || '';
+    var subid = p.get('subid') || campaignId || stored('subid') || '';
+    var transactionId = p.get('order_id') || p.get('transaction_id') || p.get('tid') || subid || '';
+
+    gtag('event', 'conversion', {{
+      'send_to': '{GOOGLE_ADS_CONVERSION_SEND_TO}',
+      'value': {cpa},
+      'currency': 'EUR',
+      'transaction_id': transactionId,
+      'campaign_id': campaignId,
+      'subid': subid,
+      'utm_campaign': p.get('utm_campaign') || campaignId,
+      'utm_source': p.get('utm_source') || stored('utm_source') || '',
+      'utm_medium': p.get('utm_medium') || stored('utm_medium') || '',
+      'utm_term': p.get('utm_term') || stored('utm_term') || '',
+      'utm_content': p.get('utm_content') || stored('utm_content') || ''
+    }});
+  }})();
+</script>"""
+
 
 def load_ui() -> dict[str, dict]:
     return json.loads(UI_PATH.read_text(encoding="utf-8"))
@@ -709,8 +765,8 @@ def site_config_block(geo: str, locale: dict, landing: dict, offer_id: str, lp_i
   OFFER_NAME: 'Fresh Air Pro {suffix}',
   LP_ID: '{lp_id}',
   META_PIXEL_ID: '',
-  GOOGLE_TAG_ID: '',
-  GOOGLE_ADS_CONVERSION_ID: '',
+  GOOGLE_TAG_ID: '{GOOGLE_ADS_ID}',
+  GOOGLE_ADS_CONVERSION_ID: '{GOOGLE_ADS_ID}',
   GOOGLE_ADS_CONVERSION_LABEL: '',
   TY_CONVERSION_LABEL: '',
   NETWORK_PIXEL_URL: '',
@@ -861,6 +917,7 @@ def generate_landing_html(geo: str, locale: dict, offer_id: str, landing_file: s
 
     html = inject_order_forms(html, offer_id, geo)
     html = apply_landing_content(html, landing)
+    html = html.replace("AW-17528466836", GOOGLE_ADS_ID)
     return html
 
 
@@ -870,7 +927,10 @@ def generate_thank_you_html(geo: str, locale: dict, offer_id: str) -> str:
     ft = locale["footer"]
     price = float(landing["meta"]["price"])
     currency = landing["meta"]["currency"]
+    cpa = OFFER_CPA[str(offer_id)]
     html = TEMPLATE_TY.read_text(encoding="utf-8")
+
+    html = html.replace("AW-17528466836", GOOGLE_ADS_ID)
 
     html = html.replace('lang="it"', f'lang="{locale["html_lang"]}"')
     html = re.sub(r"<title>.*?</title>", f"<title>{ty['title']}</title>", html, count=1)
@@ -895,9 +955,11 @@ def generate_thank_you_html(geo: str, locale: dict, offer_id: str) -> str:
   OFFER_NAME: 'Fresh Air Pro {locale["offer_name_suffix"]}',
   LP_ID: '{geo}-fresh-air-pro-{offer_id}',
   META_PIXEL_ID: '',
-  GOOGLE_TAG_ID: '',
-  GOOGLE_ADS_CONVERSION_ID: '',
-  TY_CONVERSION_LABEL: '',
+  GOOGLE_TAG_ID: '{GOOGLE_ADS_ID}',
+  GOOGLE_ADS_CONVERSION_ID: '{GOOGLE_ADS_ID}',
+  TY_CONVERSION_LABEL: '1U2ICLnWpMwcEPD-i-ND',
+  CONVERSION_VALUE: {cpa},
+  CONVERSION_CURRENCY: 'EUR',
   COOKIE_TEXT: '{locale["cookie"]["text"].replace("'", "\\'")}',
   COOKIE_ACCEPT: '{locale["cookie"]["accept"]}',
   COOKIE_LEARN: '{locale["cookie"]["learn"]}'
@@ -906,9 +968,11 @@ def generate_thank_you_html(geo: str, locale: dict, offer_id: str) -> str:
         count=1,
     )
 
-    html = html.replace(
-        "if (window.trackPurchase) window.trackPurchase(79.90, 'EUR');",
-        f"if (window.trackPurchase) window.trackPurchase({price}, '{currency}');",
+    html = re.sub(
+        r"if \(window\.trackPurchase\) window\.trackPurchase\([^)]+\);",
+        f"if (window.trackPurchase) window.trackPurchase({cpa}, 'EUR');",
+        html,
+        count=1,
     )
 
     html = html.replace(
@@ -983,6 +1047,13 @@ def generate_thank_you_html(geo: str, locale: dict, offer_id: str) -> str:
     html = html.replace("Politica di Rimborso", ft["refund"])
     html = html.replace("Tutti i diritti riservati.", ft["rights"])
     html = html.replace("Tutti i diritti riservati seogigstore.com", f"{ft['rights']} seogigstore.com")
+
+    html = re.sub(
+        r"<!-- (?:CPA:|Event snippet)[\s\S]*?<script>[\s\S]*?gtag\('event', 'conversion'[\s\S]*?</script>",
+        conversion_snippet_html(cpa),
+        html,
+        count=1,
+    )
 
     return html
 
