@@ -3,7 +3,7 @@
   const jsonPath =
     html.getAttribute('data-lp-json') ||
     (function () {
-      const m = location.pathname.match(/\/([a-z-]+)\/landing\.html$/);
+      const m = location.pathname.match(/\/([a-z-]+)\/(?:fresh-air-pro\/)?landing(?:-[0-9]+)?\.html$/);
       return m ? '/content/it/products/' + m[1] + '/landing.json' : '';
     })();
 

@@ -10,6 +10,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 LOCALES_DIR = ROOT / "scripts" / "fresh-air-pro-locales"
 FORMS_PATH = ROOT / "scripts" / "fresh-air-pro-forms.json"
+UI_PATH = ROOT / "scripts" / "fresh-air-pro-ui.json"
 TEMPLATE_LANDING = ROOT / "scripts" / "templates" / "fresh-air-pro-landing.html"
 TEMPLATE_TY = ROOT / "it" / "hypertrimmer" / "thank-you.html"
 
@@ -299,6 +300,347 @@ THANK_YOU = {
     },
 }
 
+def load_ui() -> dict[str, dict]:
+    return json.loads(UI_PATH.read_text(encoding="utf-8"))
+
+
+def merge_landing_content(landing: dict, geo: str) -> dict:
+    merged = dict(landing)
+    ui = load_ui().get(geo, {})
+    for key, value in ui.items():
+        merged[key] = value
+    return merged
+
+
+def price_display_parts(price: dict) -> tuple[str, str, str]:
+    cur = price.get("currency", "€")
+    anchor = price.get("anchor", "")
+    final = price.get("final", "")
+    old = f"{anchor} {cur}".strip()
+    new = f"{final} {cur}".strip()
+    return old, final, new
+
+
+def replace_one(html: str, pattern: str, repl: str, count: int = 1) -> str:
+    def _sub(match: re.Match[str]) -> str:
+        if match.lastindex and match.lastindex >= 2:
+            return f"{match.group(1)}{repl}{match.group(2)}"
+        return repl
+
+    return re.sub(pattern, _sub, html, count=count, flags=re.DOTALL)
+
+
+def apply_landing_content(html: str, landing: dict) -> str:
+    price = landing.get("price", {})
+    cur = price.get("currency", "€")
+    old_price, final_amount, new_price = price_display_parts(price)
+    lo = landing.get("limited_offer", {})
+    lo_discount = lo.get("discount", "{final} {currency}").format(
+        final=price.get("final", ""), currency=cur
+    )
+
+    if landing.get("banner_urgency", {}).get("main"):
+        html = replace_one(
+            html,
+            r'(<div class="banner-urgency__main">)[^<]*(</div>)',
+            landing['banner_urgency']['main'],
+        )
+
+    hl = landing.get("headline", {})
+    if hl.get("rating_label"):
+        html = replace_one(
+            html,
+            r'(<div class="hero-headline__rating">\s*<span class="stars"[^>]*>★★★★★</span>\s*<span>)[^<]*(</span>)',
+            hl['rating_label'],
+        )
+    if hl.get("title"):
+        html = replace_one(html, r'(<h1 class="hero-headline__title">)[^<]*(</h1>)', hl['title'])
+    if hl.get("subtitle"):
+        html = replace_one(
+            html, r'(<p class="hero-headline__subtitle">)[\s\S]*?(</p>)', hl['subtitle']
+        )
+    if hl.get("image_alt"):
+        html = replace_one(
+            html,
+            r'(<div class="hero-headline__image">[\s\S]*?<img[^>]*alt=")[^"]*(")',
+            hl["image_alt"],
+        )
+        html = replace_one(
+            html,
+            r'(<div class="hero-headline__image">[\s\S]*?<img[^>]*title=")[^"]*(")',
+            hl["image_alt"],
+        )
+
+    if price.get("label"):
+        html = replace_one(html, r'(<span class="price-discount__label">)[^<]*(</span>)', price['label'])
+    html = replace_one(html, r'(<section class="price-discount">[\s\S]*?<span class="price-anchor__old">)[^<]*(</span>)', old_price)
+    html = replace_one(html, r'(<section class="price-discount">[\s\S]*?<span class="price-anchor__new">)[^<]*(</span>)', new_price, count=1)
+    if price.get("discount"):
+        html = replace_one(
+            html,
+            r'(<section class="price-discount">[\s\S]*?<span class="price-anchor__discount">)[^<]*(</span>)',
+            price['discount'],
+        )
+
+    bullets = landing.get("bullets", [])
+    bullet_items = re.findall(r"<li>[\s\S]*?</li>", re.search(r'<ul class="bullet-list-checkmark">([\s\S]*?)</ul>', html).group(1))
+    for i, item in enumerate(bullet_items):
+        if i < len(bullets) and bullets[i].get("text"):
+            html = html.replace(item, f"<li>{bullets[i]['text']}</li>", 1)
+
+    form = landing.get("form", {})
+    if form.get("title"):
+        html = replace_one(
+            html,
+            r'(<section class="form-1"[\s\S]*?<h2 class="cod-form__title">)[^<]*(</h2>)',
+            form['title'],
+        )
+    if form.get("subtitle"):
+        html = replace_one(
+            html,
+            r'(<section class="form-1"[\s\S]*?<p class="cod-form__subtitle">)[^<]*(</p>)',
+            form['subtitle'],
+        )
+    sp = landing.get("social_proof", {})
+    if sp.get("viewing"):
+        html = replace_one(
+            html,
+            r'(<section class="form-1"[\s\S]*?<li class="cod-form__social-proof-item--neutral">[\s\S]*?<span>)[^<]*(?:<[^>]+>[^<]*</[^>]+>)*[^<]*(</span>)',
+            sp['viewing'],
+        )
+    if sp.get("orders"):
+        html = replace_one(
+            html,
+            r'(<section class="form-1"[\s\S]*?<li class="cod-form__social-proof-item--urgent">[\s\S]*?<span>)[^<]*(?:<[^>]+>[^<]*</[^>]+>)*[^<]*(</span>)',
+            sp['orders'],
+        )
+    if landing.get("form_rating"):
+        html = replace_one(
+            html,
+            r'(<span class="cod-form__rating-text">)[^<]*(?:<[^>]+>[^<]*</[^>]+>)*[^<]*(</span>)',
+            landing['form_rating'],
+        )
+    if form.get("secure_note"):
+        html = replace_one(
+            html, r'(<p class="cod-form__trust"[^>]*>)[^<]*(</p>)', form['secure_note']
+        )
+
+    mr = landing.get("macro_review", {})
+    if mr.get("quote"):
+        html = replace_one(html, r'(<p class="macro-review__quote">)[\s\S]*?(</p>)', mr['quote'])
+    if mr.get("author"):
+        html = replace_one(html, r'(<div class="macro-review__author">)[^<]*(</div>)', mr['author'])
+    if mr.get("credentials"):
+        html = replace_one(html, r'(<div class="macro-review__credentials">)[^<]*(</div>)', mr['credentials'])
+    if mr.get("photo_alt"):
+        html = replace_one(
+            html,
+            r'(<img class="macro-review__photo"[^>]*alt=")[^"]*(")',
+            mr["photo_alt"],
+        )
+        cred = mr.get("credentials", "")
+        html = replace_one(
+            html,
+            r'(<img class="macro-review__photo"[^>]*title=")[^"]*(")',
+            cred,
+        )
+    if landing.get("section_cta"):
+        html = html.replace(
+            ">⚡ Ordina ora — Ricevilo entro 48 ore</a>",
+            f">{landing['section_cta']}</a>",
+        )
+
+    cd = landing.get("competitor_destruction", {})
+    if cd.get("title"):
+        html = replace_one(
+            html, r'(<section class="competitor-destruction">[\s\S]*?<h2 class="section__title">)[^<]*(</h2>)', cd['title']
+        )
+    if cd.get("subtitle"):
+        html = replace_one(
+            html,
+            r'(<section class="competitor-destruction">[\s\S]*?<p class="section__subtitle">)[^<]*(</p>)',
+            cd['subtitle'],
+        )
+    headers = cd.get("headers", [])
+    if len(headers) >= 2:
+        html = replace_one(html, r'(<thead>[\s\S]*?<th>)[^<]*(</th>)', headers[0])
+        html = replace_one(html, r'(<thead>[\s\S]*?<th class="is-winner">)[^<]*(</th>)', headers[1])
+    for i, row in enumerate(cd.get("rows", [])):
+        html = re.sub(
+            r"(<tbody>[\s\S]*?<tr><td class=\"is-bad\">)[^<]*(</td><td class=\"is-good\">)[^<]*(</td></tr>)",
+            lambda m, row=row: f"{m.group(1)}{row['bad']}{m.group(2)}{row['good']}{m.group(3)}",
+            html,
+            count=1,
+            flags=re.DOTALL,
+        )
+
+    if lo.get("pill"):
+        html = replace_one(html, r'(<span class="limited-offer__pill">)[^<]*(</span>)', lo['pill'])
+    html = replace_one(html, r'(<span class="limited-offer__price-old">)[^<]*(</span>)', old_price)
+    html = replace_one(html, r'(<span class="limited-offer__price-amount">)[^<]*(</span>)', final_amount)
+    html = replace_one(html, r'(<span class="limited-offer__price-currency">)[^<]*(</span>)', cur)
+    if lo_discount:
+        html = replace_one(html, r'(<p class="limited-offer__discount">)[^<]*(</p>)', lo_discount)
+    if lo.get("cta"):
+        html = replace_one(
+            html, r'(<a href="#form-2" class="cta-button cta-button--orange limited-offer__cta">)[^<]*(</a>)', lo['cta']
+        )
+    if lo.get("stock_title"):
+        html = replace_one(
+            html, r'(<p class="limited-offer__stock-title">)[\s\S]*?(</p>)', lo['stock_title']
+        )
+    if lo.get("stock_note"):
+        html = replace_one(html, r'(<p class="limited-offer__stock-note">)[^<]*(</p>)', lo['stock_note'])
+    if lo.get("aria_label"):
+        html = replace_one(
+            html, r'(<aside class="limited-offer__stock" aria-label=")[^"]*(")', lo['aria_label']
+        )
+
+    rs = landing.get("reviews_section", {})
+    if rs.get("title"):
+        html = replace_one(
+            html, r'(<section class="reviews-grid">[\s\S]*?<h2 class="section__title">)[^<]*(</h2>)', rs['title']
+        )
+    if rs.get("subtitle"):
+        html = replace_one(
+            html,
+            r'(<section class="reviews-grid">[\s\S]*?<p class="section__subtitle">)[^<]*(</p>)',
+            rs['subtitle'],
+        )
+    verified = rs.get("verified", "✓")
+    for i, review in enumerate(landing.get("reviews", [])):
+        cards = list(re.finditer(r'<article class="review-card">[\s\S]*?</article>', html))
+        if i >= len(cards):
+            break
+        card = cards[i].group(0)
+        new_card = card
+        if review.get("name"):
+            new_card = re.sub(r'<div class="review-card__name">[^<]*</div>', f'<div class="review-card__name">{review["name"]}</div>', new_card)
+        if review.get("location"):
+            new_card = re.sub(
+                r'<div class="review-card__location">[^<]*</div>',
+                f'<div class="review-card__location">{review["location"]}</div>',
+                new_card,
+            )
+        if review.get("stars"):
+            new_card = re.sub(r'<div class="review-card__stars">[^<]*</div>', f'<div class="review-card__stars">{review["stars"]}</div>', new_card)
+        if review.get("title"):
+            new_card = re.sub(r'<h3 class="review-card__title">[^<]*</h3>', f'<h3 class="review-card__title">{review["title"]}</h3>', new_card)
+        if review.get("text"):
+            new_card = re.sub(r'<p class="review-card__text">[\s\S]*?</p>', f'<p class="review-card__text">{review["text"]}</p>', new_card)
+        if review.get("photo_alt"):
+            new_card = re.sub(r'alt="[^"]*"', f'alt="{review["photo_alt"]}"', new_card, count=1)
+            new_card = re.sub(r'title="[^"]*"', f'title="{review["photo_alt"]}"', new_card, count=1)
+        new_card = re.sub(r'<span class="review-card__verified">[^<]*</span>', f'<span class="review-card__verified">{verified}</span>', new_card)
+        html = html.replace(card, new_card, 1)
+
+    pc = landing.get("package_content", {})
+    if pc.get("title"):
+        html = replace_one(
+            html, r'(<section class="package-content">[\s\S]*?<h2 class="section__title">)[^<]*(</h2>)', pc['title']
+        )
+    if pc.get("image_alt"):
+        html = replace_one(
+            html,
+            r'(<section class="package-content">[\s\S]*?<img[^>]*alt=")[^"]*(")',
+            pc["image_alt"],
+        )
+        html = replace_one(
+            html,
+            r'(<section class="package-content">[\s\S]*?<img[^>]*title=")[^"]*(")',
+            pc.get("title", pc["image_alt"]),
+        )
+    pkg_items = re.findall(r'<li[^>]*>[\s\S]*?</li>', re.search(r'<ul class="package-content__list[^"]*">([\s\S]*?)</ul>', html).group(1))
+    for i, item in enumerate(pkg_items):
+        pc_item = pc.get("items", [])
+        if i < len(pc_item) and pc_item[i].get("text"):
+            cls = ' class="is-bonus"' if 'is-bonus' in item else ""
+            html = html.replace(item, f"<li{cls}>{pc_item[i]['text']}</li>", 1)
+    html = replace_one(
+        html,
+        r'(<div class="package-content__price">[\s\S]*?<span class="price-anchor__old">)[^<]*(</span>)',
+        old_price,
+    )
+    html = replace_one(
+        html,
+        r'(<div class="package-content__price">[\s\S]*?<span class="price-anchor__new">)[^<]*(</span>)',
+        new_price,
+    )
+
+    f2 = landing.get("form_2", {})
+    if f2.get("title"):
+        html = replace_one(
+            html,
+            r'(<section class="form-2"[\s\S]*?<h2 class="cod-form__title">)[^<]*(</h2>)',
+            f2['title'],
+        )
+    if f2.get("subtitle"):
+        html = replace_one(
+            html,
+            r'(<section class="form-2"[\s\S]*?<p class="cod-form__subtitle">)[^<]*(</p>)',
+            f2['subtitle'],
+        )
+
+    inc = landing.get("incentive_2", {})
+    if inc.get("title"):
+        html = replace_one(html, r'(<section class="incentive-badges-2">[\s\S]*?<h2>)[^<]*(</h2>)', inc['title'])
+    if inc.get("text"):
+        html = replace_one(html, r'(<section class="incentive-badges-2">[\s\S]*?<p>)[\s\S]*?(</p>)', inc['text'])
+
+    badges = landing.get("trust_badges", [])
+    badge_items = re.findall(
+        r'<div class="guarantee-badges__item">[\s\S]*?</div>',
+        re.search(r'<section class="guarantee-badges-2">([\s\S]*?)</section>', html).group(1),
+    )
+    for i, item in enumerate(badge_items):
+        if i >= len(badges):
+            break
+        b = badges[i]
+        new_item = re.sub(r'<span class="guarantee-badges__title">[^<]*</span>', f'<span class="guarantee-badges__title">{b["title"]}</span>', item)
+        new_item = re.sub(r'<span class="guarantee-badges__sub">[^<]*</span>', f'<span class="guarantee-badges__sub">{b["sub"]}</span>', new_item)
+        html = html.replace(item, new_item, 1)
+
+    faq = landing.get("faq", {})
+    if faq.get("title"):
+        html = replace_one(
+            html,
+            r'(<section class="faq" id="faq">[\s\S]*?<h2 class="section__title">)[^<]*(</h2>)',
+            faq["title"],
+        )
+    for i, item in enumerate(faq.get("items", [])):
+        details = list(re.finditer(r"<details>[\s\S]*?</details>", html))
+        if i >= len(details):
+            break
+        block = details[i].group(0)
+        new_block = block
+        if item.get("q"):
+            new_block = re.sub(r"<summary>[^<]*</summary>", f"<summary>{item['q']}</summary>", new_block)
+        if item.get("a"):
+            new_block = re.sub(
+                r'<div class="faq-accordion__body">[\s\S]*?</div>',
+                f'<div class="faq-accordion__body">{item["a"]}</div>',
+                new_block,
+            )
+        html = html.replace(block, new_block, 1)
+
+    footer = landing.get("footer", {})
+    company_lines = footer.get("company_info", [])
+    if len(company_lines) >= 3:
+        html = html.replace("08011 Barcelona, Spagna", company_lines[2].replace("<strong>", "").replace("</strong>", ""))
+        html = replace_one(
+            html,
+            r"(<div>\s*<h4 class=\"site-footer__heading\">[^<]*</h4>\s*<ul class=\"site-footer__list\">\s*<li>)[^<]*(?:<[^>]+>[^<]*</[^>]+>)*[^<]*(</li>)",
+            company_lines[0],
+        )
+        html = replace_one(
+            html,
+            r"(<div>\s*<h4 class=\"site-footer__heading\">[^<]*</h4>\s*<ul class=\"site-footer__list\">[\s\S]*?<li>[^<]*</li>\s*<li>)[^<]*(</li>)",
+            company_lines[1],
+        )
+
+    return html
+
+
 def load_forms() -> dict[str, dict]:
     return json.loads(FORMS_PATH.read_text(encoding="utf-8"))
 
@@ -397,7 +739,7 @@ def price_display(landing: dict) -> dict:
 
 
 def generate_landing_html(geo: str, locale: dict, offer_id: str, landing_file: str = "landing.html") -> str:
-    landing = locale["landing"]
+    landing = merge_landing_content(locale["landing"], geo)
     offer_id = str(offer_id)
     forms = load_forms()
     lp_id = forms[offer_id]["lp"]
@@ -507,6 +849,7 @@ def generate_landing_html(geo: str, locale: dict, offer_id: str, landing_file: s
     html = html.replace("Politica di Spedizione", ft["shipping"])
     html = html.replace("Politica di Rimborso", ft["refund"])
     html = html.replace("Tutti i diritti riservati.", ft["rights"])
+    html = html.replace("Tutti i diritti riservati seogigstore.com", f"{ft['rights']} seogigstore.com")
 
     if landing.get("footer", {}).get("tagline"):
         html = re.sub(
@@ -517,6 +860,7 @@ def generate_landing_html(geo: str, locale: dict, offer_id: str, landing_file: s
         )
 
     html = inject_order_forms(html, offer_id, geo)
+    html = apply_landing_content(html, landing)
     return html
 
 
@@ -638,6 +982,7 @@ def generate_thank_you_html(geo: str, locale: dict, offer_id: str) -> str:
     html = html.replace("Politica di Spedizione", ft["shipping"])
     html = html.replace("Politica di Rimborso", ft["refund"])
     html = html.replace("Tutti i diritti riservati.", ft["rights"])
+    html = html.replace("Tutti i diritti riservati seogigstore.com", f"{ft['rights']} seogigstore.com")
 
     return html
 

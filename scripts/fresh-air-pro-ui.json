@@ -1,0 +1,405 @@
+{
+  "it": {
+    "limited_offer": {
+      "pill": "⚡ L'OFFERTA È LIMITATA",
+      "discount": "{final} {currency} DI SCONTO SOLO OGGI",
+      "cta": "ORDINA ORA",
+      "stock_title": "Sono rimasti solo <strong>pochi pezzi disponibili</strong>",
+      "stock_note": "La promozione è valida fino a fine giornata e solo fino a esaurimento scorte.",
+      "aria_label": "Disponibilità limitata"
+    },
+    "reviews_section": {
+      "title": "Cosa dicono i nostri clienti",
+      "subtitle": "3.842 recensioni verificate — 4,8 su 5 stelle",
+      "verified": "✓ Acquisto verificato"
+    },
+    "form_2": {
+      "title": "⚡ ORDINA ORA — RICEVILO IN 24/48H",
+      "subtitle": "Compila il modulo qui sotto. Verrai contattato entro 1 ora per confermare consegna e indirizzo."
+    },
+    "section_cta": "⚡ Ordina ora — Ricevilo entro 48 ore",
+    "social_proof": {
+      "viewing": "Attualmente <strong>338 persone</strong> stanno visualizzando questo prodotto",
+      "orders": "Solo nell'ultima ora sono arrivati <strong>395 ordini</strong>"
+    },
+    "form_rating": "· Commento di <strong>3.842</strong> clienti verificati",
+    "trust_badges": [
+      { "icon": "✅", "title": "Soddisfatti o rimborsati", "sub": "30 giorni per cambiare idea" },
+      { "icon": "🔒", "title": "Acquisto sicuro", "sub": "Dati protetti GDPR" },
+      { "icon": "📞", "title": "Assistenza in italiano", "sub": "Operatori italiani 7/7" },
+      { "icon": "🛡️", "title": "Garanzia ufficiale", "sub": "24 mesi su difetti di fabbrica" }
+    ]
+  },
+  "sk": {
+    "limited_offer": {
+      "pill": "⚡ PONUKA JE OBMEDZENÁ",
+      "discount": "{final} {currency} ZĽAVA LEN DNES",
+      "cta": "OBJEDNAJTE TERAZ",
+      "stock_title": "Zostáva len <strong>niekoľko kusov</strong>",
+      "stock_note": "Akcia platí do konca dňa a len do vypredania zásob.",
+      "aria_label": "Obmedzená dostupnosť"
+    },
+    "reviews_section": {
+      "title": "Čo hovoria naši zákazníci",
+      "subtitle": "3 842 overených recenzií — 4,8 z 5 hviezdičiek",
+      "verified": "✓ Overený nákup"
+    },
+    "form_2": {
+      "title": "⚡ OBJEDNAJTE TERAZ — DORUČENIE DO 24/48 H",
+      "subtitle": "Vyplňte formulár nižšie. Do 1 hodiny vás budeme kontaktovať na potvrdenie doručenia a adresy."
+    },
+    "section_cta": "⚡ Objednajte teraz — Doručenie do 48 hodín",
+    "social_proof": {
+      "viewing": "Momentálne si tento produkt pozerá <strong>338 ľudí</strong>",
+      "orders": "Za poslednú hodinu prišlo <strong>395 objednávok</strong>"
+    },
+    "form_rating": "· Hodnotenie od <strong>3 842</strong> overených zákazníkov",
+    "trust_badges": [
+      { "icon": "✅", "title": "Spokojní alebo vrátime peniaze", "sub": "30 dní na zmenu názoru" },
+      { "icon": "🔒", "title": "Bezpečný nákup", "sub": "Údaje chránené GDPR" },
+      { "icon": "📞", "title": "Podpora po slovensky", "sub": "Operátori 7 dní v týždni" },
+      { "icon": "🛡️", "title": "Oficiálna záruka", "sub": "24 mesiacov na výrobné vady" }
+    ]
+  },
+  "si": {
+    "limited_offer": {
+      "pill": "⚡ PONUDBA JE OMEJENA",
+      "discount": "{final} {currency} POPUST SAMO DANES",
+      "cta": "NAROČI ZDAJ",
+      "stock_title": "Na voljo je le še <strong>nekaj kosov</strong>",
+      "stock_note": "Promocija velja do konca dneva in samo do razprodaje zalog.",
+      "aria_label": "Omejena razpoložljivost"
+    },
+    "reviews_section": {
+      "title": "Kaj pravijo naše stranke",
+      "subtitle": "3.842 preverjenih ocen — 4,8 od 5 zvezdic",
+      "verified": "✓ Preverjen nakup"
+    },
+    "form_2": {
+      "title": "⚡ NAROČI ZDAJ — DOSTAVA V 24/48 UR",
+      "subtitle": "Izpolnite spodnji obrazec. V eni uri vas bomo kontaktirali za potrditev dostave in naslova."
+    },
+    "section_cta": "⚡ Naroči zdaj — Prejmi v 48 urah",
+    "social_proof": {
+      "viewing": "Ta izdelek si trenutno ogleduje <strong>338 oseb</strong>",
+      "orders": "V zadnji uri je prišlo <strong>395 naročil</strong>"
+    },
+    "form_rating": "· Mnenja <strong>3.842</strong> preverjenih strank",
+    "trust_badges": [
+      { "icon": "✅", "title": "Zadovoljstvo ali vračilo", "sub": "30 dni za spremembo odločitve" },
+      { "icon": "🔒", "title": "Varen nakup", "sub": "Podatki zaščiteni GDPR" },
+      { "icon": "📞", "title": "Podpora v slovenščini", "sub": "Operaterji 7 dni v tednu" },
+      { "icon": "🛡️", "title": "Uradna garancija", "sub": "24 mesecev na proizvodne napake" }
+    ]
+  },
+  "ro": {
+    "limited_offer": {
+      "pill": "⚡ OFERTA EST LIMITATĂ",
+      "discount": "{final} {currency} REDUCERE DOAR AZI",
+      "cta": "COMANDĂ ACUM",
+      "stock_title": "Au mai rămas doar <strong>puține bucăți</strong>",
+      "stock_note": "Promoția este valabilă până la sfârșitul zilei și doar până la epuizarea stocului.",
+      "aria_label": "Disponibilitate limitată"
+    },
+    "reviews_section": {
+      "title": "Ce spun clienții noștri",
+      "subtitle": "3.842 recenzii verificate — 4,8 din 5 stele",
+      "verified": "✓ Achiziție verificată"
+    },
+    "form_2": {
+      "title": "⚡ COMANDĂ ACUM — LIVRARE ÎN 24/48H",
+      "subtitle": "Completați formularul de mai jos. Veți fi contactat în 1 oră pentru a confirma livrarea și adresa."
+    },
+    "section_cta": "⚡ Comandă acum — Primești în 48 de ore",
+    "social_proof": {
+      "viewing": "În acest moment <strong>338 persoane</strong> vizualizează acest produs",
+      "orders": "Doar în ultima oră au fost <strong>395 comenzi</strong>"
+    },
+    "form_rating": "· Comentarii de la <strong>3.842</strong> clienți verificați",
+    "trust_badges": [
+      { "icon": "✅", "title": "Satisfacție sau banii înapoi", "sub": "30 de zile pentru a vă răzgândi" },
+      { "icon": "🔒", "title": "Cumpărare sigură", "sub": "Date protejate GDPR" },
+      { "icon": "📞", "title": "Asistență în română", "sub": "Operatori 7 zile din 7" },
+      { "icon": "🛡️", "title": "Garanție oficială", "sub": "24 luni pentru defecte de fabricație" }
+    ]
+  },
+  "hu": {
+    "limited_offer": {
+      "pill": "⚡ KORLÁTOZOTT AJÁNLAT",
+      "discount": "{final} {currency} KEDVEZMÉNY CSAK MA",
+      "cta": "RENDELJEN MOST",
+      "stock_title": "Már csak <strong>néhány darab</strong> maradt",
+      "stock_note": "Az akció a nap végéig és a készlet erejéig érvényes.",
+      "aria_label": "Korlátozott készlet"
+    },
+    "reviews_section": {
+      "title": "Mit mondanak vásárlóink",
+      "subtitle": "3 842 ellenőrzött értékelés — 4,8 / 5 csillag",
+      "verified": "✓ Ellenőrzött vásárlás"
+    },
+    "form_2": {
+      "title": "⚡ RENDELJEN MOST — SZÁLLÍTÁS 24/48 ÓRÁN BELÜL",
+      "subtitle": "Töltse ki az alábbi űrlapot. 1 órán belül felvesszük Önnel a kapcsolatot a szállítás és a cím megerősítéséhez."
+    },
+    "section_cta": "⚡ Rendeljen most — 48 órán belül megkapja",
+    "social_proof": {
+      "viewing": "Jelenleg <strong>338 ember</strong> nézi ezt a terméket",
+      "orders": "Az elmúlt órában <strong>395 rendelés</strong> érkezett"
+    },
+    "form_rating": "· <strong>3 842</strong> ellenőrzött vásárló értékelése",
+    "trust_badges": [
+      { "icon": "✅", "title": "Elégedettség vagy pénzvisszatérítés", "sub": "30 nap a meggondolásra" },
+      { "icon": "🔒", "title": "Biztonságos vásárlás", "sub": "GDPR-védett adatok" },
+      { "icon": "📞", "title": "Magyar ügyfélszolgálat", "sub": "Operátorok heti 7 napon" },
+      { "icon": "🛡️", "title": "Hivatalos garancia", "sub": "24 hónap gyártási hibákra" }
+    ]
+  },
+  "pt": {
+    "limited_offer": {
+      "pill": "⚡ OFERTA LIMITADA",
+      "discount": "{final} {currency} DE DESCONTO SÓ HOJE",
+      "cta": "ENCOMENDAR AGORA",
+      "stock_title": "Restam apenas <strong>poucas unidades</strong>",
+      "stock_note": "A promoção é válida até ao fim do dia e apenas enquanto durarem os stocks.",
+      "aria_label": "Disponibilidade limitada"
+    },
+    "reviews_section": {
+      "title": "O que dizem os nossos clientes",
+      "subtitle": "3.842 avaliações verificadas — 4,8 em 5 estrelas",
+      "verified": "✓ Compra verificada"
+    },
+    "form_2": {
+      "title": "⚡ ENCOMENDE AGORA — ENTREGA EM 24/48H",
+      "subtitle": "Preencha o formulário abaixo. Entraremos em contacto em 1 hora para confirmar a entrega e a morada."
+    },
+    "section_cta": "⚡ Encomende agora — Receba em 48 horas",
+    "social_proof": {
+      "viewing": "Atualmente <strong>338 pessoas</strong> estão a ver este produto",
+      "orders": "Na última hora chegaram <strong>395 encomendas</strong>"
+    },
+    "form_rating": "· Comentários de <strong>3.842</strong> clientes verificados",
+    "trust_badges": [
+      { "icon": "✅", "title": "Satisfação ou reembolso", "sub": "30 dias para mudar de ideias" },
+      { "icon": "🔒", "title": "Compra segura", "sub": "Dados protegidos RGPD" },
+      { "icon": "📞", "title": "Apoio em português", "sub": "Operadores 7 dias por semana" },
+      { "icon": "🛡️", "title": "Garantia oficial", "sub": "24 meses em defeitos de fabrico" }
+    ]
+  },
+  "pl": {
+    "limited_offer": {
+      "pill": "⚡ OFERTA OGRANICZONA",
+      "discount": "{final} {currency} ZNIŻKI TYLKO DZIŚ",
+      "cta": "ZAMÓW TERAZ",
+      "stock_title": "Zostało tylko <strong>kilka sztuk</strong>",
+      "stock_note": "Promocja obowiązuje do końca dnia i tylko do wyczerpania zapasów.",
+      "aria_label": "Ograniczona dostępność"
+    },
+    "reviews_section": {
+      "title": "Co mówią nasi klienci",
+      "subtitle": "3 842 zweryfikowanych opinii — 4,8 na 5 gwiazdek",
+      "verified": "✓ Zweryfikowany zakup"
+    },
+    "form_2": {
+      "title": "⚡ ZAMÓW TERAZ — DOSTAWA W 24/48H",
+      "subtitle": "Wypełnij poniższy formularz. Skontaktujemy się z Tobą w ciągu 1 godziny, aby potwierdzić dostawę i adres."
+    },
+    "section_cta": "⚡ Zamów teraz — Otrzymaj w ciągu 48 godzin",
+    "social_proof": {
+      "viewing": "Aktualnie ten produkt ogląda <strong>338 osób</strong>",
+      "orders": "Tylko w ciągu ostatniej godziny wpłynęło <strong>395 zamówień</strong>"
+    },
+    "form_rating": "· Komentarze od <strong>3 842</strong> zweryfikowanych klientów",
+    "trust_badges": [
+      { "icon": "✅", "title": "Satysfakcja lub zwrot pieniędzy", "sub": "30 dni na zmianę zdania" },
+      { "icon": "🔒", "title": "Bezpieczny zakup", "sub": "Dane chronione RODO" },
+      { "icon": "📞", "title": "Obsługa po polsku", "sub": "Operatorzy 7 dni w tygodniu" },
+      { "icon": "🛡️", "title": "Oficjalna gwarancja", "sub": "24 miesiące na wady fabryczne" }
+    ]
+  },
+  "hr": {
+    "limited_offer": {
+      "pill": "⚡ PONUDA JE OGRANIČENA",
+      "discount": "{final} {currency} POPUSTA SAMO DANAS",
+      "cta": "NARUČITE ODMAH",
+      "stock_title": "Preostalo je samo <strong>nekoliko komada</strong>",
+      "stock_note": "Promocija vrijedi do kraja dana i samo do isteka zaliha.",
+      "aria_label": "Ograničena dostupnost"
+    },
+    "reviews_section": {
+      "title": "Što kažu naši kupci",
+      "subtitle": "3.842 provjerenih recenzija — 4,8 od 5 zvjezdica",
+      "verified": "✓ Provjerena kupnja"
+    },
+    "form_2": {
+      "title": "⚡ NARUČITE ODMAH — DOSTAVA U 24/48H",
+      "subtitle": "Ispunite obrazac u nastavku. Kontaktirat ćemo vas u roku od 1 sata radi potvrde dostave i adrese."
+    },
+    "section_cta": "⚡ Naručite sada — Primite u 48 sati",
+    "social_proof": {
+      "viewing": "Trenutno ovaj proizvod gleda <strong>338 osoba</strong>",
+      "orders": "Samo u zadnjem satu stiglo je <strong>395 narudžbi</strong>"
+    },
+    "form_rating": "· Komentari od <strong>3.842</strong> provjerenih kupaca",
+    "trust_badges": [
+      { "icon": "✅", "title": "Zadovoljstvo ili povrat novca", "sub": "30 dana za promjenu mišljenja" },
+      { "icon": "🔒", "title": "Sigurna kupnja", "sub": "Podaci zaštićeni GDPR-om" },
+      { "icon": "📞", "title": "Podrška na hrvatskom", "sub": "Operateri 7 dana u tjednu" },
+      { "icon": "🛡️", "title": "Službena garancija", "sub": "24 mjeseca na proizvodne greške" }
+    ]
+  },
+  "es": {
+    "limited_offer": {
+      "pill": "⚡ OFERTA LIMITADA",
+      "discount": "{final} {currency} DE DESCUENTO SOLO HOY",
+      "cta": "HAZ TU PEDIDO",
+      "stock_title": "Solo quedan <strong>pocas unidades</strong>",
+      "stock_note": "La promoción es válida hasta el final del día y solo hasta agotar existencias.",
+      "aria_label": "Disponibilidad limitada"
+    },
+    "reviews_section": {
+      "title": "Lo que dicen nuestros clientes",
+      "subtitle": "3.842 reseñas verificadas — 4,8 de 5 estrellas",
+      "verified": "✓ Compra verificada"
+    },
+    "form_2": {
+      "title": "⚡ PIDE AHORA — RECÍBELO EN 24/48H",
+      "subtitle": "Rellena el formulario de abajo. Te contactaremos en 1 hora para confirmar la entrega y la dirección."
+    },
+    "section_cta": "⚡ Pide ahora — Recíbelo en 48 horas",
+    "social_proof": {
+      "viewing": "Actualmente <strong>338 personas</strong> están viendo este producto",
+      "orders": "Solo en la última hora han llegado <strong>395 pedidos</strong>"
+    },
+    "form_rating": "· Comentarios de <strong>3.842</strong> clientes verificados",
+    "trust_badges": [
+      { "icon": "✅", "title": "Satisfacción o reembolso", "sub": "30 días para cambiar de opinión" },
+      { "icon": "🔒", "title": "Compra segura", "sub": "Datos protegidos RGPD" },
+      { "icon": "📞", "title": "Atención en español", "sub": "Operadores 7 días a la semana" },
+      { "icon": "🛡️", "title": "Garantía oficial", "sub": "24 meses por defectos de fabricación" }
+    ]
+  },
+  "de": {
+    "limited_offer": {
+      "pill": "⚡ ANGEBOT BEGRENZT",
+      "discount": "{final} {currency} RABATT NUR HEUTE",
+      "cta": "JETZT BESTELLEN",
+      "stock_title": "Nur noch <strong>wenige Stück</strong> verfügbar",
+      "stock_note": "Die Aktion gilt bis zum Ende des Tages und nur solange der Vorrat reicht.",
+      "aria_label": "Begrenzte Verfügbarkeit"
+    },
+    "reviews_section": {
+      "title": "Was unsere Kunden sagen",
+      "subtitle": "3.842 verifizierte Bewertungen — 4,8 von 5 Sternen",
+      "verified": "✓ Verifizierter Kauf"
+    },
+    "form_2": {
+      "title": "⚡ JETZT BESTELLEN — LIEFERUNG IN 24/48H",
+      "subtitle": "Füllen Sie das Formular unten aus. Wir kontaktieren Sie innerhalb von 1 Stunde zur Bestätigung von Lieferung und Adresse."
+    },
+    "section_cta": "⚡ Jetzt bestellen — In 48 Stunden erhalten",
+    "social_proof": {
+      "viewing": "Derzeit sehen sich <strong>338 Personen</strong> dieses Produkt an",
+      "orders": "Nur in der letzten Stunde gingen <strong>395 Bestellungen</strong> ein"
+    },
+    "form_rating": "· Bewertungen von <strong>3.842</strong> verifizierten Kunden",
+    "trust_badges": [
+      { "icon": "✅", "title": "Zufriedenheit oder Geld zurück", "sub": "30 Tage Bedenkzeit" },
+      { "icon": "🔒", "title": "Sicherer Kauf", "sub": "DSGVO-geschützte Daten" },
+      { "icon": "📞", "title": "Deutschsprachiger Support", "sub": "Operatoren 7 Tage die Woche" },
+      { "icon": "🛡️", "title": "Offizielle Garantie", "sub": "24 Monate auf Herstellungsfehler" }
+    ]
+  },
+  "lt": {
+    "limited_offer": {
+      "pill": "⚡ RIBOTA PASIŪLYMAS",
+      "discount": "{final} {currency} NUOLAIDA TIK ŠIANDIEN",
+      "cta": "UŽSISAKYKITE DABAR",
+      "stock_title": "Liko tik <strong>keli vienetai</strong>",
+      "stock_note": "Akija galioja iki dienos pabaigos ir tik kol yra atsargų.",
+      "aria_label": "Ribotas prieinamumas"
+    },
+    "reviews_section": {
+      "title": "Ką sako mūsų klientai",
+      "subtitle": "3 842 patvirtinti atsiliepimai — 4,8 iš 5 žvaigždučių",
+      "verified": "✓ Patvirtintas pirkimas"
+    },
+    "form_2": {
+      "title": "⚡ UŽSISAKYKITE DABAR — PRISTATYMAS PER 24/48 VAL.",
+      "subtitle": "Užpildykite žemiau esančią formą. Per 1 valandą susisieksime dėl pristatymo ir adreso patvirtinimo."
+    },
+    "section_cta": "⚡ Užsisakykite dabar — Gaukite per 48 valandas",
+    "social_proof": {
+      "viewing": "Šiuo metu šį produktą žiūri <strong>338 žmonių</strong>",
+      "orders": "Per pastarąją valandą gauta <strong>395 užsakymų</strong>"
+    },
+    "form_rating": "· <strong>3 842</strong> patvirtintų klientų atsiliepimai",
+    "trust_badges": [
+      { "icon": "✅", "title": "Pasitenkinimas arba pinigų grąžinimas", "sub": "30 dienų apsvarstymui" },
+      { "icon": "🔒", "title": "Saugus pirkimas", "sub": "BDAR apsaugoti duomenys" },
+      { "icon": "📞", "title": "Pagalba lietuviškai", "sub": "Operatoriai 7 dienas per savaitę" },
+      { "icon": "🛡️", "title": "Oficiali garantija", "sub": "24 mėn. gamybos defektams" }
+    ]
+  },
+  "cz": {
+    "limited_offer": {
+      "pill": "⚡ NABÍDKA JE OMEZENÁ",
+      "discount": "{final} {currency} SLEVA POUZE DNES",
+      "cta": "OBJEDNAT NYNÍ",
+      "stock_title": "Zbývá už jen <strong>pár kusů</strong>",
+      "stock_note": "Akce platí do konce dne a pouze do vyprodání zásob.",
+      "aria_label": "Omezená dostupnost"
+    },
+    "reviews_section": {
+      "title": "Co říkají naši zákazníci",
+      "subtitle": "3 842 ověřených recenzí — 4,8 z 5 hvězdiček",
+      "verified": "✓ Ověřený nákup"
+    },
+    "form_2": {
+      "title": "⚡ OBJEDNEJTE NYNÍ — DORUČENÍ DO 24/48 HODIN",
+      "subtitle": "Vyplňte formulář níže. Do 1 hodiny vás budeme kontaktovat pro potvrzení doručení a adresy."
+    },
+    "section_cta": "⚡ Objednejte nyní — Doručení do 48 hodin",
+    "social_proof": {
+      "viewing": "Tento produkt si právě prohlíží <strong>338 lidí</strong>",
+      "orders": "Za poslední hodinu přišlo <strong>395 objednávek</strong>"
+    },
+    "form_rating": "· Hodnocení od <strong>3 842</strong> ověřených zákazníků",
+    "trust_badges": [
+      { "icon": "✅", "title": "Spokojenost nebo vrácení peněz", "sub": "30 dní na rozmyšlenou" },
+      { "icon": "🔒", "title": "Bezpečný nákup", "sub": "Údaje chráněny GDPR" },
+      { "icon": "📞", "title": "Podpora v češtině", "sub": "Operátoři 7 dní v týdnu" },
+      { "icon": "🛡️", "title": "Oficiální záruka", "sub": "24 měsíců na výrobní vady" }
+    ]
+  },
+  "lv": {
+    "limited_offer": {
+      "pill": "⚡ PIEDĀVĀJUMS IR IEROBEŽOTS",
+      "discount": "{final} {currency} ATLAIDE TIKAI ŠODIEN",
+      "cta": "PASŪTĪT TAGAD",
+      "stock_title": "Atlicis tikai <strong>dažas vienības</strong>",
+      "stock_note": "Akcija ir spēkā līdz dienas beigām un tikai līdz krājumu beigām.",
+      "aria_label": "Ierobežota pieejamība"
+    },
+    "reviews_section": {
+      "title": "Ko saka mūsu klienti",
+      "subtitle": "3 842 verificētas atsauksmes — 4,8 no 5 zvaigznēm",
+      "verified": "✓ Verificēts pirkums"
+    },
+    "form_2": {
+      "title": "⚡ PASŪTIET TAGAD — PIEGĀDE 24/48 STUNDĀS",
+      "subtitle": "Aizpildiet zemāk esošo veidlapu. 1 stundas laikā sazināsimies, lai apstiprinātu piegādi un adresi."
+    },
+    "section_cta": "⚡ Pasūtiet tagad — Saņemiet 48 stundu laikā",
+    "social_proof": {
+      "viewing": "Pašlaik šo produktu skatās <strong>338 cilvēki</strong>",
+      "orders": "Pēdējās stundas laikā saņemti <strong>395 pasūtījumi</strong>"
+    },
+    "form_rating": "· Atsauksmes no <strong>3 842</strong> verificētiem klientiem",
+    "trust_badges": [
+      { "icon": "✅", "title": "Apmierinātība vai naudas atgriešana", "sub": "30 dienas pārdomām" },
+      { "icon": "🔒", "title": "Drošs pirkums", "sub": "GDPR aizsargāti dati" },
+      { "icon": "📞", "title": "Atbalsts latviski", "sub": "Operatori 7 dienas nedēļā" },
+      { "icon": "🛡️", "title": "Oficiālā garantija", "sub": "24 mēneši ražošanas defektiem" }
+    ]
+  }
+}

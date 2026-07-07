@@ -106,8 +106,8 @@
     ],
     "price": {
       "label": "KÜLÖNLEGES AJÁNLAT -50%",
-      "anchor": "73998",
-      "final": "36999",
+      "anchor": "73.998",
+      "final": "36.999",
       "currency": "Ft",
       "discount": "-50%"
     },
